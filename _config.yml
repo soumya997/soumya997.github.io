@@ -16,6 +16,7 @@ author: Soumyadip Sarkar
 navbar-links:
   About Me: "aboutme"
   Blog: "/"
+  Hire me: "https://soumya997.github.io/vcv/"
   #Resources:
     #- Beautiful Jekyll: "https://beautifuljekyll.com"
     #- Learn markdown: "https://www.markdowntutorial.com/"
@@ -45,7 +46,7 @@ social-network-links:
   github: soumya997
   twitter: Soumya997Sarkar
   # patreon: DeanAttali
-  youtube: c/UCej1NaGtqV5vBFYtMgZAGdg
+  youtube: "channel/UCej1NaGtqV5vBFYtMgZAGdg"
 #  medium: yourname
 #  reddit: yourname
   linkedin: soumyadip-sarkar-173901183
@@ -114,8 +115,8 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-#navbar-img: "/assets/img/bgimage.png"
-#footer-img: "/assets/img/bgimage.png"
+navbar-img: "/assets/img/gto.jpg"
+footer-img: "/assets/img/gto.jpg"
 page-img: "/assets/img/gto.jpg"
 
 # Suggest a colour for mobile browsers to use as the browser's theme. This is only supported by a few mobile browsers.
