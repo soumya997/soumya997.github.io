@@ -103,9 +103,9 @@ post_search: true
 
 navbar-col: "#FC0000"
 navbar-text-col: "#FC0000"
-navbar-border-col: "#DDDDDD"
+navbar-border-col: ""#FC0000""
 page-col: "#FFFFFF"
-text-col: "#404040"
+text-col: ""#FC0000""
 link-col: "#008AFF"
 hover-col: "#0085A1"
 footer-col: "#EAEAEA"
