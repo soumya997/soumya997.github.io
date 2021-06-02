@@ -101,7 +101,7 @@ post_search: true
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-#navbar-col: "#34EBB1"
+navbar-col: "#C5FCF2"
 #navbar-text-col: "#FC0000"
 #navbar-border-col: ""#FC0000""
 #page-col: "#FFFFFF"
@@ -115,7 +115,7 @@ footer-col: "#C5FCF2"
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
 
-navbar-img: "/assets/img/sky1.jpg"
+#navbar-img: "/assets/img/sky1.jpg"
 #footer-img: "/assets/img/gto.jpg"
 #page-img: "/assets/img/gto.jpg"
 
@@ -156,7 +156,7 @@ navbar-img: "/assets/img/sky1.jpg"
 
 # To use Disqus comments, sign up to https://disqus.com and fill in your Disqus shortname (NOT the userid)
 disqus: "anime-life-disqus"
-
+comments: true
 # To use Facebook Comments, create a Facebook app and fill in the Facebook App ID
 #fb_comment_id: ""
 
