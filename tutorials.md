@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Weebby Life"
+title: "Weeby Life"
 subtitle: This is where I get talkative bout anime
 css: "/assets/css/index.css"
 share-img: /assets/img/edited.JPG
