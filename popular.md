@@ -15,11 +15,13 @@ cover-img:
 
 
 <div class="list-filters">
-  <a href="/" class="list-filter filter-selected" style="background-color:rgb(160, 160, 240);color:black;font-family:helvetical;font-size:20px;">All posts</a>
-  <a href="/popular" class="list-filter"  style="background-color:rgb(160, 160, 240);color:black;font-family:helvetical;font-size:20px;">Most Popular</a>
-  <a href="/tutorials" class="list-filter"  style="background-color:rgb(160, 160, 240);color:black;font-family:helvetical;font-size:20px;">Tutorials</a>
-  <a href="/tags" class="list-filter"  style="background-color:rgb(160, 160, 240);color:black;font-family:helvetical;font-size:20px;">Index</a>
+  <a href="/" class="list-filter filter-selected" style="background-color:rgb(163, 5, 255);text-decoration: none;color:black;font-family:helvetical;font-size:20px;">All posts</a>
+  <a href="/popular" class="list-filter"  style="background-color:rgb(163, 5, 255);text-decoration: none;color:black;font-family:helvetical;font-size:20px;">Most Popular</a>
+  <a href="/tutorials" class="list-filter"  style="background-color:rgb(163, 5, 255);text-decoration: none;color:black;font-family:helvetical;font-size:20px;">Tutorials</a>
+  <a href="/tags" class="list-filter"  style="background-color:rgb(163, 5, 255);text-decoration: none;color:black;font-family:helvetical;font-size:20px;">Index</a>
 </div>
+
+
 
 {% assign posts = paginator.posts | default: site.posts %}
 
