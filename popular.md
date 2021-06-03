@@ -11,6 +11,7 @@ cover-img:
   - "/assets/img/banner8.png" : "collage1"
   - "/assets/img/banner_original_1200.png" : "collage2"
   - "/assets/img/banner_villans1200_290.png" : "top anime villains"
+  - "/assets/img/banner9_1200_320.png" : "detective anime"
 
 ---
 
