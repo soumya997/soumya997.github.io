@@ -16,7 +16,7 @@ cover-img:
 
 
 
-<div class="list-filters">
+<div  align="center" class="list-filters">
   <a href="/" class="list-filter filter-selected" style="background-color:#944BFA;text-decoration: none;color:black;font-family:helvetical;font-size:20px;">All posts</a>
   <a href="/popular" class="list-filter"  style="background-color:#944BFA;text-decoration: none;color:black;font-family:helvetical;font-size:20px;">Most Popular</a>
   <a href="/tutorials" class="list-filter"  style="background-color:#944BFA;text-decoration: none;color:black;font-family:helvetical;font-size:20px;">Tutorials</a>
