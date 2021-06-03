@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Me My Life and Anime"
-subtitle: I love watching anime, and I can keep talking bout it
+title: "Weebby Life"
+subtitle: This is where I get talkative bout anime
 css: "/assets/css/index.css"
 share-img: /assets/img/edited.JPG
-share-title: "me my life and anime"
+share-title: "Weebby Life"
 share-description: "what are you talkin about, ANIMES dont required any description"
 support_promo_box: true
 cover-img:
