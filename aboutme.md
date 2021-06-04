@@ -6,7 +6,7 @@ subtitle: Why you'd want to go on a date with me
 
 My name is Soumyadip. I have the following qualities:
 
-- I'm a weeb
+- I'm a otaku/weeb
 - I rock a great beard
 - I'm a programmer(and I wont hack someone's facebook account)
 
