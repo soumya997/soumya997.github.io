@@ -4,7 +4,7 @@ title: "Weeby Me"
 subtitle: This is where I get talkative bout anime
 css: "/assets/css/index.css"
 share-img: /assets/img/edited.JPG
-share-title: "Weebby Life"
+share-title: "Weebby Me"
 share-description: "what are you talkin about, ANIMES dont required any description"
 support_promo_box: true
 cover-img:
