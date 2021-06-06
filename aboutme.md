@@ -14,7 +14,7 @@ What else do you need?
 
 ### My story
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my portfolio](https://soumya997.github.io/vcv/) and it will answer **all** your questions. 
+To be honest, I'm having some trouble describing right now, so why don't you just watch [my portfolio](https://soumya997.github.io/vcv/) and it will answer **all** your questions. 
 #### And I just wanna say,
 
 <p align="center">
