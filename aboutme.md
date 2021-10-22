@@ -23,4 +23,4 @@ To be honest, I'm having some trouble describing right now, so why don't you jus
 </p>
 
 ### About the site
-God dman it!! Hey you internet give me some followers who are gonna read this in the first place.
+God damn it!! Hey you internet give me some followers who are gonna read this in the first place.
