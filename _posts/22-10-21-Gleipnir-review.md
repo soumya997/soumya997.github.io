@@ -3,7 +3,7 @@ layout: post
 title: Gleipnir Season 1 review
 subtitle: Gleipnir is a Japanese manga series written and illustrated by Sun Takeda. Anime genre Action fiction, Adventure, Ecchi
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
+thumbnail-img: https://i.pinimg.com/564x/67/68/4a/67684a931550ebfcf7a4f933c1045cc1.jpg
 share-img: /assets/img/path.jpg
 tags: [Anime, review]
 ---
