@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Gleipnir Season 1 review
