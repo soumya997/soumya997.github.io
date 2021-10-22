@@ -6,11 +6,12 @@ subtitle: Why you'd want to go on a date with me
 
 My name is Soumyadip. I have the following qualities:
 
-- I'm a otaku/weeb
+- I'm a weeb
 - I rock a great beard
-- I'm a programmer(and I wont hack someone's facebook account)
+- I'm a programmer(and I wont hack someone's facebook account for ya)
 
 What else do you need?
+
 
 ### My story
 
@@ -18,7 +19,8 @@ To be honest, I'm having some trouble describing right now, so why don't you jus
 #### And I just wanna say,
 
 <p align="center">
-    <img src="/assets/img/do_what_excites.gif" width="300" >
+    <img src="/assets/img/do_what_excites.gif" width="200" >
 </p>
 
-
+### About the site
+God dman it!! Hey you internet give me some followers who are gonna read this in the first place.
