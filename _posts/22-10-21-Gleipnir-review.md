@@ -15,6 +15,10 @@ tags: [Anime, review]
 Animation wise it was good but not as good as Chainsaw Man but it was fairly standard, the opening song of the first seasion has a feeling of its own, I generally skip OPs but this time I was humbled. As per as character development goes, it was almost on the mark, in between the episodes it felt a bit hazy though. Actually, if I think carefully, character development was not that bad. As time goes by you get to know all the characters and see the developments they went through. Just see the male lead(Shuichi), at the first look he looked very nerdy, kind, gentle guy who is not much nerdy, but as the season progressed he became more manly and a strong-hearted person. Also, if you look 
 at the female lead Clair, in the beginning, she was bold, reckless, a girl who does not give a fuck about anything except her own desires, but gradually you start observing the changes, the softness inside of her.
 
+<p align="center">
+<img src="https://i0.wp.com/spoilerguy.com/wp-content/uploads/2021/01/62295206-0-q80.jpg">
+</p>
+
 Aaaa, let's talk about Clair Aoki. This is the character on whom every other guy is simping over(not their fault though😏). My first impression of this female character was a "manupulative woman" with a sense of purpose. She looked quite bold from the outside but deep down she was a kind person who cares about others' feelings. And you know (if you are used to watching animes) that this is all a circumstantial outcome. The voice of the female dub for this character was very appealing too. And the thing that will excite most of the men is that Claire stripes off her dress almost in every scene. Based on the reckless vibes she was emitting, I thought Shuichi (the male main character) would be used by her, and she will forget about him like a hoe.
 
 <p align="center">
