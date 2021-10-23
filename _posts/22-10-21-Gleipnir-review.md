@@ -12,11 +12,11 @@ tags: [Anime, review]
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Aoki Clair so hottt <a href="https://twitter.com/hashtag/gleipnir?src=hash&amp;ref_src=twsrc%5Etfw">#gleipnir</a> <a href="https://t.co/7eGx3o0RSg">pic.twitter.com/7eGx3o0RSg</a></p>&mdash; Badrul_Kun (@badrulmohd_007) <a href="https://twitter.com/badrulmohd_007/status/1353059432297492482?ref_src=twsrc%5Etfw">January 23, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Animation wise it was good but not as good as Chainsaw Man but it was fairly standard, the opening song of the first seasion `altern-ate` 
+Animation wise it was good but not as good as Chainsaw Man but it was fairly standard, the opening song of the first seasion `altern-ate` has a feeling of its own, I generally skip OPs but this time I was humbled, check it out here.
 
 <iframe src="https://open.spotify.com/embed/track/6IJJ8gIHQduNLbCIfvdSbF?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> 
 
-has a feeling of its own, I generally skip OPs but this time I was humbled, check it out here. As per as character development goes, it was almost on the mark, in between the episodes it felt a bit hazy though. Actually, if I think carefully, character development was not that bad. As time goes by you get to know all the characters and see the developments they went through. Just see the male lead(Shuichi), at the first look he looked very nerdy, kind, gentle guy who is not much nerdy, but as the season progressed he became more manly and a strong-hearted person. Also, if you look 
+As per as character development goes, it was almost on the mark, in between the episodes it felt a bit hazy though. Actually, if I think carefully, character development was not that bad. As time goes by you get to know all the characters and see the developments they went through. Just see the male lead(Shuichi), at the first look he looked very nerdy, kind, gentle guy who is not much nerdy, but as the season progressed he became more manly and a strong-hearted person. Also, if you look 
 at the female lead Clair, in the beginning, she was bold, reckless, a girl who does not give a fuck about anything except her own desires, but gradually you start observing the changes, the softness inside of her.
 
 <p align="center">
