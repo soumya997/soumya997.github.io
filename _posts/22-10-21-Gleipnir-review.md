@@ -14,7 +14,7 @@ tags: [Anime, review]
 
 Animation wise it was good but not as good as Chainsaw Man but it was fairly standard, the opening song of the first seasion `altern-ate` has a feeling of its own, I generally skip OPs but this time I was humbled, check it out here.
 
-<iframe src="https://open.spotify.com/embed/track/6IJJ8gIHQduNLbCIfvdSbF?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe> 
+<iframe src="https://open.spotify.com/embed/track/6IJJ8gIHQduNLbCIfvdSbF?utm_source=generator&amp;theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
 As per as character development goes, it was almost on the mark, in between the episodes it felt a bit hazy though. Actually, if I think carefully, character development was not that bad. As time goes by you get to know all the characters and see the developments they went through. Just see the male lead(Shuichi), at the first look he looked very nerdy, kind, gentle guy who is not much nerdy, but as the season progressed he became more manly and a strong-hearted person. Also, if you look 
 at the female lead Clair, in the beginning, she was bold, reckless, a girl who does not give a fuck about anything except her own desires, but gradually you start observing the changes, the softness inside of her.
