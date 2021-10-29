@@ -9,11 +9,8 @@ tags: [Anime, character_review]
 ---
 
 
-This is a great anime, and it has been in lots of recommendations for its season 2. I have not seen the season 2 yet, but I bet its as good as season 1. I thing that resonnated with me the most 
-was the male protagonist, i feel that we have similarity in our personalities,I can observe some poor qualities(in others eyes) like shy, introverted, and the feeling of nervioousness time to time and also some good qualities
-like genuin, kind, thinking about others and also the quality of determination I mean, our lead can be a shy, nervous, bit occward but if he tries his best then he can really succeed. This success im talking about is 
-different for both of us, and its for you too. The thnig im laking is friend(/friends), I needed atleast one guy who can understand and whom i can trust. I will talk about this feeling of loneliness if I decide to
-write about another anime called "Horimiya". 
+This is a great anime, and it has been in lots of recommendations for its season 2. I have not seen the season 2 yet, but I bet its as good as season 1. I thing that resonnated with me the most was the male protagonist, i feel that we have similarity in our personalities,I can observe some poor qualities(in others eyes) like shy, introverted, and the feeling of nervioousness time to time and also some good qualities like genuin, kind, thinking about others and also the quality of determination I mean, our lead can be a shy, nervous, bit occward but if he tries his best then he can really succeed. This success im talking about is 
+different for both of us, and its for you too. The thnig im laking is friend(/friends), I needed atleast one guy who can understand and whom i can trust. I will talk about this feeling of loneliness if I decide to write about another anime called "Horimiya". 
 
 Its actually a slice of life/ romance type of anime so lots of drama is involved. But the plots shown over here are absolutely logical and the things that a loner would do. If I talk 
 about love then the thing that i dont like is being a simp, but if you see the whole season 1 you might staring to tink that the male lead is one, but I can give the logic behind his actions and why
