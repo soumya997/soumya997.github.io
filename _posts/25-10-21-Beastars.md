@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Why Legosi from Beastars is not a simp
-subtitle: Beastars, a world where carnivores and herbivorous animals trying to stay together in peace, inspite of the presence of vivid inequality.   
+title: Why Legosi from Beastars is not a simp?
+subtitle: Beastars, a world where carnivores and herbivorous animals trying to stay together in peace, inspite of the presence of vivid inequality...
 cover-img: /assets/img/path.jpg
 thumbnail-img: /assets/img/Beastars.jpg 
 share-img: /assets/img/Beastars.jpg
-tags: [Anime, character review]
---
+tags: [Anime, character_review]
+---
 
-# Why Legosi from Beastars is not a simp
+
 This is a great anime, and it has been in lots of recommendations for its season 2. I have not seen the season 2 yet, but I bet its as good as season 1. I thing that resonnated with me the most 
 was the male protagonist, i feel that we have similarity in our personalities,I can observe some poor qualities(in others eyes) like shy, introverted, and the feeling of nervioousness time to time and also some good qualities
 like genuin, kind, thinking about others and also the quality of determination I mean, our lead can be a shy, nervous, bit occward but if he tries his best then he can really succeed. This success im talking about is 
