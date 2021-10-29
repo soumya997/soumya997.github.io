@@ -23,3 +23,5 @@ But today I was having bit of a rough day, and I felt that the people I used to 
 felt that way, because this happened to me before. And these are the thing, how people threated you, your past experience with perple which stops us trusting each other. But I will see through the end.
 Enough talking about my life. lets talk about the anime (why Legosi from Beastars is not a simp).
 
+
+Will finish this soon...
