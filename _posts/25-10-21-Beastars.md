@@ -3,8 +3,8 @@ layout: post
 title: Why Legosi from Beastars is not a simp?
 subtitle: Beastars, a world where carnivores and herbivorous animals trying to stay together in peace, inspite of the presence of vivid inequality...
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/Beastars.jpg 
-share-img: /assets/img/Beastars.jpg
+thumbnail-img: https://pbs.twimg.com/media/EEojjZfVAAAUji1?format=jpg&name=900x900
+share-img: https://pbs.twimg.com/media/EEojjZfVAAAUji1?format=jpg&name=900x900
 tags: [Anime, character_review]
 ---
 
