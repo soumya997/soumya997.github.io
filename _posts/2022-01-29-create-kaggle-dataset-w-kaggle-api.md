@@ -2,9 +2,6 @@
 layout: post
 title: [Mini tutorial] Create Kaggle Dataset w/ kaggle API
 subtitle: kaggle dataset creation
-<!-- cover-img: /assets/img/path.jpg -->
-<!-- thumbnail-img: /assets/img/thumb.png -->
-<!-- share-img: /assets/img/path.jpg -->
 tags: [kaggle]
 ---
 
@@ -25,8 +22,8 @@ This guide is specific to Kaggle NB. The main steps are same, you might need to 
 >>> {"username":"soumya9977","key":"xxx99898y9uhoxxxxausdui"}
 ```
 - initialize a dataset:
-  - Create a folder containing the files you want to upload,
-  -  then run the below command on your dataset path, that will create a metadata json file,
++ Create a folder containing the files you want to upload,
++ then run the below command on your dataset path, that will create a metadata json file,
 ```python
 !kaggle datasets init -p /path/to/dataset
 ```
@@ -79,3 +76,8 @@ Your private Dataset is being created. Please check progress at https://www.kagg
 ### Credit:
 - https://www.kaggle.com/product-feedback/52640
 - https://www.kaggle.com/faisalalsrheed/how-to-kaggle-on-colab-comprehensive-guide
+
+
+<!-- cover-img: /assets/img/path.jpg -->
+<!-- thumbnail-img: /assets/img/thumb.png -->
+<!-- share-img: /assets/img/path.jpg -->
