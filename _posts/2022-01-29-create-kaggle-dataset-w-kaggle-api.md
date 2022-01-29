@@ -1,6 +1,9 @@
 ---
 layout: post
 title: [Mini tutorial] Create Kaggle Dataset w/ kaggle API
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
 subtitle: kaggle dataset creation
 tags: [kaggle]
 ---
@@ -78,6 +81,4 @@ Your private Dataset is being created. Please check progress at https://www.kagg
 - https://www.kaggle.com/faisalalsrheed/how-to-kaggle-on-colab-comprehensive-guide
 
 
-<!-- cover-img: /assets/img/path.jpg -->
-<!-- thumbnail-img: /assets/img/thumb.png -->
-<!-- share-img: /assets/img/path.jpg -->
+
