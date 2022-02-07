@@ -1,11 +1,11 @@
 ---
 layout: post
-title: [Mini tutorial] Create Kaggle Dataset w/ kaggle API
-cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/thumb.png
-share-img: /assets/img/path.jpg
-subtitle: kaggle dataset creation
-tags: [kaggle]
+title: Gleipnir Season 1 review
+subtitle: Gleipnir comes under genre Action fiction, Adventure, Ecchi.It was just the right thing that I was looking for...
+cover-img: /assets/img/gliepnie_banner.jpg
+thumbnail-img: https://i.pinimg.com/564x/67/68/4a/67684a931550ebfcf7a4f933c1045cc1.jpg
+share-img: https://i.pinimg.com/564x/67/68/4a/67684a931550ebfcf7a4f933c1045cc1.jpg
+tags: [Anime, review]
 ---
 
 
