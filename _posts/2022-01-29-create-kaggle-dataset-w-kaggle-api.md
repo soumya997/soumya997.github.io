@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Mini tutorial] Using kaggle Dataset api
+title: Using kaggle Dataset api [Mini tutorial]
 subtitle: This guide is specific to Kaggle NB. The main steps are same, you might need to ...
 cover-img: /assets/img/landing_python-2x.png
 thumbnail-img: /assets/img/api_logo.png
