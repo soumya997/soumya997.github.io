@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Gleipnir Season 1 review
-subtitle: Gleipnir comes under genre Action fiction, Adventure, Ecchi.It was just the right thing that I was looking for...
-cover-img: /assets/img/gliepnie_banner.jpg
-thumbnail-img: https://i.pinimg.com/564x/67/68/4a/67684a931550ebfcf7a4f933c1045cc1.jpg
-share-img: https://i.pinimg.com/564x/67/68/4a/67684a931550ebfcf7a4f933c1045cc1.jpg
-tags: [Anime, review]
+title: Use kaggle Dataset api
+subtitle: This guide is specific to Kaggle NB. The main steps are same, you might need to ...
+cover-img: /assets/img/landing_python-2x.png
+thumbnail-img: /assets/img/api_logo.png
+share-img: /assets/img/api_logo.png
+tags: [kaggle]
 ---
 
 
@@ -52,6 +52,7 @@ Data package template written to: ./runs/evolve/exp/dataset-metadata.json
 ```
 
 - Rewrite the `.json` file with your dataset title and id[URL id]:
+
 ```python
 %%writefile ./path/to/dataset/dataset-metadata.json
 
@@ -65,20 +66,26 @@ Data package template written to: ./runs/evolve/exp/dataset-metadata.json
   ]
 }
 ```
+
+
 - Push your files to that initialized dataset:
+
 ```python
 !kaggle datasets create -p ./runs/evolve/exp/
 ```
+
 ```
 >>> 
 Some progress bar associated with your file names
 Your private Dataset is being created. Please check progress at https://www.kaggle.com/soumya9977/yolov5-evolve-e5-files
 ```
+
 - Your dataset will be private by default. You can also add a -u flag to make it public when you create it, or navigate to "Settings" > "Sharing" from your dataset's page to make it public or share with collaborators.
 
-### Credit:
-- https://www.kaggle.com/product-feedback/52640
-- https://www.kaggle.com/faisalalsrheed/how-to-kaggle-on-colab-comprehensive-guide
+
+## Credit:
+- [https://www.kaggle.com/product-feedback/52640](https://www.kaggle.com/product-feedback/52640)
+- [https://www.kaggle.com/faisalalsrheed/how-to-kaggle-on-colab-comprehensive-guide](https://www.kaggle.com/product-feedback/52640)
 
 
 
