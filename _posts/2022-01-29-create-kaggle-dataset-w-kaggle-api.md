@@ -71,7 +71,7 @@ Data package template written to: ./runs/evolve/exp/dataset-metadata.json
 - Push your files to that initialized dataset:
 
 ```python
-!kaggle datasets create -p ./runs/evolve/exp/
+!kaggle datasets create -p /path/to/dataset
 ```
 
 ```
