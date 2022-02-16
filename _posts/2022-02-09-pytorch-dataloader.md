@@ -3,8 +3,8 @@ layout: post
 title: DataLoder in pytorch Three ways that I know
 subtitle: After digging a little bit more I got to know that,there are three ways of loading data in a pytorch model...
 cover-img: /assets/img/kaggle_banner.png
-thumbnail-img: /assets/img/api_logo.png
-share-img: /assets/img/api_logo.png
+thumbnail-img: https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png
+share-img: https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png
 tags: [Deep Learning]
 ---
 
