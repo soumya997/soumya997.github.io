@@ -3,8 +3,8 @@ layout: post
 title: Implement RNN Using Tf2.x
 subtitle: This is a small and simple guide to RNNs, we will discuss all the basic requirements that you need to get started with RNNs...
 cover-img: /assets/img/kaggle_banner.png
-thumbnail-img: /assets/img/api_logo.png
-share-img: /assets/img/api_logo.png
+thumbnail-img: https://i.imgur.com/UNe0wVD.jpg
+share-img: https://i.imgur.com/UNe0wVD.jpg
 tags: [Deep Learning]
 ---
 
