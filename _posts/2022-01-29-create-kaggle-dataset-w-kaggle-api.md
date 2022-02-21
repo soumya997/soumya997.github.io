@@ -12,6 +12,17 @@ tags: [kaggle]
 ## [Mini tutorial] Create Kaggle Dataset w/ kaggle API >>
 This guide is specific to Kaggle NB. The main steps are same, you might need to change some code thats it. 
 
+### If you are facing problem copying the file:
+- remove existing `/root/.kaggle`
+```python
+!rm /root/.kaggle
+```
+- recreate that directory `/root/.kaggle`
+```python
+!mkdir /root/.kaggle
+```
+
+### Follow these steps,
 
 - copy your kaggle api token to the root directory:
 ```python
