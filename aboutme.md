@@ -1,26 +1,25 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: About Me
 ---
 
-My name is Soumyadip. I have the following qualities:
+I’m a final year Undergrad student at IEM, Kolkata w/ an Electrical Engineering Major, While I always had my heart set on ML.
 
-- I'm a weeb
-- I rock a great beard
-- I'm a programmer(and I wont hack someone's facebook account for ya)
+I'm interested in the research aspect of Machine Learning and Deep Learning, mainly in the field of computer vision [moderate knowledge in NLP].
 
-What else do you need?
+I am active on a site called Kaggle, participated in a few Kaggle competitions. I'm Notebook and Discussion Expert there. My competition stats,
 
+Participated in two competitions,
 
-### My story
+1. [*Sartorius - Cell Instance Segmentation [214th - TOP 15%]*](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/leaderboard)
 
-To be honest, I'm having some trouble describing right now, so why don't you just watch [my portfolio](https://soumya997.github.io/vcv/) and it will answer **all** your questions. 
-#### And I just wanna say,
+2. [*TensorFlow - Great Barrier Reef [57th - TOP 3%, silver medal]*](https://www.kaggle.com/c/tensorflow-great-barrier-reef/leaderboard)
 
-<p align="center">
-    <img src="/assets/img/do_what_excites.gif" width="200" >
-</p>
+During my internship at IIT, KGP I managed to publish a paper on unsupervised segmentation at ICORT, 2021, IEEE. 
 
-### About the site
-God damn it!! Hey you internet give me some followers who are gonna read this in the first place.
+Link: [*https://ieeexplore.ieee.org/document/9581380*](https://ieeexplore.ieee.org/document/9581380)
+
+I'm very passionate about the AV [Autonomous Vehicle] industry and currently trying to grasp some of the concepts associated with the field.
+ 
+## 💡 I am actively looking for research opportunities in the field of AV or computer vision in general.
