@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: About Me
+subtitle: Welcome to my personal site 🤖
 ---
 
 I’m a final year Undergrad student at IEM, Kolkata w/ an Electrical Engineering Major, While I always had my heart set on ML.
@@ -22,4 +22,4 @@ Link: [*https://ieeexplore.ieee.org/document/9581380*](https://ieeexplore.ieee.o
 
 I'm very passionate about the AV [Autonomous Vehicle] industry and currently trying to grasp some of the concepts associated with the field.
  
-## 💡 I am actively looking for research opportunities in the field of AV or computer vision in general.
+### **💡 I am actively looking for research opportunities in the field of AV or computer vision in general.**
