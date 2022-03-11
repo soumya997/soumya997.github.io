@@ -27,4 +27,4 @@ I'm very passionate about the AV [Autonomous Vehicle] industry and currently try
 <br>
 
 > For More information check out below links, 
-> ### [Resume](https://bit.ly/resume_somusan) | [Personal site](https://bit.ly/vcvsomusan)
+> ### [Resume](https://bit.ly/resume_somusan) | [Personal site](https://bit.ly/vcvsomusan) | [Kaggle](https://www.kaggle.com/soumya9977)
