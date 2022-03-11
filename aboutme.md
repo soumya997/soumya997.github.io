@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Welcome to my personal site 🤖
+subtitle: Brief on what I do except sleeping and eating 🤖
 ---
 
 I’m a final year Undergrad student at IEM, Kolkata w/ an Electrical Engineering Major, While I always had my heart set on ML.
@@ -21,5 +21,10 @@ During my internship at IIT, KGP I managed to publish a paper on unsupervised se
 Link: [*https://ieeexplore.ieee.org/document/9581380*](https://ieeexplore.ieee.org/document/9581380)
 
 I'm very passionate about the AV [Autonomous Vehicle] industry and currently trying to grasp some of the concepts associated with the field.
- 
+
 ### **💡 I am actively looking for research opportunities in the field of AV or computer vision in general.**
+
+<br>
+
+> For More information check out below links, 
+> ### [Resume](https://bit.ly/resume_somusan) | [Personal site](https://bit.ly/vcvsomusan)
