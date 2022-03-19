@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GPU Utilization Tips for Pytorch Pipeline
-subtitle: Make your terminal look awesome,install windows terminal, WSL,Oh-my-posh,zsh,terminal icon
+subtitle: 6 tips to make your code utilize GPU, that it never done before.
 cover-img: /assets/img/kaggle_banner.png
 thumbnail-img: https://miro.medium.com/max/1400/1*pE_BX2qkzErKNtjSkCQiFA.png
 share-img: https://miro.medium.com/max/1400/1*pE_BX2qkzErKNtjSkCQiFA.png
