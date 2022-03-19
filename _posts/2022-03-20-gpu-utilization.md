@@ -9,6 +9,11 @@ tags: [pytorch, gpu]
 ---
 
 # GPU Utilization Tips for Pytorch Pipeline
+I was having this problem, but at the end I was kinda able to figure out the solution, thats why im sharing this here, as a note to myself.
+
+<p align="center">
+<img src="https://i.imgur.com/TznQh59.jpg">
+</p>
 
 ### Check model and data is in cuda or not:
  Make sure to initialize the model on cuda,
