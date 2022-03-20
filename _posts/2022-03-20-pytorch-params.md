@@ -10,7 +10,11 @@ tags: [pytorch, note, mini, deep learning]
 
 ## What are optim.step(), loss.backward() and optim.zero_grad() [mini tutorial]
 
-General Deep Learning pipeline looks like this,
+<p align="center">
+<img src="https://i.imgur.com/cEWVlgv.png">
+</p>
+
+This there things are part of backpropagation, after doing forward pass by doing `model(x_input)` we need to calculate the loss for each back and update the parameters based on the derivatives. Doing `loss.backward()` helps to calculate the derivatives/gradients and `optim.step()` goes backward and update all the parameters. And we mainly use `optim.zero_grad()` to get rid of gradient accumulation problem, we prefer to claculate the gradients of each bach seperately. looking into the code might help. General Deep Learning pipeline looks like this,
 
 ```python
 # Import library
@@ -94,7 +98,7 @@ If you see the last three lines of the pipeline, it first performs `optim.zero_g
  ```
  
 - What is `optim.zero_grad()`:
-  > Note that if we were doing this in a train loop we would call optim.zero_grad() because in each train step we want to compute new gradients - we don't care 
+  > Note that if we were doing this in a train loop we would call `optim.zero_grad()` because in each train step we want to compute new gradients - we don't care 
   > about gradients from the previous batch. Not zeroing grads would lead to gradient accumulation across batches.
 
 
