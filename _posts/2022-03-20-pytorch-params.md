@@ -83,7 +83,7 @@ If you see the last three lines of the pipeline, it first performs `optim.zero_g
 
 
 - **Use of `loss.item()`:**
-  > `.item()` moves the data to CPU. It converts the value into a plain python number. And plain python number can only live on the CPU. But you can also try using loss directly. but this is a better option.
+  > `.item()` moves the data to CPU. It converts the value into a plain python number. And plain python number can only live on the CPU. But you can also try using loss directly. but this is a better option. More importantly, if you are new to PyTorch, it might be helpful for you to know that we use `loss.item()` to maintain running loss instead of `loss` because PyTorch tensors store history of its values which might overload your GPU very soon.
   ```python
   x = torch.tensor([1.0])
   x.item()
