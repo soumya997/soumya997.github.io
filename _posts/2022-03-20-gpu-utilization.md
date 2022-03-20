@@ -27,7 +27,9 @@ data = data.to(device=device)
 targets = targets.to(device=device)
  ```
  
- ### Use W&B to monitor GPU utilization:
+ 
+### Use W&B to monitor GPU utilization:
+ 
  Log in to w&b with the below code
  
  ```python
@@ -128,7 +130,8 @@ Source: [7 Tips To Maximize PyTorch Performance](https://towardsdatascience.com/
 
 
 ### Reference:
-https://www.kaggle.com/code/soumya9977/using-prebuild-spectogram-data
+
+- [https://www.kaggle.com/code/soumya9977/using-prebuild-spectogram-data](https://www.kaggle.com/code/soumya9977/using-prebuild-spectogram-data)
 
 
 
