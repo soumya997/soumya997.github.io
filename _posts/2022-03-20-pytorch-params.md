@@ -2,7 +2,7 @@
 layout: post
 title: What are optim.step(), loss.backward() and optim.zero_grad() [mini tutorial]
 subtitle: I always had doubts regarding these pieces of code, but a simple search made it more clear  
-cover-img: /assets/img/kaggle_banner.png
+cover-img: /assets/img/kaggle-header@2x.png
 thumbnail-img: https://i.imgur.com/cEWVlgv.png
 share-img: https://i.imgur.com/cEWVlgv.png
 tags: [pytorch, note, mini, deep learning]
