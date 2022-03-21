@@ -16,12 +16,12 @@ I was having this problem, but at the end I was kinda able to figure out the sol
 </p>
 
 ### Check model and data is in cuda or not:
- Make sure to initialize the model on cuda,
+ > Make sure to initialize the model on cuda,
  ```python
  model = CNN(in_channels=cfg["in_channels"], num_classes=cfg["num_classes"]).to(device)
  ```
  
- shift your data on cuda, using
+ > shift your data on cuda, using
  ```python
 data = data.to(device=device)
 targets = targets.to(device=device)
@@ -30,7 +30,7 @@ targets = targets.to(device=device)
  
 ### Use W&B to monitor GPU utilization:
  
- Log in to w&b with the below code
+ > Log in to w&b with the below code
  
  ```python
  import wandb
@@ -47,7 +47,7 @@ except:
  
  wandb.init(project="PogChamp2 Baseline")
  ```
- Use below code to log few metric [epoch and loss],
+ > Use below code to log few metric [epoch and loss],
  
  ```python
 # Train Network
@@ -84,19 +84,19 @@ for epoch in range(cfg["num_epochs"]):
  ```
  
 ### Few sanity checks:
-Use the below code to see if the data and targets are in cuda or not,
+> Use the below code to see if the data and targets are in cuda or not,
 ```python
 X_train = X_train.to(device)
 X_train.is_cuda
 True
 ```
-Change dtype:
+> Change dtype:
 ```python
 dtype = torch.cuda.FloatTensor
 data = data.to(device=device).type(dtype)
 targets = targets.to(device=device).type(dtype)
 ```
-Explicitely Change tensor data type:
+> Explicitely Change tensor data type:
 ```python
 torch.set_default_tensor_type('torch.cuda.FloatTensor')
 ```
@@ -104,34 +104,43 @@ torch.set_default_tensor_type('torch.cuda.FloatTensor')
 Source: [How To Use GPU with PyTorch](https://wandb.ai/wandb/common-ml-errors/reports/How-To-Use-GPU-with-PyTorch---VmlldzozMzAxMDk)
 
 ### Forward pass to check if the model is in GPU:
-Use the below code for that, reminder dont forget to put the model on device too [not showen in the pic].
+> Use the below code for that, reminder dont forget to put the model on device too [not showen in the pic].
+
 <p align="center">
 <img width = "500" src="https://i.imgur.com/j9nNG4m.jpg">
 </p>
 
 ### Change parameters of dataloader:
-Change few parameters in the dataloader,
-- batch size [increase to see mure GPU memory and GPU utilization]
-- Shuffle = False [sometime making shuffle helps speed up]
-- pin_memory = True [helps to increase GPU utilization]
-- num_workers = 4 * num of gpu [mention that in the dataloader to increase GPU utilization]
+> Change few parameters in the dataloader,
+> - `batch size` [increase to see mure GPU memory and GPU utilization]
+> - `Shuffle = False` [sometime making shuffle helps speed up]
+> - `pin_memory = True` [helps to increase GPU utilization]
+> - `num_workers = 2 * num of gpu` [mention that in the dataloader to increase GPU utilization]
 
-```
-it's utilising GPU as some memory of GPU seems to be filled up Try increasing batch size, as much as you can fit in memory
-And you may have to scale the learning rate likewise. Scaling lr means, Say you had a lr of x for a batch size of 8, then 
-if you increase your batch size to 16, then make the learning rate 2x
-```
+> ```
+> it's utilising GPU as some memory of GPU seems to be filled up Try increasing batch size, as much as you can fit in memory
+> And you may have to scale the learning rate likewise. Scaling lr means, Say you had a lr of x for a batch size of 8, then 
+> if you increase your batch size to 16, then make the learning rate 2x
+> ```
+
 Source: [7 Tips To Maximize PyTorch Performance](https://towardsdatascience.com/7-tips-for-squeezing-maximum-performance-from-pytorch-ca4a40951259)
 
 ### Changes in the dataset class:
-- try to make the data loading faster, by that I mean if you need to any preprocessing or reducing image size and stuff like that do that out size dataset `__getitem__`. It will help to loading data from CPU and shifting to GPU much faster. Atleast use albumentation for some kind of postprocessing. or create a seperate preprocessed dataset.
+> try to make the data loading faster, by that I mean if you need to any preprocessing or reducing image size and stuff like that do that out size dataset `__getitem__`. It will help to loading data from CPU and shifting to GPU much faster. Atleast use albumentation for some kind of postprocessing. or create a seperate preprocessed dataset. Maybe do the preprocessing steps before hand and curate a dataset based on the preprocessing, and use that for training.
  
  Check this thread [GPU is not getting used, Any suggestion,Please need help](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/158304)
 
+### Use bigger model:
+> In my experiments I started with a small CNN model, but it was not enough to acquire the whole GPU utilization. Because of that I used a bigger model, `resnet50` after that the pytorch model started using the GPU resource more efficiently. 
 
-### Reference:
+<p align="center">
+<img width="500" src="https://i.imgur.com/0qB0564.png">
+</p>
 
-- [https://www.kaggle.com/code/soumya9977/using-prebuild-spectogram-data](https://www.kaggle.com/code/soumya9977/using-prebuild-spectogram-data)
+### References:
 
+1. [https://www.kaggle.com/code/soumya9977/using-prebuild-spectogram-data](https://www.kaggle.com/code/soumya9977/using-prebuild-spectogram-data)
+2. [Need tips for better GPU utilization](https://www.kaggle.com/c/kaggle-pog-series-s01e02/discussion/313979)
+3. [pog2: pytorch,music,classification,training loop](https://www.kaggle.com/code/soumya9977/pog2-pytorch-music-classification-training-loop?scriptVersionId=90851986)
 
 
