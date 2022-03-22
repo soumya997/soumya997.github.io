@@ -117,11 +117,11 @@ Source: [How To Use GPU with PyTorch](https://wandb.ai/wandb/common-ml-errors/re
 > - `pin_memory = True` [helps to increase GPU utilization]
 > - `num_workers = 2 * num of gpu` [mention that in the dataloader to increase GPU utilization]
 
-> ```
+```
 > it's utilising GPU as some memory of GPU seems to be filled up Try increasing batch size, as much as you can fit in memory
 > And you may have to scale the learning rate likewise. Scaling lr means, Say you had a lr of x for a batch size of 8, then 
 > if you increase your batch size to 16, then make the learning rate 2x
-> ```
+```
 
 Source: [7 Tips To Maximize PyTorch Performance](https://towardsdatascience.com/7-tips-for-squeezing-maximum-performance-from-pytorch-ca4a40951259)
 
