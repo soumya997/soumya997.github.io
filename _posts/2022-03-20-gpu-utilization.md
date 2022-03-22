@@ -31,6 +31,7 @@ targets = targets.to(device=device)
 ### Use W&B to monitor GPU utilization:
  
  > Log in to w&b with the below code
+ 
  ```python
  import wandb
 
@@ -47,6 +48,7 @@ except:
  wandb.init(project="PogChamp2 Baseline")
  ```
  > Use below code to log few metric [epoch and loss],
+ 
  ```python
 # Train Network
 for epoch in range(cfg["num_epochs"]):
