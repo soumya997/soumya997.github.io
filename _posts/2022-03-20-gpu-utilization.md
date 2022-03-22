@@ -15,7 +15,7 @@ I was having this problem, but at the end I was kinda able to figure out the sol
 <img src="https://i.imgur.com/TznQh59.jpg">
 </p>
 
-### Check model and data is in cuda or not:
+### 0️⃣ Check model and data is in cuda or not:
  > Make sure to initialize the model on cuda,
  ```python
  model = CNN(in_channels=cfg["in_channels"], num_classes=cfg["num_classes"]).to(device)
@@ -28,10 +28,9 @@ targets = targets.to(device=device)
  ```
  
  
-### Use W&B to monitor GPU utilization:
+### 1️⃣ Use W&B to monitor GPU utilization:
  
  > Log in to w&b with the below code
- 
  ```python
  import wandb
 
@@ -48,7 +47,6 @@ except:
  wandb.init(project="PogChamp2 Baseline")
  ```
  > Use below code to log few metric [epoch and loss],
- 
  ```python
 # Train Network
 for epoch in range(cfg["num_epochs"]):
@@ -83,7 +81,7 @@ for epoch in range(cfg["num_epochs"]):
     save_model(epoch,model,f"cnn_adam_e{epoch}.pth")
  ```
  
-### Few sanity checks:
+### 2️⃣ Few sanity checks:
 > Use the below code to see if the data and targets are in cuda or not,
 ```python
 X_train = X_train.to(device)
@@ -103,14 +101,14 @@ torch.set_default_tensor_type('torch.cuda.FloatTensor')
 
 Source: [How To Use GPU with PyTorch](https://wandb.ai/wandb/common-ml-errors/reports/How-To-Use-GPU-with-PyTorch---VmlldzozMzAxMDk)
 
-### Forward pass to check if the model is in GPU:
+### 3️⃣ Forward pass to check if the model is in GPU:
 > Use the below code for that, reminder dont forget to put the model on device too [not showen in the pic].
 
 <p align="center">
 <img width = "500" src="https://i.imgur.com/j9nNG4m.jpg">
 </p>
 
-### Change parameters of dataloader:
+### 4️⃣ Change parameters of dataloader:
 > Change few parameters in the dataloader,
 > - `batch size` [increase to see mure GPU memory and GPU utilization]
 > - `Shuffle = False` [sometime making shuffle helps speed up]
@@ -125,13 +123,13 @@ Source: [How To Use GPU with PyTorch](https://wandb.ai/wandb/common-ml-errors/re
 
 Source: [7 Tips To Maximize PyTorch Performance](https://towardsdatascience.com/7-tips-for-squeezing-maximum-performance-from-pytorch-ca4a40951259)
 
-### Changes in the dataset class:
+### 5️⃣ Changes in the dataset class:
 > try to make the data loading faster, by that I mean if you need to any preprocessing or reducing image size and stuff like that do that out size dataset `__getitem__`. It will help to loading data from CPU and shifting to GPU much faster. Atleast use albumentation for some kind of postprocessing. or create a seperate preprocessed dataset. Maybe do the preprocessing steps before hand and curate a dataset based on the preprocessing, and use that for training.
  
  Check this thread [GPU is not getting used, Any suggestion,Please need help](https://www.kaggle.com/c/siim-isic-melanoma-classification/discussion/158304)
 
-### Use bigger model:
-> In my experiments I started with a small CNN model, but it was not enough to acquire the whole GPU utilization. Because of that I used a bigger model, `resnet50` after that the pytorch model started using the GPU resource more efficiently. 
+### 6️⃣ Use bigger model:
+> In my experiments I started with a small CNN model, but it was not enough to acquire the whole GPU. Because of that I used a bigger model, `resnet50` after that the pytorch model started using the GPU resource more efficiently. These small peaks near 20 are actually near 100% in the kaggle GPU usage metric. 
 
 <p align="center">
 <img width="500" src="https://i.imgur.com/0qB0564.png">
