@@ -137,6 +137,31 @@ Source: [7 Tips To Maximize PyTorch Performance](https://towardsdatascience.com/
 <img width="500" src="https://i.imgur.com/0qB0564.png">
 </p>
 
+### Change custom dataset class:
+>  pandas sometimes behave slowly, so converting the dataframe into a numpy or TorchTensor in init and then use that in getitem can be very use full.
+
+```python
+def __init__(self,
+                 df,
+                 data_dir,
+                 transform = None):
+        super(POGdata, self).__init__()
+        self.data_dir = data_dir
+        self.df = df
+        self.transform = transform
+
+    def __getitem__(self, index):
+
+        path = self.df["filename"].iloc[index]          # CHANGE HERE 
+        path = os.path.join(self.data_dir, path)
+
+        label = self.df["genre_id"].iloc[index]
+        mono_audio = self.load_audio(path)
+        mono_audio = mono_audio.unsqueeze(dim=0)
+        return mono_audio, label
+```
+
+
 ### References:
 
 1. [https://www.kaggle.com/code/soumya9977/using-prebuild-spectogram-data](https://www.kaggle.com/code/soumya9977/using-prebuild-spectogram-data)
