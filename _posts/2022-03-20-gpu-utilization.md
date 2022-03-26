@@ -160,24 +160,6 @@ def __init__(self,
         mono_audio = mono_audio.unsqueeze(dim=0)
         return mono_audio, label
 ```
-sdibfosbdof sdobfosdjf sdfbosjdf sdbfosdf sdfhpsidf sdfbsiodjf dfaouer wertnweknt
-
-```mermaid
-  graph TD;
-      A(Competition Data)--> B(video split vid_0);
-      A(Competition Data)--> C(video split vid_1);
-      A(Competition Data)--> D(video split vid_2);
-      B(video split vid_0)-->E(Train yolov5s6 img-3584);
-      C(video split vid_1)-->M(Train yolov5s6 img-3584);
-      D(video split vid_2)-->N(Train yolov5s6 img-3584);
-      E(Train yolov5s6 img-3584)--> K(TTA w/ inf imgsize-6200);
-      M(Train yolov5s6 img-3584)--> K(TTA w/ inf imgsize-6200);
-      N(Train yolov5s6 img-3584)--> K(TTA w/ inf imgsize-6200);
-      K(TTA w/ inf imgsize-6200)--eg conf:0.30, thr:0.50--> G(WBF);
-      G(WBF)--> F(Classification);
-      F(Classification)--> H(norfair Tracking);
-      H(norfair Tracking)-->final
-```
 
 
 ### References:
