@@ -20,14 +20,23 @@ TOC:
 
 
 ## Introduction:
-Think bout life without Google maps, people use this all the time. Even your uber wont move an inch without google maps(or any software for aerial maps, apple maps excluded [meme]). Or think about life without your smartphone's weather forcasting, you wont be able to take a extra umbrale for your crush on a rainy day, life would really suck right? And these aerial maps, weather forcasting are by products of satellite imagery, and not only that forest fire detection, seasonal vegetation change tracking, flood mappiong, ship detection, oil spill detection, crop classification and the list goes on. What is really is creepy/sussy is we can measure, identify and track human activity with it. Posibilities are infinite [meme].
+Think bout life without Google maps, people use this all the time. Even your uber wont move an inch without google maps(or any software for aerial maps, apple maps excluded [meme]). Or think about life without your smartphone's weather forcasting, you wont be able to take a extra umbrale for your crush on a rainy day, life would really suck right? And these aerial maps, weather forcasting are by products of satellite imagery, and not only that forest fire detection, seasonal vegetation change tracking, flood mappiong, ship detection, oil spill detection, crop classification and the list goes on. What is really is creepy/sussy is we can measure, identify and track human activity with it. Even satellite imageries are intensively used to track the current war between Ukraein and Russia [image]. Posibilities are infinite [meme].
 
 Satellite imagery comes under a broader topic called remote sensing, the name is pretty much self explanatory. The basic concept is to sense different information about
 an object without getting into direct contact with the object. For that different kind of sensors are used, for example optical multispectral, thermal remote sensing, radar remote sensing, hyperspectral remote sensing, microwave remote sensing technique etc. Optical RST is a passive remote sensing technique and microwave RST is active imaging multilook RST. 
 
 There are many advantages of using microwave remote sensing[also known as sar] over others, but few very important ones are
-  1. SAR images can see through clouds, but other imagery techniques like optical or lidar are blocked by clouds. This is because of the different wavelengths used in different techniques, as the wavelength for SAR is 1mm - 100cm it can easily ignore the dust particlesof the cloud, but others cant.
+  1. SAR images can see through clouds, but other imagery techniques like optical or lidar are blocked by clouds. This is because of the different wavelengths used in different techniques, as the wavelength for SAR is from 3 cm up to a few meters, because of that it can easily ignore the dust particles of the cloud, but others cant. These wavelengths fall within the microwave part of the spectrum in the figure below. [https://miro.medium.com/max/550/0*wK5PY4PoJKHNjgYE]
   2. It can be used to detect objects in day and night both the times, same goes for lidar sensors,but unlike optical imagery. 
+  3. Multi frequency dataset can be accessed from the optical sensors but in case of SAR sensor, it is only designed for one frequency/wavelength.
+
+But unfortunately there are only handfull of spacebornes and airbornes are out the for collecting the SAR data, but with time application are seemingly increasing and more and more of them are about to be deployed in near future.
+
+A detailed comparison between SAR vs LIDAR vs Optical is provided below [image], 
+
+
+This might come to the mind that what is the need of multiple frequencies/wavelength for remote sensing, the answer is higher the wavelength, the higher the penetration capability. And based on that there are differnet application for differnt bands. Say someone is interested to do mapping and monitoring below forest cover or subsurface mapping or monitoring, they will need high signals with high wavelengths, in this case according to the requirements that person will use L band or P band. Below diagram  explains the situation properly[image],  
+
 
 
 
