@@ -34,8 +34,107 @@ But unfortunately there are only handfull of spacebornes and airbornes are out t
 
 A detailed comparison between SAR vs LIDAR vs Optical is provided below [image], 
 
+Comparison of optical image and sar image, 
+- Microwaves are primarily sensitive to structure, water content and also dielectric nature of the material. but Optical data are reflectance spectra obtain from sunlight and primarily sensitive ti the illumination charecteristics and molecular componets of the region being imaged. Optical images are mostly sensitive toward color information but not the sar images. Here in the image, the right sind imaage is the SAR image and the left side image is the optical image. You can see that there is a dam at the bottom of the sar image but that information is mission in the optical image. And this is because optical images takes color information into consideration.
+
+In this image we can see the clear topographycal information for the sar image but not for the optical image. And rever channels are also not visible in optical image.
+
+Here is another example where optical sensors were unable to coloect the proper informations from the terrain, this is a image of sahara desert and if you focus on the streep then it reveals previously unmapped drainage channels from an earlier, wetter geological era. This thing is done by applying the L-band signals. The vegetation and surface penetration capabilities has been applied in the field of archeology as well.
+
+Lets go through some basics of Electromagnetic radiations, below is the picture of a electro magnetic wave. as the name suggests, it is made of electric field and magnetic field. The electric field varies in magnitude in a direction perpendicular to the direction in which the radiation is traveling, and the magnetic field orient at the right angles to the electrical field(M), both the fields travel at the speed of light(c). 
+- wavelength: length of one wave cycle, or the distance that a point has to travel to get back to its previus amplitude and phase is called wavelength.
+- frequency: repeating event per unit of time
+
+Relation between these two is, c = lambda/v
+
+
 
 This might come to the mind that what is the need of multiple frequencies/wavelength for remote sensing, the answer is higher the wavelength, the higher the penetration capability. And based on that there are differnet application for differnt bands. Say someone is interested to do mapping and monitoring below forest cover or subsurface mapping or monitoring, they will need high signals with high wavelengths, in this case according to the requirements that person will use L band or P band. Below diagram  explains the situation properly[image],  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
