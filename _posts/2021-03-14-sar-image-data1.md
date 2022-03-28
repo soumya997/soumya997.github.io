@@ -1,4 +1,13 @@
-sangsar
+---
+layout: post
+title: SAR-cus! yeah and we are the clowns: SAR Image Data 101  
+subtitle: Gonna discuss all bout SAR data, from pros and cons, data collection, data interpretation and Deep Learning applications. But this is just the part 1.
+cover-img: /assets/img/kaggle_banner.png
+thumbnail-img: https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png
+share-img: https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png
+tags: [SAR, remote sensing]
+---
+
 
 TOC:
 1. Introduction
