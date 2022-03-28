@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SAR-cus! yeah and we are the clowns
+title: SAR-cus! And we are the clowns - 101
 subtitle: SAR Image Data 101 Gonna discuss all bout SAR data, from pros and cons, data collection, data interpretation and Deep Learning applications.
 cover-img: /assets/img/kaggle_banner.png
 thumbnail-img: https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png
