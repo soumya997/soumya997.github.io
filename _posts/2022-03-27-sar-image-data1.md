@@ -10,12 +10,12 @@ tags: [SAR, remote sensing]
 
 
 TOC:
-1. Introduction
-2. different types of satelite imagenaries
-3. need of sar 
+1. Introduction ✅ 
+2. different types of satelite imagenaries ✅
+3. need of sar ✅
 4. how it is captured
 5. deep into range and azimuth resolution
-6. different ranges k-band,x-band etc and applications
+6. different ranges k-band,x-band etc and applications ✅
 7. scattering
 8. why it uses side projection
 9. Different sar modes
@@ -62,7 +62,8 @@ This might come to the mind that what is the need of multiple frequencies/wavele
 
 
 
-
+# Data collection:
+SAR airbrones/spacebrones collecting data is similar to how bats locate objects. How bats locate objects are called "ecolocation", they emmit ultrasonic sound pulses, and recieve the ecos to create an image of its surroundings. Tis is as same as how sar satellites collecets data. Sar sensors throws EM waves out in a side projection manner[it is side projecttion because if the projection is done perpendicularly wrt the satellite, then there wont be much scattering that will lead to less ground coverage], and the amount of area that signals cover at one time stamp is called footprint. When the signals incidents with the ground it will scatter bepending on the kind of objects it is incidenting on. There are different categories of scattering occurs, like 1. surface scattering, 2. Bouble bounce scattering and 3. volume scattering. Depending upon the shape, building materials, dielectric value etc. this scattering happens, some singls gets lost and some reflects back tot the satellite antena and the SAR technology uses that eco/reflection to generate an image of the footprint. Here surface scattering is the scattering when the incedent ray interacts with a nearly smoote surface, generally its a scattering generated via surfaces. 2nd comes the `Double bounce scattering`, its a scattering 
 
 
 
