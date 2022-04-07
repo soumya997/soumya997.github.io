@@ -67,7 +67,20 @@ Comparison of optical image and sar image,
 
 In this image we can see the clear topographycal information for the sar image but not for the optical image. And rever channels are also not visible in optical image.
 
+
+
+
+<!-- ![{7841C6BD-D4AA-4651-B7B6-6F07C1AC831C}](https://user-images.githubusercontent.com/54326088/162215195-3efdcdf9-74c4-4c2c-98fb-3a1efd053405.png) -->
+
+
+
 Here is another example where optical sensors were unable to coloect the proper informations from the terrain, this is a image of sahara desert and if you focus on the streep then it reveals previously unmapped drainage channels from an earlier, wetter geological era. This thing is done by applying the L-band signals. The vegetation and surface penetration capabilities has been applied in the field of archeology as well.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54326088/162216896-ea02ca24-52e0-4663-ad79-1fce013d4fe0.png">
+</p>
+<p align="center">image 1, image 2[sahara desert]: <a href="https://youtu.be/6cS-tq85Oic">Source</a></p>
+
 
 Lets go through some basics of Electromagnetic radiations, below is the picture of a electro magnetic wave. as the name suggests, it is made of electric field and magnetic field. The electric field varies in magnitude in a direction perpendicular to the direction in which the radiation is traveling, and the magnetic field orient at the right angles to the electrical field(M), both the fields travel at the speed of light(c). 
 - wavelength: length of one wave cycle, or the distance that a point has to travel to get back to its previus amplitude and phase is called wavelength.
@@ -80,28 +93,56 @@ Relation between these two is, c = lambda/v
 This might come to the mind that what is the need of multiple frequencies/wavelength for remote sensing, the answer is higher the wavelength, the higher the penetration capability. And based on that there are differnet application for differnt bands. Say someone is interested to do mapping and monitoring below forest cover or subsurface mapping or monitoring, they will need high signals with high wavelengths, in this case according to the requirements that person will use L band or P band. Below diagram  explains the situation properly[image],  
 
 
+<p align="center">
+<img width="600" src="https://user-images.githubusercontent.com/54326088/162216490-c8381e36-8771-41aa-8828-54f21a9a5f68.png">
+</p>
+<p align="center">image 1 <a href="https://youtu.be/6cS-tq85Oic">Source</a></p>
+
+
 
 # Data collection:
 SAR airbrones/spacebrones collecting data is similar to how bats locate objects. How bats locate objects are called "ecolocation", they emmit ultrasonic sound pulses, and recieve the ecos to create an image of its surroundings. Tis is as same as how sar satellites collecets data. Sar sensors throws EM waves out in a side projection manner[it is side projecttion because if the projection is done perpendicularly wrt the satellite, then there wont be much scattering that will lead to less ground coverage], and the amount of area that signals cover at one time stamp is called footprint. When the signals incidents with the ground it will scatter bepending on the kind of objects it is incidenting on. There are different categories of scattering occurs, like 1. surface scattering, 2. Bouble bounce scattering and 3. volume scattering. Depending upon the shape, building materials, dielectric value etc. this scattering happens, some singls gets lost and some reflects back tot the satellite antena and the SAR technology uses that eco/reflection to generate an image of the footprint. Here surface scattering is the scattering when the incedent ray interacts with a nearly smoote surface, generally its a scattering generated via surfaces. 2nd comes the `Double bounce scattering`, this happens when the signal get incident on first a surface and then on a tall wall, as it is based on two scattering so it is called double bounce scatttering. And describing `Volume scattering` as, when incident ray falls on a tree or vagitation some of the say get reflected to bottom parts of the tree, like reflection ude to upper leafs and brunches and then gradually moving down toward lower brnches and leafes. Because of this, entire body of the object causes the scattering. Below diagram describes this better[scattering image]
 
-![[Pasted image 20220328215234.png]]
+<p align="center">
+<img width="600" src="https://user-images.githubusercontent.com/54326088/162217603-593d43d5-80bc-478c-b815-bd56cd1512e2.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/Z16a3Bi6Gq0">Source</a></p>
+
+
+
+
+
 # Synthatic Aperture radar:
 If you break down the name, it comes like Synthatic + Aperture + radar. synthetic is something is artificially created, and Aperture is defined as the area, oriented perpendicular to the direction of an incoming electromagnetic wave or you can think of it as antenna, and radar is a detection system what uses radio wave[EM waves comes under radio waves]. Now question arises why we need a synthatic aperture/antenna? Apparently bigger the antenna more the information you collect but antennas of a satellite is not tha big so we use the forward motion of the satellite to create a synthetic antenna. Pink eleptical circles are the footprint of the satellite.
 
-![[Pasted image 20220328135109.png]]
+<p align="center">
+<img width="400" src="https://user-images.githubusercontent.com/54326088/162217883-11d40734-a857-489f-a57b-ee3b9d9fa20d.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/Z16a3Bi6Gq0">Source</a></p>
 
-	![[Pasted image 20220328134741.png]]
 
 ![[Pasted image 20220328215526.png]]
 
 The satelite moves forward and it emmits the signals side ways[side looking geometry], and because of that the groud is scanned in two dimentions. One dimention is called the range dimention and other is the azimuth dimention. Just of clarity,
 Azimuth is the direction where the satellite is moving and to the direction where the signals are emitting are called range direction [see the image]. the angle between nadir point and the direction of the emitted ray is called look angle and the angle between the incident ray and the parpendiculat to the ground is called incident angle. major axis of the ellipse is the swath and the slant range is the length b/w end point of the ellipse and the antenna. area near to the nadir point is near range and the area far away from nadir is far range.
 
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162218835-be944ae0-a345-4987-9185-931db5e8e813.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/Z16a3Bi6Gq0">Source</a></p>
+
+## Resolution of SAR images:
+
 We describe resolution in images are how many pixels are present that image, how clearly you can see every little details of the image. In audio data restoration is defined like this, sound is a longitudinal wave and to represent that kind of wave on computer system in a continuous manner you need to increase the smaple rate, this sample rate represnets the resolution of an audio, mainly if you represt a audio on computer then how continius it is that is measured by sample rate. But incase of sar images there are 2 dimention one is azimuth[vertica/height] and range[horizonta/width]. These two dimetions are defined as ability to differenticate between two closely spaced objects in the respective directions. If we elaburate this, then turns out somehting like this, when a signal hits two closely spaced targets then the ability to distinguish the ecos of these closely seperated objects is called resolution here. As like other data it also depends upon the ability of the device.
 
 
 ## Range Resolution:
-![[Pasted image 20220328143800.png]]
+
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162219811-6bb952ef-cbd0-4c75-be5d-e2b37b21cd33.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/wkpbDh2ysGs">Source</a></p>
+
 
 
 Ability to distinguish between two ecos coming from a closely spaced objects in the range direction depends on the duration of microwave pulse trasmitted by radar[quantifies time]. 
@@ -115,11 +156,21 @@ Here you can see as the distance between two airoplanes are shorter than the pul
 
 Check this portionn carefully, this pulse of t= 2us is emitted, so the pulse length is c x t = 600m and the range resoution is 600/2 m, now in this example as the distance b/w the two aircrafts are 200 which is less than the pulse, so the sent pulse will be unable to detect the two objects/aircrafts and may consider as the single image.
 
-![[Pasted image 20220328202240.png]]
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162221474-4663fcdb-c7b2-452a-a763-b388524fd760.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/6cS-tq85Oic">Source</a></p>
 
-Range resolution has two types, slant resolution and ground resolution
-![[Pasted image 20220328232723.png]]
-![[Pasted image 20220328202326.png]]
+
+
+Range resolution has two types, slant resolution and ground resolution,
+
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162221080-203a7106-e8f4-4b93-bb20-9a5676489990.png">
+</p>
+<p align="center">image1: <a href="https://youtu.be/6cS-tq85Oic">Source</a>, image2: <a href="https://youtu.be/wkpbDh2ysGs">Source</a></p>
+
+
 
 There is another topic called `Chirped pulse`, which is used to describe range resolution. You can read more about them [here.](https://www.youtube.com/watch?v=wkpbDh2ysGs&t=1577s)
 
@@ -129,7 +180,11 @@ Objects apearing in the near range are compresed in their shape and size, this c
 ## Azimuth resolution:
 As discussed previous the azimuth resolution is the ability to distinguish two ecos coming from two closely spaced objects in the azimuth direction. According to the formula, azimuth resolution depends on few things as shown below,
 
-![[Pasted image 20220328210534.png]]
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162221823-eb221e54-948c-4eca-9bf5-2221c87d4c27.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/wkpbDh2ysGs">Source</a></p>
+
 
 
 # complex form of a sar image:
