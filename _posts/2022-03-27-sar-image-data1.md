@@ -121,7 +121,7 @@ If you break down the name, it comes like Synthatic + Aperture + radar. syntheti
 <p align="center">image: <a href="https://youtu.be/Z16a3Bi6Gq0">Source</a></p>
 
 
-![[Pasted image 20220328215526.png]]
+
 
 The satelite moves forward and it emmits the signals side ways[side looking geometry], and because of that the groud is scanned in two dimentions. One dimention is called the range dimention and other is the azimuth dimention. Just of clarity,
 Azimuth is the direction where the satellite is moving and to the direction where the signals are emitting are called range direction [see the image]. the angle between nadir point and the direction of the emitted ray is called look angle and the angle between the incident ray and the parpendiculat to the ground is called incident angle. major axis of the ellipse is the swath and the slant range is the length b/w end point of the ellipse and the antenna. area near to the nadir point is near range and the area far away from nadir is far range.
@@ -203,7 +203,12 @@ The emitted EM wave signal can be polarized and unpolarized. By unpolarized I me
 
 Here we will discuss only the polarometric radiation, or what we call PolSAR data. There are different polarometric combinations present in the SAR dataset, and they are HH, VV,HV and VH polarization. Here H is horizontally polarized wave and V is vertically polarized wave. HH and VV represents horizontally polarized wave is transmitted and recieved  and verticall polarized wave is transmitted and recieved. HV and VH is Horizontal transmit and Vertical recieve and vice versa.
 
-![[Pasted image 20220328234334.png]]
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162222690-0768f963-2aef-4825-8093-c9da166adcc0.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/wkpbDh2ysGs">Source</a></p>
+
+
 
 Each of this polarization can create individual iamges by them self. Each images will be a complex image. When you have all the 4 images, it becomes very easy to implement the modeling approaches to retrive different of scattering area from small area or single resolution cell. We can also use all the four components to create a quad pole dataset, which looks like color RGB image.
 
@@ -212,32 +217,59 @@ S0^2 = S1^2 + S2^2 + S3^2
 
 If we get the values of stoke parameters then we can extract the orientation angle and ellipticity of the dataset. Below is the relationship. 
 
-![[Pasted image 20220329192857.png]]
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162222900-42c001e0-3b18-4a97-929c-33a2a7458c83.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/TkqIw0CBq5c">Source</a></p>
+
 
 Here S0,S1,S2,S3 are the stoke parameters, E_H, E_V is the horizontal and vertical components of the recieved electric field vector, Re and Im are the real and imaginary components and `<>` indicated ensemble averaging.
 
 Remember the intention behind combining all the different compontnts[HH,VV,HV,VH] is to create a quad pole color image. and stoke vector format is one of the methods to do so. Here we will understand another method[important and extensivel used] to combine all of the components, which is scattering matrix,
 
-Scattering matrix: 
+## Scattering matrix: 
 Scattering matrix is a 2x2 matrix that contains complex numbers, the diagonal elements represents the co-polarized information and off-diagonal information represents the cross-polarized information. Remember S_HH and S_VV are called light polarization channels, because recieved and transmitted signals are similarly polarized.  
 
-![[Pasted image 20220329200336.png]]
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162223604-3b7dacbd-8dfd-4fd4-9993-619793ea5fbb.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/ZCtjQDe3Mvc">Source</a></p>
+
+
 
 We can represent scattering matrix by converting it to its 2nd order statistics for better decomposition. . Conversion of scattering matrix to a 2nd order statistics is also called as ensemble averaging.
-![[Pasted image 20220329200943.png]]
+
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162223909-cc6a22f5-60d1-4409-9341-a7675700acce.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/ZCtjQDe3Mvc">Source</a></p>
 
 
 We will discuss about the covariency matrix now, we can use different basis for defining the matix, eg. lexicographic basis(U_L) Pauli basis (U_P). the combination of the sattering matrix and the basis is represented by K_p, this K_p also called as pauli matrix. The metioned basis is the pauli basis
 
-![[Pasted image 20220329211013.png]]
+
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162224057-32770bc4-da1a-4ebb-987e-3ea2ea6d785f.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/ZCtjQDe3Mvc">Source</a></p>
 
 
 When we multiply the k_p with its transpose we get the covariency matrix. We can also represent <[T]> as <[T]> = K_p * K_pT. Here 9 represents that there are only 9 unique elements. as we are considering mono-static radar condition so S_HV = S_VH. All the elements relates to physical scattering nature. Also a reminder we are taking each elements/pixels of a single pole image and putting them together into these matrixes to generate the quad pole data. 
-![[Pasted image 20220329212502.png]]
+
+
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162224262-86bc8c59-8d0d-4da6-ac72-73cdf9f29a33.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/ZCtjQDe3Mvc">Source</a></p>
+
+
 
 As I said before we can use any basis to get the decompose representation of the scattering matrix. Seems like basis are used to get a interpretation of different scattering on the generated color. Below image explains the corelation between the basis and colors. Here eigenvalue is the eigenvalues generated from the T matrix, and we can use these eigenvalues to calculate the entropy, alpha-angle etc. different physical properties. Scattering power decomposition looks interesting because you can interpret the scatterings from the color, like if the portion of the image has green color in them then you can understand that it is coming from the volume scattering which implies that there is more vegitation. In the same way, double bounce corelates to haing more buildings in the image and surface scattering corelated to plane surface. 
 
-![[Pasted image 20220329213739.png]]
+<p align="center">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162224590-47c257e3-9a7c-4e85-ae19-34ae0bfd8bd4.png">
+</p>
+<p align="center">image: <a href="https://youtu.be/ZCtjQDe3Mvc">Source</a></p>
 
 
 There are a ton of reasearch going on in the combined field of SAR imagery and Deep Learning. Few examples are, 1. object detection, generally the problem involves finding relatively small targets (vehicles, ships, electricity infrastructure, oil and gas infrastructure, etc.) in a large scene dominated by clutter. 2. Image classification and segmentation, one example of this that also happens tobe my internship project was to segmentation different urban areas, building, hills, crops. 3. Change detection, I also had a project in this domain, Given an old image and new image of a same footprint you need to find the chnages, those image went through in that time gap.  
