@@ -9,6 +9,13 @@ tags: [SAR, remote sensing]
 ---
 
 
+
+<p align="center">
+<img src="https://cdn.cnn.com/cnnnext/dam/assets/220202125455-07-russia-buildup-satellite-exlarge-169.jpg">
+</p>
+
+<p align="center"><a href="https://edition.cnn.com/2022/02/02/europe/russia-troops-ukraine-buildup-satellite-images-intl/index.html">Source</a></p>
+
 # TOC:
 1. Introduction ✅ 
 2. different types of satelite imagenaries ✅
@@ -28,8 +35,20 @@ tags: [SAR, remote sensing]
 16. polarization ✅
 
 
+
 ## Introduction:
-Think bout life without Google maps, people use this all the time. Even your uber wont move an inch without google maps(or any software for aerial maps, apple maps excluded [meme]). Or think about life without your smartphone's weather forcasting, you wont be able to take a extra umbrale for your crush on a rainy day, life would really suck right? And these aerial maps, weather forcasting are by products of satellite imagery, and not only that forest fire detection, seasonal vegetation change tracking, flood mappiong, ship detection, oil spill detection, crop classification and the list goes on. What is really is creepy/sussy is we can measure, identify and track human activity with it. Even satellite imageries are intensively used to track the current war between Ukraein and Russia [image]. Posibilities are infinite [meme].
+I have always been a coumputer vision fanatic, and I got to learn a lot more about this domain and its real life applications from my internship at IIT, Kharagpur. I was assigned to work on PolSAR images for various tasks like image segmeantation, colorization etc. I knew only the bear minimum information that was required for applying deep learning, but few weeks back I got some time to look back on this field and learn some of the basics, and this blog post is a part of that. This field extensively involves maths, and physics [spacially electromagnetic waves], reading only the theory is never that exciting but when we see the applications it suddenly makes the field very interesting, here you will mostly learn about the application of EM waves in satellite imagery. While learning I found out that the resources on these topics and other advanced SAR image topics are very less shared on the internet. This is another reason behind writing this article. Im defenetly not an expert in this field, I learned about them from all the links provided in the reference part, if you find any faults or miss information please comment below.
+
+Ever thought about your life without Google maps, people use this google product all the time. Even your uber wont move an inch without google maps(or any software for aerial maps, apple maps excluded [meme]). Or think about life without your smartphone's weather forcasting, you wont be able to take a extra umbrale for your crush on a rainy day, just kidding..., life would really suck right? And these aerial maps, weather forcasting are by products of satellite imagery, and not only that forest fire detection, seasonal vegetation change tracking, flood mappiong, ship detection, oil spill detection, crop classification and the list goes on. What is really is creepy/sussy is, we can measure, identify and track human activity with it. Even satellite imageries are intensively getting used to track the current war between Ukraein and Russia [image]. Posibilities are infinite XD
+
+<!-- <p align="center">
+<img width="300" src="https://user-images.githubusercontent.com/54326088/162196201-6b7050c5-d825-4dc4-9414-80ae59d09a4c.png">
+</p>
+ -->
+ 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The average Apple Maps user <a href="https://t.co/8KRSlPiL2F">pic.twitter.com/8KRSlPiL2F</a></p>&mdash; Ecuadorian DeLorean (@EcuaDeLorean99) <a href="https://twitter.com/EcuaDeLorean99/status/1386864354881122304?ref_src=twsrc%5Etfw">April 27, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<br>
 
 Satellite imagery comes under a broader topic called remote sensing, the name is pretty much self explanatory. The basic concept is to sense different information about
 an object without getting into direct contact with the object. For that different kind of sensors are used, for example optical multispectral, thermal remote sensing, radar remote sensing, hyperspectral remote sensing, microwave remote sensing technique etc. Optical RST is a passive remote sensing technique and microwave RST is active imaging multilook RST. 
