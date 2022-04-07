@@ -181,7 +181,7 @@ Objects apearing in the near range are compresed in their shape and size, this c
 As discussed previous the azimuth resolution is the ability to distinguish two ecos coming from two closely spaced objects in the azimuth direction. According to the formula, azimuth resolution depends on few things as shown below,
 
 <p align="center">
-<img width="500" src="https://user-images.githubusercontent.com/54326088/162221823-eb221e54-948c-4eca-9bf5-2221c87d4c27.png">
+<img width="500" src="https://user-images.githubusercontent.com/54326088/162226905-de701c2c-d184-4d02-b89b-ce22fc5c3a30.png">
 </p>
 <p align="center">image: <a href="https://youtu.be/wkpbDh2ysGs">Source</a></p>
 
