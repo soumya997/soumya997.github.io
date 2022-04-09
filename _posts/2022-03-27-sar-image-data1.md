@@ -53,13 +53,28 @@ Ever thought about your life without Google maps, people use this google product
 Satellite imagery comes under a broader topic called remote sensing, the name is pretty much self-explanatory. The basic concept is to sense different information about an object without getting into direct contact with the object. For that different kinds of sensors are used, for example, optical multispectral, thermal remote sensing, radar remote sensing, hyperspectral remote sensing, microwave remote sensing technique, etc. Optical RST is a passive remote sensing technique and microwave RST is an active imaging multilook RST.
 
 There are many advantages of using microwave remote sensing[also known as sar] over others, but a few very important ones are
-  1. SAR images can see through clouds, but other imaging techniques like optical or lidar are blocked by clouds. This is because of the different wavelengths used in different techniques, as the wavelength for SAR is from 3 cm up to a few meters, because of that it can easily ignore the dust particles of the cloud, but others can't. These wavelengths fall within the microwave part of the spectrum in the figure below. [https://miro.medium.com/max/550/0*wK5PY4PoJKHNjgYE]
+  1. SAR images can see through clouds, but other imaging techniques like optical or lidar are blocked by clouds. This is because of the different wavelengths used in different techniques, as the wavelength for SAR is from 3 cm up to a few meters, because of that it can easily ignore the dust particles of the cloud, but others can't. These wavelengths fall within the microwave part of the spectrum in the figure below.
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54326088/162561535-c1c05bab-7240-4bbd-83f0-91a3132fdc67.png">
+</p>
+<p align="center">image 1, image 2[sahara desert]: <a href="https://medium.com/the-downlinq/sar-101-an-introduction-to-synthetic-aperture-radar-2f0b6246c4a0">Source</a></p>
+
+
   2. It can be used to detect objects day and night the times, same goes for lidar sensors but unlike optical imagery. 
   3. Multifrequency dataset can be accessed from the optical sensors but in the case of SAR sensor, it is only designed for one frequency/wavelength.
 
 But unfortunately, there is only a handful of spaceborne and airbornes are out for collecting the SAR data, but with time applications are seemingly increasing and more and more of them are about to be deployed in near future.
 
 A detailed comparison between SAR vs LIDAR vs Optical is provided below, 
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/54326088/162561513-c36a5c79-0076-48db-8961-53c0e97c9d8a.png">
+</p>
+<p align="center">image 1, image 2[sahara desert]: <a href="https://youtu.be/6cS-tq85Oic">Source</a></p>
+
+
+
 
 Comparison of the optical image and SAR image, 
 - Microwaves are primarily sensitive to structure, water content, and also dielectric nature of the material. but Optical data are reflectance spectra obtained from sunlight and are primarily sensitive to the illumination characteristics and molecular components of the region being imaged. Optical images are most sensitive to color information but not SAR images. Here in the image, the right side image is the SAR image and the left side image is the optical image. You can see that there is a dam at the bottom of the SAR image but that information is a mission in the optical image. And this is because optical images take color information into consideration.
