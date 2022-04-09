@@ -17,22 +17,20 @@ tags: [SAR, remote sensing]
 <p align="center"><a href="https://edition.cnn.com/2022/02/02/europe/russia-troops-ukraine-buildup-satellite-images-intl/index.html">Source</a></p>
 
 # TOC:
-1. Introduction ✅ 
-2. different types of satelite imagenaries ✅
-3. need of sar ✅
-4. how it is captured ✅
-5. deep into range and azimuth resolution ✅
-6. different ranges k-band,x-band etc and applications ✅
-7. scattering ✅
-8. why it uses side projection ✅
-9. Different sar modes [pass]
-10. different defaults [pass]
-11. comparison with bats ✅
-12. what is footprints ✅
-13. what is antena [iitb-1] ✅
-14. complex form of a sar image ✅ 
-15. Deep learning 
-16. polarization ✅
+1. Introduction 
+2. different types of satelite imagenaries 
+3. need of sar 
+4. how it is captured 
+5. deep into range and azimuth resolution 
+6. different ranges k-band,x-band etc and applications 
+7. scattering 
+8. why it uses side projection 
+9. comparison with bats 
+10. what is footprints 
+11. what is antena 
+12. complex form of a sar image  
+13. Deep learning 
+14. polarization 
 
 
 
