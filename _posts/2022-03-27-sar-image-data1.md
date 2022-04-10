@@ -18,19 +18,21 @@ tags: [SAR, remote sensing]
 
 # TOC:
 1. Introduction 
-2. different types of satelite imagenaries 
-3. need of sar 
-4. how it is captured 
-5. deep into range and azimuth resolution 
-6. different ranges k-band,x-band etc and applications 
-7. scattering 
-8. why it uses side projection 
-9. comparison with bats 
-10. what is footprints 
-11. what is antena 
-12. complex form of a sar image  
-13. Deep learning 
-14. polarization 
+2. EM Wave Basics
+3. Comparison of the optical image and SAR image
+4. Comparison b/t different Remote Sensing Methods
+6. need of sar 
+7. how it is captured 
+8. deep into range and azimuth resolution 
+9. different ranges k-band,x-band etc and applications 
+10. scattering 
+11. why it uses side projection 
+12. comparison with bats 
+13. what is footprints 
+14. what is antena 
+15. complex form of a sar image  
+16. Deep learning 
+17. polarization 
 
 
 
