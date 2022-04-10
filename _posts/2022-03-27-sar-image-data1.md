@@ -48,6 +48,7 @@ Ever thought about your life without Google maps, people use this google product
 
 <br>
 
+# Comparison b/t different Remote Sensing Methods:
 Satellite imagery comes under a broader topic called remote sensing, the name is pretty much self-explanatory. The basic concept is to sense different information about an object without getting into direct contact with the object. For that different kinds of sensors are used, for example, optical multispectral, thermal remote sensing, radar remote sensing, hyperspectral remote sensing, microwave remote sensing technique, etc. Optical RST is a passive remote sensing technique and microwave RST is an active imaging multilook RST.
 
 There are many advantages of using microwave remote sensing[also known as sar] over others, but a few very important ones are
@@ -74,7 +75,7 @@ A detailed comparison between SAR vs LIDAR vs Optical is provided below,
 
 
 
-Comparison of the optical image and SAR image, 
+# Comparison of the optical image and SAR image:
 - Microwaves are primarily sensitive to structure, water content, and also dielectric nature of the material. but Optical data are reflectance spectra obtained from sunlight and are primarily sensitive to the illumination characteristics and molecular components of the region being imaged. Optical images are most sensitive to color information but not SAR images. Here in the image, the right side image is the SAR image and the left side image is the optical image. You can see that there is a dam at the bottom of the SAR image but that information is a mission in the optical image. And this is because optical images take color information into consideration.
 
 In this image, we can see the clear topographical information for the SAR image but not for the optical image. And rever channels are also not visible in the optical images.
@@ -94,6 +95,7 @@ Here is another example where optical sensors were unable to collect the proper 
 <p align="center">image 1, image 2[sahara desert]: <a href="https://youtu.be/6cS-tq85Oic">Source</a></p>
 
 
+# EM Wave Basics:
 Let's go through some basics of Electromagnetic radiation, below is a picture of an electromagnetic wave. as the name suggests, it is made of an electric field and magnetic field. The electric field varies in magnitude in a direction perpendicular to the direction in which the radiation is traveling, and the magnetic field is oriented at the right angle to the electrical field(M), both the fields travel at the speed of light(c). 
 - wavelength: length of one wave cycle or the distance that a point has to travel to get back to its previous amplitude and phase is called wavelength.
 - frequency: repeating event per unit of time
@@ -124,7 +126,7 @@ SAR airbornes/spaceborne collecting data is similar to how bats locate objects. 
 
 
 
-# Synthatic Aperture radar:
+# Synthetic Aperture radar:
 If you break down the name, it comes like Synthetic + Aperture + radar. synthetic is something that is artificially created, and Aperture is defined as the area, oriented perpendicular to the direction of an incoming electromagnetic wave or you can think of it as an antenna, and radar is a detection system that uses radio wave[EM waves comes under radio waves]. Now the question arises why do we need a synthetic aperture/antenna? Apparently bigger the antenna more the information you collect but the antennas of a satellite are not that big so we use the forward motion of the satellite to create a synthetic antenna. Pink elliptical circles are the footprint of the satellite.
 
 <p align="center">
