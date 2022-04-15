@@ -27,7 +27,7 @@ eg,
 ### **Note:** 
 > Because of LaTex rendering issue, I could not post the content here. Below is the blog post link, Sorry for the inconvenience.
 
-### **Link:** 
+### **Continue Reading Here 👇:** 
 > [https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-review](https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-review)
 
 <!-- 
