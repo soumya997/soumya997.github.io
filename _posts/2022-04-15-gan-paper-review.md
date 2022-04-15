@@ -2,9 +2,9 @@
 layout: post
 title: GAN - Generative Adversarial Nets Paper Review and Notes
 subtitle: Over view of GAN, need of GAN, workings, Objective function, derivations. 
-cover-img: /assets/img/header (1).png
-thumbnail-img: https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png
-share-img: https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png
+cover-img: /assets/img/header_mnist.png
+thumbnail-img: https://programmerall.com/images/271/ce/cedfadcc26078435c357926653cf17a7.jpeg
+share-img: https://programmerall.com/images/271/ce/cedfadcc26078435c357926653cf17a7.jpeg
 tags: [Deep Learning, Paper review]
 ---
 
