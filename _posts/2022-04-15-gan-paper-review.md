@@ -24,6 +24,13 @@ eg,
 - You have height data of each individual student of a class. And given that you want to generate similar heights that match the data distribution. 
 - In terms of images one example would be, given a dataset consisting of handwritten digits, you want to generate similar handwritten images but not ditto copy of the images from the dataset.
 
+### **Note:** 
+> Because of LaTex rendering issue, I could not post the content here. Below is the blog post link, Sorry for the inconvenience.
+
+### **Link:** 
+> [https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-review](https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-review)
+
+<!-- 
 ### Need of GAN:
 You might think why do we need GAN, when we can find out the distribution of the data from some statistical model or some thing. And you queation is totally valid, lets take the height example. Here we might have just plotted the data, and see what kind of distribution that is, from the plot we could find out if that is normal or uniform or beta or poisson or so on and test that via some hypothesis testing like QQ plot or KS-test etc. And when we know the distribution we will use the formulas to calculate the distribution params of that respective distribution.
 say, the distribution of the heights was a normal distribution, so, $\text {distribution params} \:\: P_\theta (H) = N[\theta = {\mu,\sigma} = 190,40]$. And based on this params we can now generate new samples. and to check how similar the generated and real sample is we can use some distance measurement methods like KL-Divergence or JK-Divergence etc. based on this we can further improve the distribution params and get to the desired o/p. 
@@ -124,3 +131,4 @@ Read the algorithm correctly. First we fix the $G$ and update the $D$ params the
 3. **what is $z$ $\sim$ $P_z$ :** The "$\sim$" symbol represents, sampled from. Here $z$ is smapled from $P_z$ . $P_z$ is the distribution of z.
 4. **Difference b/t $P_z$ and $P_Z(z)$ :** $P_z$ is the distribution from where $z$ is sampled, $P_z$ is also considered as $Z$. This can also be written interms of probability distribution, $P(z)$. The subscript $Z$ of $P_Z(z)$ defines the total distribution. 
 5. $E_{z \sim P_z(z)} \:\:\: [\log(D(x))]$  The $E$ is called, Expectation. The defination of $E$ is provided in the 1st proofe.
+ -->
