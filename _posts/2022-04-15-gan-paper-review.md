@@ -17,7 +17,7 @@ tags: [Deep Learning, Paper review]
 
 
 We know How GAN works, right?, GAN = "generative adversarial network", it has two parts generative and Adversarial part. 
-
+![][http://latex.codecogs.com/gif.latex?a^2+b^2=c^2]
 The main objective of GAN is to mimic a distribution, or we can say we use GAN for distribution modeling.
 
 We know what are the parameters we need to define a normal distribution or uniform distribution. Now, given a random distribution how do we know the distribution parameters, so to get the distribution parameters we use GAN.
