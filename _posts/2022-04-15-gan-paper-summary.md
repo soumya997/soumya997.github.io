@@ -26,6 +26,11 @@ eg,
 
 fake($$G(x) = \hat{x}$$) smaple
 
+
+$\text {distribution params} \:\: P_\theta (H) = N[\theta = {\mu,\sigma} = 190,40]$
+
+
+
 ### **Note:** 
 > Because of LaTex rendering issue, I could not post the content here. Below is the blog post link, Sorry for the inconvenience.
 
