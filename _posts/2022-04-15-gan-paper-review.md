@@ -9,7 +9,7 @@ tags: [Deep Learning, Paper review]
 ---
 
 
-## GAN: Generative Adversarial Nets Paper Review and Notes:
+<!-- ## GAN: Generative Adversarial Nets Paper Review and Notes: -->
 
 <p align="center">
 <img src="https://miro.medium.com/max/1400/1*StXrVTHgomba3jBlNhn_mw.png">
