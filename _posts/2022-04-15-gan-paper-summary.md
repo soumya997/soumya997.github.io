@@ -32,6 +32,9 @@ $\min\limits_{G} \max\limits_{D} V(D,G)$
 
 $E_{x \sim P_{data}(x)}  (log{D(x)})$ 
 
+
+$\min\limits_{G} \max\limits_{D} V(D,G) = E_{x \sim P_{data}(x)}  [\log{D(x)}] + E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}] (1)$  
+
 ### **Note:** 
 > Because of LaTex rendering issue, I could not post the content here. Below is the blog post link, Sorry for the inconvenience.
 
