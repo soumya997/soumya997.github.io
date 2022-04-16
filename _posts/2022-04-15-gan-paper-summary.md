@@ -40,7 +40,7 @@ But this height example was using 1D data, in case of images of size 28x28, it w
 </p>
 
 - We calculate a join[for D and G] loss function, and update the gredients through backpropagation. The objective/loss function looks like this,
-      
+> $\min\limits_{G} \max\limits_{D} V(D,G) = E_{x \sim P_{data}(x)} [\log{D(x)}] + E_{z \sim P_{Z}(z)} [\log{(1 - D(G(z)))}]  ...(1)$
 - Now, $E_x \sim P_{data}(x)  [\log{D(x)}]$ is the probability of real data being classified as real data and 
 $E_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being classified as fake data. And we want to increase both of them. If probability of fake data being classified as real is $D(G(z))$ then $1 - D(G(z))$ will represent the fake data being classified as fake.  
 - Early in learning, when $G$ is poor, $D$ can reject samples with high confidence because they are clearly different from the training data, 
@@ -103,7 +103,7 @@ Actually we can replace those two terms according to the rule of probability den
     - So, $\frac{d}{dD(x)}\left[P_{data}(x)  \log{D(x)} + P_g(x)  \log(1 - D(x))\right] = 0$
     - $\Rightarrow \frac{P_data(x)}{D(x)} - \frac{P_g(x)}{1 - D(x)} = 0$
     - $\Rightarrow D_G^*(x) = \frac{P_{data}(x)} {P_{data}(x) + P_g(x)}$  (Proved)
-- Now this proves the eqn k.
+- Now this proves the eqn $k$.
 
 ### Proofe of JSD from the V(D,G):
 <p align="center">
@@ -114,7 +114,7 @@ Actually we can replace those two terms according to the rule of probability den
 <img src="https://i.imgur.com/aEmVlhU.png">
 </p>
 
-In the 2nd line we replace $D(x)$ with $D^{*}(x)$, and put the value of $D^{*}(x)$.
+In the 2nd line we replace $D(x)$ with $D^{\ast}(x)$, and put the value of $D^{\ast}(x)$.
 
 
 ### How the training of $G$ and $D$ happens:
