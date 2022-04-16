@@ -35,13 +35,6 @@ $E_{x \sim P_{data}(x)}  (log{D(x)})$
 
 $\min\limits_{G} \max\limits_{D} V(D,G) = E_{x \sim P_{data}(x)}  [\log{D(x)}] + E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}] (1)$  
 
-### **Note:** 
-> Because of LaTex rendering issue, I could not post the content here. Below is the blog post link, Sorry for the inconvenience.
-
-### **Continue Reading Here 👇:** 
-> [https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-summary](https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-summary)
-
-
 
 
 ### Need of GAN:
@@ -49,7 +42,7 @@ You might think why do we need GAN, when we can find out the distribution of the
 say, the distribution of the heights was a normal distribution, so, $\text {distribution params}  P_\theta (H) = N[\theta = {\mu,\sigma} = 190,40]$. And based on this params we can now generate new samples. and to check how similar the generated and real sample is we can use some distance measurement methods like KL-Divergence or JK-Divergence etc. based on this we can further improve the distribution params and get to the desired o/p. 
 But this height example was using 1D data, in case of images of size 28x28, it will be 784D data. And these statistical methods actually dont work that efficiently in case of multidimensional data. Because of that we need to relay on GAN or neural net based approaches. Not only GANs but Autoencoders also does the same thing using ANNs.
 
-Let's discuss the few paper highlights of GAN,
+### Let's discuss the few paper highlights of GAN,
 - Given a data distribution $P_x$ , we need to model a generator function $G$  that can approximate $P_x$ . 
 - For that, we take $z$ from a normal/uniform distribution denoted as $P_z$, and pass that through $G$ for training. $G$ generates a sample $G(z)$, simultaneously we sample a data point from $P_x$, say $x$. We pass that through a discriminator function/model $D$. 
 - This $D$ tries to distinguish b/w the real($x$) and the fake($G(x) = \hat{x}$) smaple. 
@@ -60,8 +53,8 @@ Let's discuss the few paper highlights of GAN,
 
 - We calculate a join[for D and G] loss function, and update the gredients through backpropagation. The objective/loss function looks like this,
       
-- Now, $\mathbb{E}_x \sim P_{data}(x)  [\log{D(x)}]$ is the probability of real data being classified as real data and 
-$\mathbb{E}_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being classified as fake data. And we want to increase both of them. If probability of fake data being classified as real is $D(G(z))$ then $1 - D(G(z))$ will represent the fake data being classified as fake.  
+- Now, $E_x \sim P_{data}(x)  [\log{D(x)}]$ is the probability of real data being classified as real data and 
+$E_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being classified as fake data. And we want to increase both of them. If probability of fake data being classified as real is $D(G(z))$ then $1 - D(G(z))$ will represent the fake data being classified as fake.  
 - Early in learning, when $G$ is poor, $D$ can reject samples with high confidence because they are clearly different from the training data, 
     - by that i mean $\log{(1 - D(G(z)))}$ this term saturates.
     - (D can reject generated samples with high confidence)
@@ -76,14 +69,14 @@ $\mathbb{E}_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake d
 They give a proposition in the paper, which is,
 - For fixed G, the optimal discriminator $D^*$ is
     - $D_G^*(x) = \frac{P_{data}(x)} {P_{data}(x) + P_g(x)}  ... (k)$  
- #### Proofe:
- We know the training criterion for the descriminator $D$, given any generator $G$ is to maximize eqn 1.
-    - Denotes  $D_G^*(x) = argmax_{D}  V(D,G)$   
-    - And please note,
-        - $E_{p(x)}[x] = \int\limits_{x} x p_x(x) dx$ , $E_{p(x)}[x]$ is Expectation of a random variable $x$, having probability density function $p(x)$.
+#### **Proofe:**
+We know the training criterion for the descriminator $D$, given any generator $G$ is to maximize eqn 1.
+      - Denotes  $D_G^*(x) = argmax_{D}  V(D,G)$   
+      - And please note,
+            - $E_{p(x)}[x] = \int\limits_{x} x p_x(x) dx$ , $E_{p(x)}[x]$ is Expectation of a random variable $x$, having probability density function $p(x)$.
 
  Now, 
- $argmax_{D}  V(D,G) = argmax_{D}  \left[  \mathbb{E}_{x \sim P_{data}(x)}  [\log{D(x)}] + \mathbb{E}_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}])  \right]$
+ $argmax_{D}  V(D,G) = argmax_{D}  \left[  E_{x \sim P_{data}(x)}  [\log{D(x)}] + E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}])  \right]$
  But in the paper, it is given as,
      - <p align="center">
     <img src="https://i.imgur.com/Xao2Yqr.jpg">
@@ -132,7 +125,7 @@ Actually we can replace those two terms according to the rule of probability den
 <img src="https://i.imgur.com/aEmVlhU.png">
 </p>
 
-In the 2nd line we replace $D(x)$ with $D^*(x)$, and put the value of $D^*(x)$.
+In the 2nd line we replace $D(x)$ with $D^{*}(x)$, and put the value of $D^{*}(x)$.
 
 
 ### How the training of $G$ and $D$ happens:
