@@ -12,7 +12,7 @@ tags: [Deep Learning, Paper review]
 <!-- ## GAN: Generative Adversarial Nets Paper Review and Notes: -->
 
 <p align="center">
-<img src="https://miro.medium.com/max/1400/1*StXrVTHgomba3jBlNhn_mw.png">
+<img src="https://i.imgur.com/TeZe344.png">
 </p>
 
 
@@ -87,7 +87,6 @@ By doing the calculations for $I$ by using equestion (a), you will eventually re
  > $\min _{G, Q} \max _{D} V_{\text {InfoGAN }}(D, G, Q)=V(D, G)-\lambda L_{I}(G, Q)$
 
 This is the main objective function of Info-GAN.
-
 
 
 
