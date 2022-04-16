@@ -25,18 +25,6 @@ eg,
 - In terms of images one example would be, given a dataset consisting of handwritten digits, you want to generate similar handwritten images but not ditto copy of the images from the dataset.
 
 
-$\text {distribution params}  P_\theta (H) = N[\theta = {\mu,\sigma} = 190,40]$
-
-
-$\min\limits_{G} \max\limits_{D} V(D,G)$  
-
-$E_{x \sim P_{data}(x)}  (log{D(x)})$ 
-
-
-$\min\limits_{G} \max\limits_{D} V(D,G) = E_{x \sim P_{data}(x)}  [\log{D(x)}] + E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}] (1)$  
-
-
-
 ### Need of GAN:
 You might think why do we need GAN, when we can find out the distribution of the data from some statistical model or some thing. And you queation is totally valid, lets take the height example. Here we might have just plotted the data, and see what kind of distribution that is, from the plot we could find out if that is normal or uniform or beta or poisson or so on and test that via some hypothesis testing like QQ plot or KS-test etc. And when we know the distribution we will use the formulas to calculate the distribution params of that respective distribution.
 say, the distribution of the heights was a normal distribution, so, $\text {distribution params}  P_\theta (H) = N[\theta = {\mu,\sigma} = 190,40]$. And based on this params we can now generate new samples. and to check how similar the generated and real sample is we can use some distance measurement methods like KL-Divergence or JK-Divergence etc. based on this we can further improve the distribution params and get to the desired o/p. 
@@ -98,8 +86,9 @@ Actually we can replace those two terms according to the rule of probability den
 - In our case, it is,
     - $P_g(x) = P_z(G^{-1}(x))  \left[\frac{d} {dx} (G^{-1}(x))\right]  ...  (a)$ 
     - <p align="center">
-    <img src="https://i.imgur.com/4H6483h.png">
-    </p>
+      <img src="https://i.imgur.com/4H6483h.png">
+      </p>
+
 
 - We know $z = G^{-1}(x)$ and $G(z) = x$, and we have this part of the eqn to deal with,
     - $\int\limits_{z}(z)  log(1 - D(G(z)))  dz  ...(2)$
