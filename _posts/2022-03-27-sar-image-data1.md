@@ -3,8 +3,8 @@ layout: post
 title: SAR-cus! And we are the clowns - 101
 subtitle: SAR Image Data 101 Gonna discuss all bout SAR data, from pros and cons, data collection, data interpretation and Deep Learning applications.
 cover-img: /assets/img/dataset-cover.jpg
-thumbnail-img: http://www.althos.com/sample_diagrams/ag_Satellite_System_low_res.jpg
-share-img: http://www.althos.com/sample_diagrams/ag_Satellite_System_low_res.jpg
+thumbnail-img: https://spaceplace.nasa.gov/review/build-a-spacecraft/generic-sat.en.png
+share-img: https://spaceplace.nasa.gov/review/build-a-spacecraft/generic-sat.en.png
 tags: [SAR, remote sensing]
 ---
 
