@@ -49,8 +49,8 @@ $E_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being
     - $D(G(x)) \approx 0  and  1 - D(G(x)) \approx 1  and  log(1 - D(G(x))) \approx 0$ 
     - And the solution is, instade of minimizing the $1 - D(G(x))$ [probab of the fake classified as fake] we maximize the $D(G(x))$ [probab of fake classified as real]
     - <p align="center">
-    <img src="https://i.imgur.com/KT1v6lG.png">
-    </p>
+      <img src="https://i.imgur.com/KT1v6lG.png">
+      </p>
 - $D(x)$ is probability of x being classified as real/true and $1-D(X)$ is probability of x being classified as fake/false.
 
 ### proofe of optimal D is Max of Eqn 1:
