@@ -28,7 +28,7 @@ eg,
 $\text {distribution params}  P_\theta (H) = N[\theta = {\mu,\sigma} = 190,40]$
 
 
-$\min\limits_{G} \max\limits_{D} V(D,G) = \mathbb{E}_{x \sim P_{data}(x)}  [\log{D(x)}] + \mathbb{E}_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}]$  
+$\min\limits_{G} \max\limits_{D} V(D,G) $  
 
 ### **Note:** 
 > Because of LaTex rendering issue, I could not post the content here. Below is the blog post link, Sorry for the inconvenience.
