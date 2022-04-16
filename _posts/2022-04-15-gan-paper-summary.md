@@ -28,6 +28,7 @@ eg,
 $\text {distribution params}  P_\theta (H) = N[\theta = {\mu,\sigma} = 190,40]$
 
 
+$\min\limits_{G} \max\limits_{D} V(D,G) = \mathbb{E}_{x \sim P_{data}(x)}  [\log{D(x)}] + \mathbb{E}_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}]$  
 
 ### **Note:** 
 > Because of LaTex rendering issue, I could not post the content here. Below is the blog post link, Sorry for the inconvenience.
@@ -53,9 +54,7 @@ Let's discuss the few paper highlights of GAN,
 </p>
 
 - We calculate a join[for D and G] loss function, and update the gredients through backpropagation. The objective/loss function looks like this,
-
-$\min\limits_{G} \max\limits_{D} V(D,G) = \mathbb{E}_{x \sim P_{data}(x)}  [\log{D(x)}] + \mathbb{E}_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}] (1)$        
-
+      
 - Now, $\mathbb{E}_x \sim P_{data}(x)  [\log{D(x)}]$ is the probability of real data being classified as real data and 
 $\mathbb{E}_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being classified as fake data. And we want to increase both of them. If probability of fake data being classified as real is $D(G(z))$ then $1 - D(G(z))$ will represent the fake data being classified as fake.  
 - Early in learning, when $G$ is poor, $D$ can reject samples with high confidence because they are clearly different from the training data, 
