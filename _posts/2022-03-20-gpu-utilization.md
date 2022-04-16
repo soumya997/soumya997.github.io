@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GPU Utilization Tips for Pytorch Pipeline
-subtitle: 6 tips to make your code utilize GPU, that it never done before.
+subtitle: 8 tips to make your code utilize GPU, that it never done before.
 cover-img: /assets/img/kaggle_banner.png
 thumbnail-img: https://developer-blogs.nvidia.com/wp-content/uploads/2018/10/Creative_NVIDIA_PyTorch.png
 share-img: https://developer-blogs.nvidia.com/wp-content/uploads/2018/10/Creative_NVIDIA_PyTorch.png
