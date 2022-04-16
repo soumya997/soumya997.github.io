@@ -128,3 +128,7 @@ Read the algorithm correctly. First we fix the $G$ and update the $D$ params the
 3. **what is $z$ $\sim$ $P_z$ :** The "$\sim$" symbol represents, sampled from. Here $z$ is smapled from $P_z$ . $P_z$ is the distribution of z.
 4. **Difference b/t $P_z$ and $P_Z(z)$ :** $P_z$ is the distribution from where $z$ is sampled, $P_z$ is also considered as $Z$. This can also be written interms of probability distribution, $P(z)$. The subscript $Z$ of $P_Z(z)$ defines the total distribution. 
 5. $E_{z \sim P_z(z)}  [\log(D(x))]$  The $E$ is called, Expectation. The defination of $E$ is provided in the 1st proofe.
+
+
+### References:
+- https://arxiv.org/abs/1406.2661
