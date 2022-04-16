@@ -3,8 +3,8 @@ layout: post
 title: Info-GAN- paper summary and Notes
 subtitle: Over view of Info-GAN, Need of info-GAN, workings, Objective function, derivations. 
 cover-img: /assets/img/header_mnist.png
-thumbnail-img: https://i.imgur.com/f2EHcB8.png
-share-img: https://i.imgur.com/f2EHcB8.png
+thumbnail-img: https://i.imgur.com/g8QElwL.png
+share-img: https://i.imgur.com/g8QElwL.png
 tags: [Deep Learning, Paper review]
 ---
 
@@ -56,7 +56,7 @@ here you can see, that varying c1 in info-GAN will generate a consistent numbers
 - You will find both representation of the info-GAN framework, but both are same, $Q$ uses $D$, just with a change of a extra fully connected layer.
 | Q as a individual network    | Q as a part of D    |
 | --- | --- |
-|  <img src="https://i.imgur.com/f2EHcB8.png">   | <img width="350" src="https://miro.medium.com/max/1086/1*c0wSI0WJR9-yagc0ruFGGg.png">    |
+|  <img src="https://i.imgur.com/g8QElwL.png">   | <img width="350" src="https://miro.medium.com/max/1086/1*c0wSI0WJR9-yagc0ruFGGg.png">    |
 
 ## Objective function:
 Below is the objective function, separated in two parts, regular GAN loss + regularization [info-GAN loss].
