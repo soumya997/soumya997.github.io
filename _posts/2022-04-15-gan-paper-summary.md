@@ -47,16 +47,17 @@ Let's discuss the few paper highlights of GAN,
 - Given a data distribution $P_x$ , we need to model a generator function $G$  that can approximate $P_x$ . 
 - For that, we take $z$ from a normal/uniform distribution denoted as $P_z$, and pass that through $G$ for training. $G$ generates a sample $G(z)$, simultaneously we sample a data point from $P_x$, say $x$. We pass that through a discriminator function/model $D$. 
 - This $D$ tries to distinguish b/w the real($x$) and the fake($G(x) = \hat{x}$) smaple. 
-    - <p align="center">
-    <img src="https://i.imgur.com/l44tYie.png">
-    </p>
+
+<p align="center">
+<img src="https://i.imgur.com/l44tYie.png">
+</p>
 
 - We calculate a join[for D and G] loss function, and update the gredients through backpropagation. The objective/loss function looks like this,
     - $\min\limits_{G} \max\limits_{D} V(D,G) = \mathbb{E}_{x \sim P_{data}(x)}  [\log{D(x)}] + \mathbb{E}_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}]     ...(1)$        
 - $\mathbb{E}_x \sim P_{data}(x)  [\log{D(x)}]$ is the probability of real data being classified as real data and $\mathbb{E}_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being classified as fake data. And we want to increase both of them. If probability of fake data being classified as real is $D(G(z))$ then $1 - D(G(z))$ will represent the fake data being classified as fake.  
 - Early in learning, when $G$ is poor, $D$ can reject samples with high confidence because they are clearly different from the training data, 
     - by that i mean $\log{(1 - D(G(z)))}$ this term saturates.
-        - (D can reject generated samples with high confidence)
+    - (D can reject generated samples with high confidence)
     - $D(G(x)) \approx 0  and  1 - D(G(x)) \approx 1  and  log(1 - D(G(x))) \approx 0$ 
     - And the solution is, instade of minimizing the $1 - D(G(x))$ [probab of the fake classified as fake] we maximize the $D(G(x))$ [probab of fake classified as real]
     - <p align="center">
