@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GAN - Generative Adversarial Nets Paper Review and Notes
+title: GAN - Generative Adversarial Nets Paper Summery and Notes
 subtitle: Over view of GAN, need of GAN, workings, Objective function, derivations. 
 cover-img: /assets/img/header_mnist.png
 thumbnail-img: https://programmerall.com/images/271/ce/cedfadcc26078435c357926653cf17a7.jpeg
