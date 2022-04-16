@@ -24,11 +24,15 @@ eg,
 - You have height data of each individual student of a class. And given that you want to generate similar heights that match the data distribution. 
 - In terms of images one example would be, given a dataset consisting of handwritten digits, you want to generate similar handwritten images but not ditto copy of the images from the dataset.
 
+fake($$G(x) = \hat{x}$$) smaple
+
 ### **Note:** 
 > Because of LaTex rendering issue, I could not post the content here. Below is the blog post link, Sorry for the inconvenience.
 
 ### **Continue Reading Here 👇:** 
 > [https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-summary](https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-summary)
+
+
 
 <!-- 
 ### Need of GAN:
