@@ -1,6 +1,6 @@
 ---
 layout: post
-title: GAN - Generative Adversarial Nets Paper Summery and Notes
+title: GAN - Generative Adversarial Nets Paper Summary and Notes
 subtitle: Over view of GAN, need of GAN, workings, Objective function, derivations. 
 cover-img: /assets/img/header_mnist.png
 thumbnail-img: https://ml8ygptwlcsq.i.optimole.com/fMKjlhs.QRSi~1ce64/w:1000/h:628/q:auto/https://www.unite.ai/wp-content/uploads/2021/08/sofgan-main.jpg
@@ -28,7 +28,7 @@ eg,
 > Because of LaTex rendering issue, I could not post the content here. Below is the blog post link, Sorry for the inconvenience.
 
 ### **Continue Reading Here 👇:** 
-> [https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-summery](https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-summery)
+> [https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-summary](https://www.kaggle.com/code/soumya9977/gan-generative-adversarial-nets-paper-summary)
 
 <!-- 
 ### Need of GAN:
