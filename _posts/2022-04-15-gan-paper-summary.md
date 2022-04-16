@@ -24,10 +24,8 @@ eg,
 - You have height data of each individual student of a class. And given that you want to generate similar heights that match the data distribution. 
 - In terms of images one example would be, given a dataset consisting of handwritten digits, you want to generate similar handwritten images but not ditto copy of the images from the dataset.
 
-fake($$G(x) = \hat{x}$$) smaple
 
-
-$\text {distribution params} \:\: P_\theta (H) = N[\theta = {\mu,\sigma} = 190,40]$
+$\text {distribution params}  P_\theta (H) = N[\theta = {\mu,\sigma} = 190,40]$
 
 
 
@@ -39,29 +37,29 @@ $\text {distribution params} \:\: P_\theta (H) = N[\theta = {\mu,\sigma} = 190,4
 
 
 
-<!-- 
+
 ### Need of GAN:
 You might think why do we need GAN, when we can find out the distribution of the data from some statistical model or some thing. And you queation is totally valid, lets take the height example. Here we might have just plotted the data, and see what kind of distribution that is, from the plot we could find out if that is normal or uniform or beta or poisson or so on and test that via some hypothesis testing like QQ plot or KS-test etc. And when we know the distribution we will use the formulas to calculate the distribution params of that respective distribution.
-say, the distribution of the heights was a normal distribution, so, $\text {distribution params} \:\: P_\theta (H) = N[\theta = {\mu,\sigma} = 190,40]$. And based on this params we can now generate new samples. and to check how similar the generated and real sample is we can use some distance measurement methods like KL-Divergence or JK-Divergence etc. based on this we can further improve the distribution params and get to the desired o/p. 
+say, the distribution of the heights was a normal distribution, so, $\text {distribution params}  P_\theta (H) = N[\theta = {\mu,\sigma} = 190,40]$. And based on this params we can now generate new samples. and to check how similar the generated and real sample is we can use some distance measurement methods like KL-Divergence or JK-Divergence etc. based on this we can further improve the distribution params and get to the desired o/p. 
 But this height example was using 1D data, in case of images of size 28x28, it will be 784D data. And these statistical methods actually dont work that efficiently in case of multidimensional data. Because of that we need to relay on GAN or neural net based approaches. Not only GANs but Autoencoders also does the same thing using ANNs.
 
 Let's discuss the few paper highlights of GAN,
 - Given a data distribution $P_x$ , we need to model a generator function $G$  that can approximate $P_x$ . 
 - For that, we take $z$ from a normal/uniform distribution denoted as $P_z$, and pass that through $G$ for training. $G$ generates a sample $G(z)$, simultaneously we sample a data point from $P_x$, say $x$. We pass that through a discriminator function/model $D$. 
 - This $D$ tries to distinguish b/w the real($x$) and the fake($G(x) = \hat{x}$) smaple. 
-	- <p align="center">
+    - <p align="center">
     <img src="https://i.imgur.com/l44tYie.png">
     </p>
 
 - We calculate a join[for D and G] loss function, and update the gredients through backpropagation. The objective/loss function looks like this,
-	- $\min\limits_{G} \max\limits_{D} V(D,G) = \mathbb{E}_{x \sim P_{data}(x)} \: [\log{D(x)}] + \mathbb{E}_{z \sim P_{Z}(z)} \: [\log{(1 - D(G(z)))}]  \:\: \:\: \:\: ...(1)$        
-- $\mathbb{E}_x \sim P_{data}(x) \: [\log{D(x)}]$ is the probability of real data being classified as real data and $\mathbb{E}_x \sim P_{Z}(x) \: [\log{(1 - D(G(z)))}]$ is the probability of fake data being classified as fake data. And we want to increase both of them. If probability of fake data being classified as real is $D(G(z))$ then $1 - D(G(z))$ will represent the fake data being classified as fake.  
+    - $\min\limits_{G} \max\limits_{D} V(D,G) = \mathbb{E}_{x \sim P_{data}(x)}  [\log{D(x)}] + \mathbb{E}_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}]     ...(1)$        
+- $\mathbb{E}_x \sim P_{data}(x)  [\log{D(x)}]$ is the probability of real data being classified as real data and $\mathbb{E}_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being classified as fake data. And we want to increase both of them. If probability of fake data being classified as real is $D(G(z))$ then $1 - D(G(z))$ will represent the fake data being classified as fake.  
 - Early in learning, when $G$ is poor, $D$ can reject samples with high confidence because they are clearly different from the training data, 
-	- by that i mean $\log{(1 - D(G(z)))}$ this term saturates.
-		- (D can reject generated samples with high confidence)
-	- $D(G(x)) \approx 0 \:\: and \:\: 1 - D(G(x)) \approx 1 \:\: and \:\: log(1 - D(G(x))) \approx 0$ 
-	- And the solution is, instade of minimizing the $1 - D(G(x))$ [probab of the fake classified as fake] we maximize the $D(G(x))$ [probab of fake classified as real]
-	- <p align="center">
+    - by that i mean $\log{(1 - D(G(z)))}$ this term saturates.
+        - (D can reject generated samples with high confidence)
+    - $D(G(x)) \approx 0  and  1 - D(G(x)) \approx 1  and  log(1 - D(G(x))) \approx 0$ 
+    - And the solution is, instade of minimizing the $1 - D(G(x))$ [probab of the fake classified as fake] we maximize the $D(G(x))$ [probab of fake classified as real]
+    - <p align="center">
     <img src="https://i.imgur.com/KT1v6lG.png">
     </p>
 - $D(x)$ is probability of x being classified as real/true and $1-D(X)$ is probability of x being classified as fake/false.
@@ -69,17 +67,17 @@ Let's discuss the few paper highlights of GAN,
 ### proofe of optimal D is Max of Eqn 1:
 They give a proposition in the paper, which is,
 - For fixed G, the optimal discriminator $D^*$ is
-	- $D_G^*(x) = \frac{P_{data}(x)} {P_{data}(x) + P_g(x)} \:\:\: ... \:\:(k)$  
+    - $D_G^*(x) = \frac{P_{data}(x)} {P_{data}(x) + P_g(x)}  ... (k)$  
  #### Proofe:
  We know the training criterion for the descriminator $D$, given any generator $G$ is to maximize eqn 1.
-	- Denotes  $D_G^*(x) = argmax_{D} \:\: V(D,G)$   
-	- And please note,
-		- $E_{p(x)}[x] = \int\limits_{x} x p_x(x) dx$ , $E_{p(x)}[x]$ is Expectation of a random variable $x$, having probability density function $p(x)$.
+    - Denotes  $D_G^*(x) = argmax_{D}  V(D,G)$   
+    - And please note,
+        - $E_{p(x)}[x] = \int\limits_{x} x p_x(x) dx$ , $E_{p(x)}[x]$ is Expectation of a random variable $x$, having probability density function $p(x)$.
 
  Now, 
- $argmax_{D} \:\: V(D,G) = argmax_{D} \:\: \left[ \:\: \mathbb{E}_{x \sim P_{data}(x)} \: [\log{D(x)}] + \mathbb{E}_{z \sim P_{Z}(z)} \: [\log{(1 - D(G(z)))}]) \:\: \right]$
+ $argmax_{D}  V(D,G) = argmax_{D}  \left[  \mathbb{E}_{x \sim P_{data}(x)}  [\log{D(x)}] + \mathbb{E}_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}])  \right]$
  But in the paper, it is given as,
-	 - <p align="center">
+     - <p align="center">
     <img src="https://i.imgur.com/Xao2Yqr.jpg">
     </p>
 please note the changes, in the 1st line it is $p_z(z)$ and the integration is happening wrt $z$. But in 2nd line, $P_z(z)$ is being replaced with $P_g(z)$ and the integration happening wrt $x$. 
@@ -89,7 +87,7 @@ Actually we can replace those two terms according to the rule of probability den
 > If the probability density function of a random variable $x$ is defined as $P_X(x)$,then it is possible to calculate the PDF of some variable $y = G(x)$, which is a function of $x$.
 > This is called "Change of Varibale" and it is defined as 
 > 
-> $P_Y(y) = P_x(G^{-1}(y)) \:\: \left[\frac{d} {dy} (G^{-1}(y))\right]$ 
+> $P_Y(y) = P_x(G^{-1}(y))  \left[\frac{d} {dy} (G^{-1}(y))\right]$ 
 > 
 > <p align="center">
     <img src="https://i.imgur.com/fMlHEwy.png">
@@ -97,24 +95,24 @@ Actually we can replace those two terms according to the rule of probability den
 > 
 
 - In our case, it is,
-	- $P_g(x) = P_z(G^{-1}(x)) \:\: \left[\frac{d} {dx} (G^{-1}(x))\right] \:\:\: ... \:\: (a)$ 
-	- <p align="center">
+    - $P_g(x) = P_z(G^{-1}(x))  \left[\frac{d} {dx} (G^{-1}(x))\right]  ...  (a)$ 
+    - <p align="center">
     <img src="https://i.imgur.com/4H6483h.png">
     </p>
 
 - We know $z = G^{-1}(x)$ and $G(z) = x$, and we have this part of the eqn to deal with,
-	- $\int\limits_{z}(z) \:\: log(1 - D(G(z))) \:\: dz \:\:\: ...(2)$
+    - $\int\limits_{z}(z)  log(1 - D(G(z)))  dz  ...(2)$
 - So we replace z in eqn 2, and we get,
-	- $\int\limits_{x}( G^{-1}(x)) \:\: log(1 - D(x)) \:\: d G^{-1}(x) \:\:\: ...(3)$ 
-	- multiply $dx$ in both numorator and denominator,
-	- $\Rightarrow \int\limits_{x}( G^{-1}(x)) \:\: log(1 - D(x)) \:\: \frac {d G^{-1}(x)} {dx} dx$ 
-	- $\Rightarrow \int\limits_{x} {P_z(G^{-1}(x)) \:\: \left[\frac{d} {dx} (G^{-1}(x))\right]} \:\:\:\: \times \:\:\:\: log(1 - D(x)) dx$ 
-	- Now we can replace the part before the multiplication sign with eqn a.
-	- $\Rightarrow \int\limits_{x} P_g(x) \:\:\:\: \times \:\:\:\: log(1 - D(x)) dx$ 
+    - $\int\limits_{x}( G^{-1}(x))  log(1 - D(x))  d G^{-1}(x)  ...(3)$ 
+    - multiply $dx$ in both numorator and denominator,
+    - $\Rightarrow \int\limits_{x}( G^{-1}(x))  log(1 - D(x))  \frac {d G^{-1}(x)} {dx} dx$ 
+    - $\Rightarrow \int\limits_{x} {P_z(G^{-1}(x))  \left[\frac{d} {dx} (G^{-1}(x))\right]}  \times  log(1 - D(x)) dx$ 
+    - Now we can replace the part before the multiplication sign with eqn a.
+    - $\Rightarrow \int\limits_{x} P_g(x)  \times  log(1 - D(x)) dx$ 
 - optimal descriminator $D^*$ for a given G is obtained by maximizing $V(D,G)$. And the maximization of V can be done by taking its 1st order derivative wrt D(x).
-	- So, $\frac{d}{dD(x)}\left[P_{data}(x) \:\:\:\: \log{D(x)} + P_g(x) \:\:\:\: \log(1 - D(x))\right] = 0$
-	- $\Rightarrow \frac{P_data(x)}{D(x)} - \frac{P_g(x)}{1 - D(x)} = 0$
-	- $\Rightarrow D_G^*(x) = \frac{P_{data}(x)} {P_{data}(x) + P_g(x)}$  (Proved)
+    - So, $\frac{d}{dD(x)}\left[P_{data}(x)  \log{D(x)} + P_g(x)  \log(1 - D(x))\right] = 0$
+    - $\Rightarrow \frac{P_data(x)}{D(x)} - \frac{P_g(x)}{1 - D(x)} = 0$
+    - $\Rightarrow D_G^*(x) = \frac{P_{data}(x)} {P_{data}(x) + P_g(x)}$  (Proved)
 - Now this proves the eqn k.
 
 ### Proofe of JSD from the V(D,G):
@@ -139,5 +137,4 @@ Read the algorithm correctly. First we fix the $G$ and update the $D$ params the
 2. **Multi-modal prior and Uni-model prior:** when you use a single 100x1 noise vector then it is called a Uni-model prior. but more 100x1 vector, input to the generator is called Multi-model prior.
 3. **what is $z$ $\sim$ $P_z$ :** The "$\sim$" symbol represents, sampled from. Here $z$ is smapled from $P_z$ . $P_z$ is the distribution of z.
 4. **Difference b/t $P_z$ and $P_Z(z)$ :** $P_z$ is the distribution from where $z$ is sampled, $P_z$ is also considered as $Z$. This can also be written interms of probability distribution, $P(z)$. The subscript $Z$ of $P_Z(z)$ defines the total distribution. 
-5. $E_{z \sim P_z(z)} \:\:\: [\log(D(x))]$  The $E$ is called, Expectation. The defination of $E$ is provided in the 1st proofe.
- -->
+5. $E_{z \sim P_z(z)}  [\log(D(x))]$  The $E$ is called, Expectation. The defination of $E$ is provided in the 1st proofe.
