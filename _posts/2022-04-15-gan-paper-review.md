@@ -3,8 +3,8 @@ layout: post
 title: GAN - Generative Adversarial Nets Paper Summery and Notes
 subtitle: Over view of GAN, need of GAN, workings, Objective function, derivations. 
 cover-img: /assets/img/header_mnist.png
-thumbnail-img: https://programmerall.com/images/271/ce/cedfadcc26078435c357926653cf17a7.jpeg
-share-img: https://programmerall.com/images/271/ce/cedfadcc26078435c357926653cf17a7.jpeg
+thumbnail-img: https://miro.medium.com/max/1400/0*0sy8_NFeJXzqgqFs.png
+share-img: https://miro.medium.com/max/1400/0*0sy8_NFeJXzqgqFs.png
 tags: [Deep Learning, Paper review]
 ---
 
