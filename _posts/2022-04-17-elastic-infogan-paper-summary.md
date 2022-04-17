@@ -15,7 +15,7 @@ tags: [Deep Learning, Paper summary, note]
 <img src="https://i.imgur.com/JyZdw24.png">
 </p>
 
-
+$\Large -\log \frac{\exp \left(\operatorname{sim}\left(f_{i}, f_{j}\right)$ ...(a)
 
 ### Motive of the Paper:
 This paper tries to exploit mainly two faults of the Info-GAN paper, by keeping the other good qualities/improvements intact. These two shortcomings are, 
@@ -61,7 +61,7 @@ where $j$ indexes the positive pair, $f$ represents the feature extracted using 
 
 This loss is added to the main info-GAN loss, after adding that part the whole loss look like this,
 
-$\Large \min_{G, Q, p_{i}} \max_{D} L_{f i n a l}=V_{\text {InfoGAN }}\left(D, G, Q, p_{i}\right)+\lambda_{2} L_{n t x e n t}(Q)$
+$\large \min_{G, Q, p_{i}} \max_{D} L_{f i n a l}=V_{\text {InfoGAN }}\left(D, G, Q, p_{i}\right)+\lambda_{2} L_{n t x e n t}(Q)$
 
 $V_{InfoGAN}$ plays the role of generating realistic images and associating the latent variables to correspond to some factor of variation in the data, while the addition of Lntxent will push the discovered factor of variation to be close to object identity.
 
