@@ -5,7 +5,7 @@ subtitle: After digging a little bit more I got to know that,there are three way
 cover-img: /assets/img/kaggle_banner.png
 thumbnail-img: https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png
 share-img: https://pytorch.org/tutorials/_static/img/thumbnails/cropped/profiler.png
-tags: [Deep Learning]
+tags: [Deep Learning, pytorch, dataset]
 ---
 
 
