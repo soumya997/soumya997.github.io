@@ -5,7 +5,7 @@ subtitle: This guide is specific to Kaggle NB. The main steps are same, you migh
 cover-img: /assets/img/kaggle_banner.png
 thumbnail-img: /assets/img/api_logo.png
 share-img: /assets/img/api_logo.png
-tags: [kaggle]
+tags: [kaggle, mini, dataset]
 ---
 
 
