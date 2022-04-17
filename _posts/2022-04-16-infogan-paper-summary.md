@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Info-GAN paper summary and Notes
+title: InfoGAN - paper summary and Notes
 subtitle: Over view of Info-GAN, Need of info-GAN, workings, Objective function, derivations. 
 cover-img: /assets/img/header_mnist.png
 thumbnail-img: https://i.imgur.com/g8QElwL.png
