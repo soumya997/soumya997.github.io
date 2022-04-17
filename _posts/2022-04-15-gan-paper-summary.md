@@ -2,7 +2,7 @@
 layout: post
 title: GAN - Generative Adversarial Nets Paper Summary and Notes
 subtitle: Over view of GAN, need of GAN, workings, Objective function, derivations. 
-cover-img: /assets/img/gagan_celebA.png
+cover-img: /assets/img/celabA.png
 thumbnail-img: https://ml8ygptwlcsq.i.optimole.com/fMKjlhs.QRSi~1ce64/w:1000/h:628/q:auto/https://www.unite.ai/wp-content/uploads/2021/08/sofgan-main.jpg
 share-img: https://ml8ygptwlcsq.i.optimole.com/fMKjlhs.QRSi~1ce64/w:1000/h:628/q:auto/https://www.unite.ai/wp-content/uploads/2021/08/sofgan-main.jpg
 tags: [Deep Learning, Paper summary]
