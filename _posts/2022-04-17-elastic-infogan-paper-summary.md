@@ -15,7 +15,7 @@ tags: [Deep Learning, Paper summary, note]
 <img src="https://i.imgur.com/JyZdw24.png">
 </p>
 
-$\Large -\log \frac{\exp \left(\operatorname{sim}\left(f_{i}, f_{j}\right)$ ...(a)
+$\log \frac{\exp \left(\operatorname{sim}\left(f_{i}, f_{j}\right)$ ...(a)
 
 ### Motive of the Paper:
 This paper tries to exploit mainly two faults of the Info-GAN paper, by keeping the other good qualities/improvements intact. These two shortcomings are, 
