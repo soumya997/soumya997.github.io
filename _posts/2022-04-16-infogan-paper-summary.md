@@ -95,7 +95,7 @@ To optimize the mutual information $I$, we use the concept of Variational Mutual
 By doing the calculations for $I$ by using equestion (a), you will eventually reach the position where, $I = H(c) + KLD(p,Q) +$ $E_{c \sim P(c), x \sim G(z, c)}[\log Q(c \mid x)]$ 
  And as we know kld of two distribution is always $\geq 1$ , so using that we can write, $I \geq H(c) + E_{c \sim P(c), x \sim G(z, c)}[\log Q(c \mid x)]$. This is the lower bound.
 
-<img src="https://i.imgur.com/blQpcDt.png">
+<img width="400" src="https://i.imgur.com/blQpcDt.png">
 
  From there we get,
  > $\min_{G, Q} \max_{D} V_{InfoGAN }(D, G, Q) = V(D, G) -\lambda L_{I}(G, Q)$
