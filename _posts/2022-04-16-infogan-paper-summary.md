@@ -15,6 +15,18 @@ tags: [Deep Learning, Paper review]
 <img src="https://i.imgur.com/TeZe344.png">
 </p>
 
+| Priority apples | Second priority | Third priority |
+|-------|--------|---------|
+| ambrosia | gala | red delicious |
+| pink lady | jazz | macintosh |
+| honeycrisp | granny smith | fuji |
+
+$\max _{D} V_{I}(D, G)$ = $\max _{D} E_{x \sim P_{data}(x)}  [\log{D(x)}]$
+
+and,
+
+$\min_{G} V_{I}(D, G)$ = $\min_{G} E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}] -\lambda I(c ; G(z, c))$
+
 
 - Only when you are interpolating you will find meaning in $z$. By interpolation I mean the, arthmatic operation performed on averaged $z$ to change gender of a person waring glasses[man waring glasses -> woman waring glasses]. But when you want to associate meaning in $z$ there is no meaning its just a random vector.
 - The latent vector[prior] $z$ is highly entangled and unstructured, it means we dont know what points in that vectors contatints the specific representation that we want. But we can introduce meaning in those $z$ vectors. To prove that Info-GAN comes to the picture. 
@@ -45,7 +57,8 @@ here you can see, that varying c1 in info-GAN will generate a consistent numbers
 <p align="center">
 <img src="https://i.imgur.com/L8yg2ir.png">
 </p>
-	-  $c_2, c_3$ are continuous codes which continuous entangalments.
+
+- $c_2, c_3$ are continuous codes which continuous entangalments.
 
 <p align="center">
 <img src="https://i.imgur.com/oBy4WqU.png">
@@ -61,13 +74,15 @@ here you can see, that varying c1 in info-GAN will generate a consistent numbers
 ## Objective function:
 Below is the objective function, separated in two parts, regular GAN loss + regularization [info-GAN loss].
 
-> $\min _{G} \max _{D} V_{I}(D, G)=V(D, G)-\lambda I(c ; G(z, c))$ , $\lambda<0$  (mentioned in paper)
+$\min _{G} \max _{D} V_{I}(D, G)=V(D, G)-\lambda I(c ; G(z, c))$ , $\lambda<0$  (mentioned in paper)
 > and, $\min\limits_{G} \max\limits_{D} V(D,G) = E_{x \sim P_{data}(x)}  [\log{D(x)}] + E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}]$ [GAN loss]
 
 The 2nd part helps to increase the mutual information. we try to maximize the $D$ and minimize the $G$. 
 
 $\max _{D} V_{I}(D, G)$ = $\max _{D} E_{x \sim P_{data}(x)}  [\log{D(x)}]$
+
 and,
+
 $\min_{G} V_{I}(D, G)$ = $\min_{G} E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}] -\lambda I(c ; G(z, c))$ [coz these two terms includes generator part]
 Here, to minimize the generator loss we need to increase $\lambda I(c ; G(z, c))$, on the other hand mutual information is defined as 
 
