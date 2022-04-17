@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Elastic Info-GAN- Paper Summary
+title: Elastic InfoGAN - Paper Summary
 subtitle: Motives/problems of Elastic info-GAN, solution of those problems. 
 cover-img: /assets/img/elastic-infogan.png
 thumbnail-img: https://i.imgur.com/4VajmgQ.png
