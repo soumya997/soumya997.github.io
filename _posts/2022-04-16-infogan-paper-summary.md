@@ -17,7 +17,7 @@ tags: [Deep Learning, Paper review]
 
 
 
-$\max _{D} V_{I}(D, G)$ = $\max _{D} E_{x \sim P_{data}(x)}  [\log{D(x)}]$
+$\max _{D} V_{I}(D, G)$ = $\max_{D} E_{x \sim P_{data}(x)}  [log(D(x))]$
 
 and,
 
