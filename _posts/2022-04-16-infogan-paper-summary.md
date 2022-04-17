@@ -17,6 +17,7 @@ tags: [Deep Learning, Paper review]
 
 
 
+## Important Notes: 
 
 - Only when you are interpolating you will find meaning in $z$. By interpolation I mean the, arthmatic operation performed on averaged $z$ to change gender of a person waring glasses[man waring glasses -> woman waring glasses]. But when you want to associate meaning in $z$ there is no meaning its just a random vector.
 - The latent vector[prior] $z$ is highly entangled and unstructured, it means we dont know what points in that vectors contatints the specific representation that we want. But we can introduce meaning in those $z$ vectors. To prove that Info-GAN comes to the picture. 
@@ -73,11 +74,11 @@ $\min_{G} \max_{D} V_{I}(D, G)=V(D, G)- \lambda I(c ; G(z, c))$ , $\lambda < 0$ 
 
 The 2nd part helps to increase the mutual information. Looking at the objective function you can tell that, training objective is to maximize the $D$ and minimize the $G$. 
 
-> maximize $D$ $\max_{D} V_{I}(D, G) = \max_{D} E_{x \sim P_{data}(x)}  [log(D(x))]$
+> maximize $D$, $\max_{D} V_{I}(D, G) = \max_{D} E_{x \sim P_{data}(x)}  [log(D(x))]$
 
 and,
 
-> minimize $G$ $\min_{G} V_{I}(D, G)$ = $\min_{G} E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}] -\lambda I(c ; G(z, c))$ 
+> minimize $G$, $\min_{G} V_{I}(D, G)$ = $\min_{G} E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}] -\lambda I(c ; G(z, c))$ 
 > [coz these two terms includes generator part]
 
 
@@ -95,7 +96,7 @@ To optimize the mutual information $I$, we use the concept of Variational Mutual
 By doing the calculations for $I$ by using equestion (a), you will eventually reach the position where, $I = H(c) + KLD(p,Q) +$ $E_{c \sim P(c), x \sim G(z, c)}[\log Q(c \mid x)]$ 
  And as we know kld of two distribution is always $\geq 1$ , so using that we can write, $I \geq H(c) + E_{c \sim P(c), x \sim G(z, c)}[\log Q(c \mid x)]$. This is the lower bound.
 
-<img width="400" src="https://i.imgur.com/blQpcDt.png">
+<img width="500" src="https://i.imgur.com/blQpcDt.png">
 
  From there we get,
  > $\min_{G, Q} \max_{D} V_{InfoGAN }(D, G, Q) = V(D, G) -\lambda L_{I}(G, Q)$
