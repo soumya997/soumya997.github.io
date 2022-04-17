@@ -15,11 +15,10 @@ tags: [Deep Learning, Paper review]
 <img src="https://i.imgur.com/TeZe344.png">
 </p>
 
-| Priority apples | Second priority | Third priority |
-|-------|--------|---------|
-| ambrosia | gala | red delicious |
-| pink lady | jazz | macintosh |
-| honeycrisp | granny smith | fuji |
+| Priority apples | Second priority |
+|-------|--------|
+| <img src="https://i.imgur.com/g8QElwL.png"> | <img src="https://miro.medium.com/max/1086/1*c0wSI0WJR9-yagc0ruFGGg.png">  |
+
 
 $\max _{D} V_{I}(D, G)$ = $\max _{D} E_{x \sim P_{data}(x)}  [\log{D(x)}]$
 
