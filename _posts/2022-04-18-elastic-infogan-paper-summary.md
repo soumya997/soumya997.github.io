@@ -12,7 +12,7 @@ tags: [Deep Learning, Paper summary, note]
 <!-- ## GAN: Generative Adversarial Nets Paper Review and Notes: -->
 
 <p align="center">
-<img src="https://i.imgur.com/TeZe344.png">
+<img src="https://i.imgur.com/JyZdw24.png">
 </p>
 
 
