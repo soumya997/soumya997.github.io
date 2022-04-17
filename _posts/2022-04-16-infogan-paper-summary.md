@@ -15,9 +15,6 @@ tags: [Deep Learning, Paper review]
 <img src="https://i.imgur.com/TeZe344.png">
 </p>
 
-| Priority apples | Second priority |
-|-------|--------|
-| <img src="https://i.imgur.com/g8QElwL.png"> | <img src="https://miro.medium.com/max/1086/1*c0wSI0WJR9-yagc0ruFGGg.png">  |
 
 
 $\max _{D} V_{I}(D, G)$ = $\max _{D} E_{x \sim P_{data}(x)}  [\log{D(x)}]$
@@ -66,9 +63,10 @@ here you can see, that varying c1 in info-GAN will generate a consistent numbers
 - In the title we see information maximization GAN, but maximizing information b/t what? So, we try to maximize the information b/t $c$ and $G(z,c)$. Thats why we add the term $I(c;G(z,c))$in the objective function, $I$ is mutual information. The responsibility of modifying $c$ to increase the mutual info lies upon the $Q$ network. which is a part of discriminator network $D$, just with an aditional fully connected layer, this way it only adds a negligible computation cost to [GAN](https://soumya997.github.io/2022-04-15-gan-paper-summary/). 
 
 - You will find both representation of the info-GAN framework, but both are same, $Q$ uses $D$, just with a change of a extra fully connected layer.
-| Q as a individual network    | Q as a part of D    |
-| --- | --- |
-|  <img src="https://i.imgur.com/g8QElwL.png">   | <img width="350" src="https://miro.medium.com/max/1086/1*c0wSI0WJR9-yagc0ruFGGg.png">    |
+
+| Q as a individual network | Q as a part of D |
+|-------|--------|
+| <img src="https://i.imgur.com/g8QElwL.png"> | <img src="https://miro.medium.com/max/1086/1*c0wSI0WJR9-yagc0ruFGGg.png">  |
 
 ## Objective function:
 Below is the objective function, separated in two parts, regular GAN loss + regularization [info-GAN loss].
