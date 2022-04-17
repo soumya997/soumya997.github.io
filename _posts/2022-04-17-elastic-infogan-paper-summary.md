@@ -55,7 +55,7 @@ To solve the 2nd problem they enforce $Q$ to learn representations using a contr
 Here loss has been calculated for each images, say loss for each image is, $l_i$, and the total loss would be $\large L_{ntxent} = \sum\limits_{i=1}^{N}l_i$ .
 Now, $l_i$ is defined as,
 
-$\Large \ell_{i}=-\log \frac{\exp \left(\operatorname{sim}\left(f_{i}, f_{j}\right) / \tau^{\prime}\right)}{\sum_{k=1}^{2 N} \mathbf{1}_{[k \neq i]} \exp \left(\operatorname{sim}\left(f_{i}, f_{k}\right) / \tau^{\prime}\right)}$ ...(a)
+$\Large \ell_{i}=-\log \frac{\exp \left(\operatorname{sim}\left(f_{i}, f_{j}\right) / \tau^{\prime}\right)}{\sum_{k=1}^{2 N} 1_{[k \neq i]} \exp \left(\operatorname{sim}\left(f_{i}, f_{k}\right) / \tau^{\prime}\right)}$ ...(a)
 
 where $j$ indexes the positive pair, $f$ represents the feature extracted using $Q$ (we use the penultimate layer), $\tau^{'}$ is a softmax temperature, and $sim(.)$ refers to cosine similarity.
 
