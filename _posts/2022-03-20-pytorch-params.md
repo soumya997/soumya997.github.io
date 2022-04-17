@@ -5,7 +5,7 @@ subtitle: I always had doubts regarding few pieces of code used in the training 
 cover-img: /assets/img/kaggle-header@2x.png
 thumbnail-img: https://i.imgur.com/cEWVlgv.png
 share-img: https://i.imgur.com/cEWVlgv.png
-tags: [pytorch, note, mini, deep learning]
+tags: [pytorch, mini, deep learning]
 ---
 
 ## Pytorch Training Loop Explained 
