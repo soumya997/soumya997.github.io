@@ -17,9 +17,9 @@ tags: [Deep Learning, Paper review]
 
 
 
-$\max_{D} V_{I}(D, G)$ = $
+$\max_{D} V_{I}(D, G) = \max_{D} E_{x \sim P_{data}(x)}  [log(D(x))]$
 
-$\max_{D} E_{x \sim P_{data}(x)}  [log(D(x))]$
+
 
 and,
 
@@ -73,12 +73,15 @@ here you can see, that varying c1 in info-GAN will generate a consistent numbers
 ## Objective function:
 Below is the objective function, separated in two parts, regular GAN loss + regularization [info-GAN loss].
 
-$\min _{G} \max _{D} V_{I}(D, G)=V(D, G)-\lambda I(c ; G(z, c))$ , $\lambda<0$  (mentioned in paper)
-> and, $\min\limits_{G} \max\limits_{D} V(D,G) = E_{x \sim P_{data}(x)}  [\log{D(x)}] + E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}]$ [GAN loss]
+$\min_{G} \max_{D} V_{I}(D, G)=V(D, G)- \lambda I(c ; G(z, c))$ , $\lambda < 0$  (mentioned in paper)
+
+> and, $\min\limits_{G} \max\limits_{D} V(D,G) = E_{x \sim P_{data}(x)}  [\log{D(x)}] + E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}]$ 
+> [GAN loss]
+
 
 The 2nd part helps to increase the mutual information. we try to maximize the $D$ and minimize the $G$. 
 
-$\max _{D} V_{I}(D, G)$ = $\max _{D} E_{x \sim P_{data}(x)}  [\log{D(x)}]$
+$\max_{D} V_{I}(D, G) = \max_{D} E_{x \sim P_{data}(x)}  [log(D(x))]$
 
 and,
 
@@ -90,15 +93,17 @@ Here, to minimize the generator loss we need to increase $\lambda I(c ; G(z, c))
 so to increase $\lambda I(c ; G(z, c))$ we need to minimize $H(X \mid Y)$.
 And when $H(X \mid Y) \to 0$ or $H(X \mid Y) = 0$, from information theory we say that, $X$ can be completely determined from $Y$. So now we can say, c can be completely determined from G(z,c). This is the base concept of **info-GAN**. 
 
-To, optimize the mutual information $I$, we use the concept of Variational Mutual Information Maximization. which says, I is hard to maximize directly as it requires the access to the posterior $P(c|x)$, here $x$ implies $\hat{x}$. But we can get the lower bound of I, by defining an auxiliary distribution $Q(c|x)$. 
+<br>
+To optimize the mutual information $I$, we use the concept of Variational Mutual Information Maximization. which says, I is hard to maximize directly as it requires the access to the posterior $P(c|x)$, here $x$ implies $\hat{x}$. But we can get the lower bound of I, by defining an auxiliary distribution $Q(c|x)$. 
+<br>
 
 By doing the calculations for $I$ by using equestion (a), you will eventually reach the position where, $I = H(c) + KLD(p,Q) +$ $E_{c \sim P(c), x \sim G(z, c)}[\log Q(c \mid x)]$ 
  And as we know kld of two distribution is always $\geq 1$ , so using that we can write, $I \geq H(c) + E_{c \sim P(c), x \sim G(z, c)}[\log Q(c \mid x)]$. This is the lower bound.
 
-> $\begin{aligned} L_{I}(G, Q) &=E_{c \sim P(c), x \sim G(z, c)}[\log Q(c \mid x)]+H(c) \\ & \leq I(c ; G(z, c)) \\ L_{I}(G, Q) & \rightarrow \text { Variational Lower Bound } \\ \min _{G, Q} \max _{D} & V_{\text {InfoGAN }}(D, G, Q)=V(D, G)-\lambda L_{I}(G, Q) \end{aligned}$
+<img src="https://i.imgur.com/blQpcDt.png">
 
  From there we get,
- > $\min _{G, Q} \max _{D} V_{\text {InfoGAN }}(D, G, Q)=V(D, G)-\lambda L_{I}(G, Q)$
+ > $\min_{G, Q} \max_{D} V_{InfoGAN }(D, G, Q) = V(D, G) -\lambda L_{I}(G, Q)$
 
 This is the main objective function of Info-GAN.
 
