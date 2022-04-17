@@ -15,7 +15,6 @@ tags: [Deep Learning, Paper summary, note]
 <img src="https://i.imgur.com/JyZdw24.png">
 </p>
 
-$\log \frac{\exp \left(\operatorname{sim}\left(f_{i}, f_{j}\right)$ ...(a)
 
 ### Motive of the Paper:
 This paper tries to exploit mainly two faults of the Info-GAN paper, by keeping the other good qualities/improvements intact. These two shortcomings are, 
@@ -55,7 +54,7 @@ To solve the 2nd problem they enforce $Q$ to learn representations using a contr
 Here loss has been calculated for each images, say loss for each image is, $l_i$, and the total loss would be $\large L_{ntxent} = \sum\limits_{i=1}^{N}l_i$ .
 Now, $l_i$ is defined as,
 
-$\Large \ell_{i}=-\log \frac{\exp \left(\operatorname{sim}\left(f_{i}, f_{j}\right) / \tau^{\prime}\right)}{\sum_{k=1}^{2 N} 1_{[k \neq i]} \exp \left(\operatorname{sim}\left(f_{i}, f_{k}\right) / \tau^{\prime}\right)}$ ...(a)
+<img width="400" src="https://user-images.githubusercontent.com/54326088/163733107-733f83b2-9d94-45c5-a77b-802479b9f7f3.png">
 
 where $j$ indexes the positive pair, $f$ represents the feature extracted using $Q$ (we use the penultimate layer), $\tau^{'}$ is a softmax temperature, and $sim(.)$ refers to cosine similarity.
 
