@@ -103,6 +103,9 @@ By doing the calculations for $I$ by using equestion (a), you will eventually re
 
 This is the main objective function of Info-GAN.
 
+## Questions that this Paper Answers
+## Quality Check
+## References
 
 
 
