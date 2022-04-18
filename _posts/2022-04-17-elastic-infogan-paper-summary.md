@@ -64,8 +64,8 @@ $\large \min_{G, Q, p_{i}} \max_{D} L_{f i n a l}=V_{\text {InfoGAN }}\left(D, G
 
 $V_{InfoGAN}$ plays the role of generating realistic images and associating the latent variables to correspond to some factor of variation in the data, while the addition of Lntxent will push the discovered factor of variation to be close to object identity.
 
-
-
+## Annotated paper:
+- [Elastic_info-GAN](https://github.com/soumya997/doodled-paper/blob/master/CV/GAN/Elastic_info-GAN.pdf)
 
 
 
