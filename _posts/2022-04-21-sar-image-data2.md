@@ -2,15 +2,16 @@
 layout: post
 title: SAR-cus! Tricks that you wanna learn - 102
 subtitle: SAR Image Data 102 Gonna discuss all bout EM Wave Basics, need of SAR data, from pros and cons, data collection, more details.
-cover-img: /assets/img/dataset-cover.jpg
+cover-img: /assets/img/1Remote_Sensing_Services_banner.jpg
 thumbnail-img: https://gisgeography.com/wp-content/uploads/2020/11/Synthetic-Aperture-Radar-SAR-Feature.png
 share-img: https://gisgeography.com/wp-content/uploads/2020/11/Synthetic-Aperture-Radar-SAR-Feature.png
 tags: [SAR, remote sensing]
 ---
 
-<p align="center">
-<img src="https://www.antrix.co.in/sites/all/themes/antrix/images/Remote_Sensing_Services_banner.jpg">
-</p>
+TOC:
+1. Complex form of a sar image  
+2. Deep learning applications
+
 
 # complex form of a sar image:
 Physical properties of the terrain change the phase and amplitude of the EM wave. And SAR is used to calculate these two properties of a wave, which are amplitude(A) and phase(phi). It is represented as a number pair, (A cos(shi), Asin(shi)). How bright or dark the pixels are depended upon the strength of eco received. This amplitude and phase information is captured in the form of a complex number. Every complex number consists of a real part and an imaginary part. Here,
@@ -104,3 +105,24 @@ A number of fascinating research projects have explored the application of gener
 
 
 I'm not covering two topics, which are Different SAR modes and ambiguities and also speckle. You can read about it here.
+
+
+# References:
+- https://medium.com/the-downlinq/sar-101-an-introduction-to-synthetic-aperture-radar-2f0b6246c4a0
+- https://medium.com/the-downlinq/sar-201-an-introduction-to-synthetic-aperture-radar-part-2-895beb0b4c0a
+- https://towardsdatascience.com/deep-learning-and-sar-applications-81ba1a319def
+- https://albertum.medium.com/introduction-to-sentinel-1-sar-synthetic-aperture-radar-data-2cca22cb35a6
+- https://mortcanty.github.io/src/tutorialsar.html#Vector-and-matrix-representations
+- https://youtu.be/6cS-tq85Oic
+- https://www.youtube.com/results?search_query=sentinal+sar+data+generation
+- https://youtu.be/TkqIw0CBq5c manoj kuri
+- https://youtu.be/ZCtjQDe3Mvc iirs
+- IITB 3rd: https://youtu.be/sBCjOHPfD6U
+- IITB 2ND : 4:42.1 https://youtu.be/wkpbDh2ysGs
+- IITB 1st: https://youtu.be/Z16a3Bi6Gq0
+- https://spaceknow.com/blog/3d-monitoring-of-mines-using-satellite-sar-data/
+- https://edition.cnn.com/2022/02/02/europe/russia-troops-ukraine-buildup-satellite-images-intl/index.html
+- https://cdn.cnn.com/cnnnext/dam/assets/220202125455-07-russia-buildup-satellite-exlarge-169.jpg
+- https://edition.cnn.com/2022/02/02/europe/russia-troops-ukraine-buildup-satellite-images-intl/index.html
+
+
