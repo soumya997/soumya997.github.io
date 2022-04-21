@@ -1,7 +1,7 @@
 ---
 layout: post
-title: SAR-cus! Tricks that you wanna learn - 101
-subtitle: SAR Image Data 101 Gonna discuss all bout EM Wave Basics, need of SAR data, from pros and cons, data collection, more details.
+title: SAR-cus! Tricks that you wanna learn - 102
+subtitle: SAR Image Data 102 Gonna discuss all bout EM Wave Basics, need of SAR data, from pros and cons, data collection, more details.
 cover-img: /assets/img/dataset-cover.jpg
 thumbnail-img: https://spaceplace.nasa.gov/review/build-a-spacecraft/generic-sat.en.png
 share-img: https://spaceplace.nasa.gov/review/build-a-spacecraft/generic-sat.en.png
