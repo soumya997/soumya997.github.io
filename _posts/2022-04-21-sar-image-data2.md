@@ -8,7 +8,8 @@ share-img: https://gisgeography.com/wp-content/uploads/2020/11/Synthetic-Apertur
 tags: [SAR, remote sensing]
 ---
 
-TOC:
+
+## TOC:
 1. Complex form of a sar image  
 2. Deep learning applications
 
