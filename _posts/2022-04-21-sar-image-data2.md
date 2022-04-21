@@ -3,11 +3,14 @@ layout: post
 title: SAR-cus! Tricks that you wanna learn - 102
 subtitle: SAR Image Data 102 Gonna discuss all bout EM Wave Basics, need of SAR data, from pros and cons, data collection, more details.
 cover-img: /assets/img/dataset-cover.jpg
-thumbnail-img: https://spaceplace.nasa.gov/review/build-a-spacecraft/generic-sat.en.png
-share-img: https://spaceplace.nasa.gov/review/build-a-spacecraft/generic-sat.en.png
+thumbnail-img: https://gisgeography.com/wp-content/uploads/2020/11/Synthetic-Aperture-Radar-SAR-Feature.png
+share-img: https://gisgeography.com/wp-content/uploads/2020/11/Synthetic-Aperture-Radar-SAR-Feature.png
 tags: [SAR, remote sensing]
 ---
 
+<p align="center">
+<img src="https://www.antrix.co.in/sites/all/themes/antrix/images/Remote_Sensing_Services_banner.jpg">
+</p>
 
 # complex form of a sar image:
 Physical properties of the terrain change the phase and amplitude of the EM wave. And SAR is used to calculate these two properties of a wave, which are amplitude(A) and phase(phi). It is represented as a number pair, (A cos(shi), Asin(shi)). How bright or dark the pixels are depended upon the strength of eco received. This amplitude and phase information is captured in the form of a complex number. Every complex number consists of a real part and an imaginary part. Here,
