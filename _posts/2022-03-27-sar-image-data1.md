@@ -11,10 +11,10 @@ tags: [SAR, remote sensing]
 
 
 <p align="center">
-<img src="https://cdn.cnn.com/cnnnext/dam/assets/220202125455-07-russia-buildup-satellite-exlarge-169.jpg">
+<img src="https://miro.medium.com/max/1400/1*9xO5mXSltxuFEgWMNbaXBQ.png">
 </p>
 
-<p align="center"><a href="https://edition.cnn.com/2022/02/02/europe/russia-troops-ukraine-buildup-satellite-images-intl/index.html">Source</a></p>
+<p align="center"><a href="https://medium.com/dfrlab/a-closer-look-at-the-recent-russian-build-up-in-crimea-75c3095a8122">Source</a></p>
 
 # TOC:
 1. Introduction 
@@ -30,9 +30,6 @@ tags: [SAR, remote sensing]
 12. Comparison with bats 
 13. What is footprints 
 14. What is antena 
-15. Complex form of a sar image  
-16. Deep learning 
-17. Polarization 
 
 
 
@@ -102,7 +99,7 @@ Let's go through some basics of Electromagnetic radiation, below is a picture of
 - wavelength: length of one wave cycle or the distance that a point has to travel to get back to its previous amplitude and phase is called wavelength.
 - frequency: repeating event per unit of time
 
-The relation between these two is, c = lambda/v
+The relation between these two is, $c = \frac{lambda}{v}$
 
 
 
@@ -164,9 +161,9 @@ We describe resolution in images are how many pixels are present in that image, 
 
 The ability to distinguish between two echos coming from closely spaced objects in the range direction depends on the duration of microwave pulse transmitted by radar[quantifies time]. 
 
-Range resolution = c x t/2
+Range resolution = $c \times \frac{t}{2}$
 
-if range resolution is defined as the separation between the eco pulses of two targets then, In this case, c x t_p/2 is the range resolution, because there is no gap between pulses generated from Ta and T2, then the T2 pulse is ending the T1 pulse is generating. so range resolution is the function of t_p. 
+if range resolution is defined as the separation between the eco pulses of two targets then, In this case, $c \times \frac{t_p}{2}$ is the range resolution, because there is no gap between pulses generated from $Ta$ and $T2$, then the $T2$ pulse is ending the $T1$ pulse is generating. so range resolution is the function of $t_p$. 
 
 
 Here you can see as the distance between two aircraft are shorter than the pulse length, the sensor is unable to detect the 
@@ -203,6 +200,25 @@ As discussed previously the azimuth resolution is the ability to distinguish two
 </p>
 <p align="center">image: <a href="https://youtu.be/wkpbDh2ysGs">Source</a></p>
 
+Complex form of SAR data and its deep learning applications of SAR data will be discussed in the next part.
+
+# References:
+- https://medium.com/the-downlinq/sar-101-an-introduction-to-synthetic-aperture-radar-2f0b6246c4a0
+- https://medium.com/the-downlinq/sar-201-an-introduction-to-synthetic-aperture-radar-part-2-895beb0b4c0a
+- https://towardsdatascience.com/deep-learning-and-sar-applications-81ba1a319def
+- https://albertum.medium.com/introduction-to-sentinel-1-sar-synthetic-aperture-radar-data-2cca22cb35a6
+- https://mortcanty.github.io/src/tutorialsar.html#Vector-and-matrix-representations
+- https://youtu.be/6cS-tq85Oic
+- https://www.youtube.com/results?search_query=sentinal+sar+data+generation
+- https://youtu.be/TkqIw0CBq5c manoj kuri
+- https://youtu.be/ZCtjQDe3Mvc iirs
+- IITB 3rd: https://youtu.be/sBCjOHPfD6U
+- IITB 2ND : 4:42.1 https://youtu.be/wkpbDh2ysGs
+- IITB 1st: https://youtu.be/Z16a3Bi6Gq0
+- https://spaceknow.com/blog/3d-monitoring-of-mines-using-satellite-sar-data/
+- https://edition.cnn.com/2022/02/02/europe/russia-troops-ukraine-buildup-satellite-images-intl/index.html
+- https://cdn.cnn.com/cnnnext/dam/assets/220202125455-07-russia-buildup-satellite-exlarge-169.jpg
+- https://edition.cnn.com/2022/02/02/europe/russia-troops-ukraine-buildup-satellite-images-intl/index.html
 
 
 
