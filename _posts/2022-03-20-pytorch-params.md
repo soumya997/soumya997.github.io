@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pytorch Training Loop Explained [mini tutorial]
+title: Pytorch Training and Validation Loop Explained [mini tutorial]
 subtitle: I always had doubts regarding few pieces of code used in the training loop, but it actually make more sence when you think of forward and backward pass.  
 cover-img: /assets/img/kaggle-header@2x.png
 thumbnail-img: https://i.imgur.com/cEWVlgv.png
