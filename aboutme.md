@@ -22,7 +22,7 @@ Link: [*https://ieeexplore.ieee.org/document/9581380*](https://ieeexplore.ieee.o
 
 I'm very passionate about the AV [Autonomous Vehicle] industry and currently trying to grasp some of the concepts associated with the field.
 
-### **💡 I am actively looking for research opportunities in the field of AV or computer vision in general.**
+### **💡 I am actively looking for research opportunities in the field of Autonomous Vehicle [AV] or computer vision in general.**
 
 <br>
 
