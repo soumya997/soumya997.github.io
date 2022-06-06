@@ -17,6 +17,7 @@ navbar-links:
   About Me: "aboutme"
   Blog: "/"
   Hire me: "https://bit.ly/vcvsomusan"
+  Art Gallery: "https://soumya997.notion.site/My-Art-Gallery-4dbd6f5e4dd34de3b4203421dce07014"
   #Resources:
     #- Beautiful Jekyll: "https://beautifuljekyll.com"
     #- Learn markdown: "https://www.markdowntutorial.com/"
@@ -83,7 +84,7 @@ share-links-active:
 # url-pretty: "MyWebsite.com"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+excerpt_length: 100
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
