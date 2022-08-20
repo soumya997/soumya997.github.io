@@ -130,6 +130,9 @@ for e in range(epochs):
 ```
 
 > - Validation loop: here `model.eval()` puts the model into validation mode, and by doing `torch.no_grad()` we stop the calculation of gradient for validation, coz in validation we dont update our model. Except evary thing is same as before.
+
+
+
 ```python
 eval_losses=[]
 eval_accu=[]
@@ -163,46 +166,8 @@ def test(epoch):
   print('Test Loss: %.3f | Accuracy: %.3f'%(test_loss,accu)) 
 ```
     
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
 
 ### References:
 - [https://stackoverflow.com/a/63651323/12568833](https://stackoverflow.com/a/63651323/12568833)
