@@ -103,65 +103,106 @@ If you see the last three lines of the pipeline, it first performs `optim.zero_g
 
 > - If the loss calculation for each epoch seems wierd to you, you can use the below code. Here we are adding all the losses[coming from each iteration] in a list, and later we are doing mean on that list to get the total epoch loss. `model.train()` puts the model into training mode.
 
-    ```python
-    epochs = 5
-    model.train()
-    for e in range(epochs):
-        train_loss = list()
-        for data, labels in tqdm(trainloader):
-            # Transfer Data to GPU if available
-            if torch.cuda.is_available():
-                data, labels = data.cuda(), labels.cuda()
+```python
+epochs = 5
+model.train()
+for e in range(epochs):
+    train_loss = list()
+    for data, labels in tqdm(trainloader):
+        # Transfer Data to GPU if available
+        if torch.cuda.is_available():
+            data, labels = data.cuda(), labels.cuda()
 
-            # Clear the gradients
-            optimizer.zero_grad()
-            # Forward Pass
-            target = model(data)
-            # Find the Loss
-            loss = criterion(target,labels)
-            # Calculate gradients 
-            loss.backward()
-            # Update Weights
-            optimizer.step()
-            # Calculate Loss
-            train_loss.append(loss.item())
+        # Clear the gradients
+        optimizer.zero_grad()
+        # Forward Pass
+        target = model(data)
+        # Find the Loss
+        loss = criterion(target,labels)
+        # Calculate gradients 
+        loss.backward()
+        # Update Weights
+        optimizer.step()
+        # Calculate Loss
+        train_loss.append(loss.item())
 
-        print(f'Epoch {e+1} \t\t Training Loss: {torch.tensor(train_loss).mean():.2f}')
-    ```
+    print(f'Epoch {e+1} \t\t Training Loss: {torch.tensor(train_loss).mean():.2f}')
+```
 
 > - Validation loop: here `model.eval()` puts the model into validation mode, and by doing `torch.no_grad()` we stop the calculation of gradient for validation, coz in validation we dont update our model. Except evary thing is same as before.
-    ```python
-    eval_losses=[]
-    eval_accu=[]
+```python
+eval_losses=[]
+eval_accu=[]
 
-    def test(epoch):
-      model.eval()
+def test(epoch):
+  model.eval()
 
-      running_loss=0
-      correct=0
-      total=0
+  running_loss=0
+  correct=0
+  total=0
 
-      with torch.no_grad():
-        for data in tqdm(testloader):
-          images,labels=data[0].to(device),data[1].to(device)
+  with torch.no_grad():
+    for data in tqdm(testloader):
+      images,labels=data[0].to(device),data[1].to(device)
 
-          outputs=model(images)
+      outputs=model(images)
 
-          loss= loss_fn(outputs,labels)
-          running_loss+=loss.item()
+      loss= loss_fn(outputs,labels)
+      running_loss+=loss.item()
 
-          _, predicted = outputs.max(1)
-          total += labels.size(0)
-          correct += predicted.eq(labels).sum().item()
+      _, predicted = outputs.max(1)
+      total += labels.size(0)
+      correct += predicted.eq(labels).sum().item()
 
-      test_loss=running_loss/len(testloader)
-      accu=100.*correct/total
+  test_loss=running_loss/len(testloader)
+  accu=100.*correct/total
 
-      eval_losses.append(test_loss)
-      eval_accu.append(accu)
+  eval_losses.append(test_loss)
+  eval_accu.append(accu)
 
-      print('Test Loss: %.3f | Accuracy: %.3f'%(test_loss,accu)) 
-    ```
+  print('Test Loss: %.3f | Accuracy: %.3f'%(test_loss,accu)) 
+```
+    
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 ### References:
 - [https://stackoverflow.com/a/63651323/12568833](https://stackoverflow.com/a/63651323/12568833)
