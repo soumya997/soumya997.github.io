@@ -3,8 +3,8 @@ layout: post
 title: GAN - Generative Adversarial Nets Paper Summary and Notes
 subtitle: Over view of GAN, need of GAN, workings, Objective function, derivations. 
 cover-img: /assets/img/celabA.png
-thumbnail-img: https://ml8ygptwlcsq.i.optimole.com/fMKjlhs.QRSi~1ce64/w:1000/h:628/q:auto/https://www.unite.ai/wp-content/uploads/2021/08/sofgan-main.jpg
-share-img: https://ml8ygptwlcsq.i.optimole.com/fMKjlhs.QRSi~1ce64/w:1000/h:628/q:auto/https://www.unite.ai/wp-content/uploads/2021/08/sofgan-main.jpg
+thumbnail-img: https://user-images.githubusercontent.com/54326088/221641237-f821efd6-eb2b-4ea2-b2cd-4d847fbd96fa.gif
+share-img: https://user-images.githubusercontent.com/54326088/221641237-f821efd6-eb2b-4ea2-b2cd-4d847fbd96fa.gif
 tags: [Deep Learning, Paper summary, note]
 ---
 
@@ -14,6 +14,7 @@ tags: [Deep Learning, Paper summary, note]
 <p align="center">
 <img src="https://miro.medium.com/max/1400/1*StXrVTHgomba3jBlNhn_mw.png">
 </p>
+
 
 
 We know How GAN works, right?, GAN = "generative adversarial network", it has two parts generative and Adversarial part. 
@@ -35,9 +36,11 @@ But this height example was using 1D data, in case of images of size 28x28, it w
 - For that, we take $z$ from a normal/uniform distribution denoted as $P_z$, and pass that through $G$ for training. $G$ generates a sample $G(z)$, simultaneously we sample a data point from $P_x$, say $x$. We pass that through a discriminator function/model $D$. 
 - This $D$ tries to distinguish b/w the real($x$) and the fake($G(x) = \hat{x}$) smaple. 
 
+
 <p align="center">
 <img src="https://i.imgur.com/l44tYie.png">
 </p>
+
 
 - We calculate a join[for D and G] loss function, and update the gredients through backpropagation. The objective/loss function looks like this,
 > $\min\limits_{G} \max\limits_{D} V(D,G) = E_{x \sim P_{data}(x)} [\log{D(x)}] + E_{z \sim P_{Z}(z)} [\log{(1 - D(G(z)))}]  ...(1)$
@@ -48,15 +51,20 @@ $E_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being
     - (D can reject generated samples with high confidence)
     - $D(G(x)) \approx 0  and  1 - D(G(x)) \approx 1  and  log(1 - D(G(x))) \approx 0$ 
     - And the solution is, instade of minimizing the $1 - D(G(x))$ [probab of the fake classified as fake] we maximize the $D(G(x))$ [probab of fake classified as real]
-    - <p align="center">
+    - 
+
+    <p align="center">
       <img src="https://i.imgur.com/KT1v6lG.png">
-      </p>
+    </p>
+
 - $D(x)$ is probability of x being classified as real/true and $1-D(X)$ is probability of x being classified as fake/false.
 
 ### proofe of optimal D is Max of Eqn 1:
 They give a proposition in the paper, which is,
 - For fixed G, the optimal discriminator $D^*$ is
     - $D_G^*(x) = \frac{P_{data}(x)} {P_{data}(x) + P_g(x)}  ... (k)$  
+
+
 #### **Proofe:**
 We know the training criterion for the descriminator $D$, given any generator $G$ is to maximize eqn 1.
       - Denotes  $D_G^*(x) = argmax_{D}  V(D,G)$   
