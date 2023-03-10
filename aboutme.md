@@ -4,25 +4,33 @@ title: About me
 subtitle: Brief on what I do except sleeping and eating 🤖
 ---
 
-I’m a final year Undergrad student at IEM, Kolkata w/ an Electrical Engineering Major, While I always had my heart set on ML.
+### **💡 I am actively looking for research opportunities in the field of Autonomous Vehicle [AV] or computer vision in general.**
 
-I'm interested in the research aspect of Machine Learning and Deep Learning, mainly in the field of computer vision [moderate knowledge in NLP].
+I’m a fresh graduate from IEM, Kolkata w/ an Electrical Engineering Major, while I always had my heart set on ML.
+
+I'm interested in the research aspect of Machine Learning and Deep Learning, mainly in the field of computer vision. I'm very passionate about the AV [Autonomous Vehicle] industry and currently working on the very field. The current advancements in the field of Computer Vision or Deep Learning in general keep me captivated. How the field is moving and the amount of interesting things out there I dont know, keeps me motivated to keep learning and moving forwar.
 
 I am active on a site called Kaggle, participated in a few Kaggle competitions. I'm Notebook and Discussion Expert there. My competition stats,
 
-Participated in two competitions,
+> **My kaggle competitions experiences,**
 
-1. [*Sartorius - Cell Instance Segmentation [214th - TOP 15%]*](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/leaderboard)
+1. [*Sartorius - Cell Instance Segmentation [TOP 15%, No medal]*](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-Sartorius-Experimentations)
 
-2. [*TensorFlow - Great Barrier Reef [57th - TOP 3%, silver medal]*](https://www.kaggle.com/c/tensorflow-great-barrier-reef/leaderboard)
+2. [*TensorFlow - Great Barrier Reef [57th - TOP 3%, Silver medal]*](https://www.kaggle.com/c/tensorflow-great-barrier-reef/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-GBR-Experimentations)
 
-During my internship at IIT, KGP I managed to publish a paper on unsupervised segmentation at ICORT, 2021, IEEE. 
+3. [*HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]*](https://www.kaggle.com/competitions/hubmap-organ-segmentation/leaderboard) [`GITHUB`](https://github.com/soumya997/HPA-HuBMAP-kaggle-solution)
 
-Link: [*https://ieeexplore.ieee.org/document/9581380*](https://ieeexplore.ieee.org/document/9581380)
 
-I'm very passionate about the AV [Autonomous Vehicle] industry and currently trying to grasp some of the concepts associated with the field.
+> **Work Experiences**
 
-### **💡 I am actively looking for research opportunities in the field of Autonomous Vehicle [AV] or computer vision in general.**
+- Im currently working as a *Research Associate at IIIT Delhi* on project named ALIVE(Autonomous Last mIle VEhicle) under *Dr. Saket Anand and Dr. Sanjit K. Kaul*. As a part of the project we are building *Autonomus Vehicle for last mile connectivity*. Checkout our work at [Autonomous Last mIle VEhicle (ALIVE)](https://sites.google.com/iiitd.ac.in/iiitd-alive/home). I am a part of the perception team, mostly responsible for *ADAS features* of the car. For more about my work please check my resume below.
+
+
+- During my *internship at IIT, KGP* I managed to publish a paper on unsupervised segmentation at [ICORT](https://www.drdo.gov.in/icort-21), 2021, IEEE. Also worked on landscape segmentation from satellite data.
+
+     - Link: [*https://ieeexplore.ieee.org/document/9581380*](https://ieeexplore.ieee.org/document/9581380) [`PDF`](https://github.com/soumya997/doodled-paper/blob/master/unsupervised/2021128313.pdf) [`SLIDES`](https://docs.google.com/presentation/d/12WryC2OwF4whFzB0TOb0f8Ct8_zjZloTcLDyiOQ9ig4/edit?usp=sharing)
+
+- I also have worked under [Tanmoy Dam](https://www.linkedin.com/in/tanmoy-dam-190ba534/), a Ph.D. student from UNSW, Sydney on *prior learning* for GAN, generative clustering, and generative classification. 
 
 <br>
 
