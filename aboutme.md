@@ -4,7 +4,7 @@ title: About me
 subtitle: Brief on what I do except sleeping and eating 🤖
 ---
 
-### **💡 I am actively looking for research opportunities in the field of Autonomous Vehicle [AV] or computer vision in general.**
+## **💡 I am actively looking for an opportunities in the field of Computer Vision, Deep Learning.**
 
 
 <img src="https://user-images.githubusercontent.com/54326088/224429766-55d5edd0-8a23-431f-b66e-d0084ff15dfa.jpg" width="300px" align="right">
