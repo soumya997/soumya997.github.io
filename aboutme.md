@@ -38,4 +38,4 @@ I am active on a site called Kaggle, participated in a few Kaggle competitions. 
 <br>
 
 > For More information check out below links, 
-> ### [`Resume`](https://drive.google.com/file/d/1eFadQbFg66pH9gGx4PPcGvsB7oS5PB0F/view?usp=sharing) |  [`Kaggle`](https://www.kaggle.com/soumya9977)  |  [`LinkedIn`](https://www.linkedin.com/in/soumyadip-sarkar/)  |  [`Twitter`](https://twitter.com/somuSan_)  | [`Gmail`](mailto:soumya997.sarkar@gmail.com)
+> ### [`Resume`](https://drive.google.com/file/d/1eRBboyIS5cMiPVHDv4FBc0coQzCGNghu/view?usp=sharing) |  [`Kaggle`](https://www.kaggle.com/soumya9977)  |  [`LinkedIn`](https://www.linkedin.com/in/soumyadip-sarkar/)  |  [`Twitter`](https://twitter.com/somuSan_)  | [`Gmail`](mailto:soumya997.sarkar@gmail.com)
