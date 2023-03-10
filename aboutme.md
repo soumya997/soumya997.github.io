@@ -7,7 +7,7 @@ subtitle: Brief on what I do except sleeping and eating 🤖
 ### **💡 I am actively looking for research opportunities in the field of Autonomous Vehicle [AV] or computer vision in general.**
 
 
-<img src="https://media.giphy.com/media/iDBaIpm3LcShDrSjwD/giphy.gif" width="600px" align="right">
+<img src="https://user-images.githubusercontent.com/54326088/224429766-55d5edd0-8a23-431f-b66e-d0084ff15dfa.jpg" width="400px" align="right">
 
 I’m a fresh graduate from IEM, Kolkata w/ an Electrical Engineering Major, while I always had my heart set on ML.
 
