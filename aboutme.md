@@ -6,6 +6,9 @@ subtitle: Brief on what I do except sleeping and eating 🤖
 
 ### **💡 I am actively looking for research opportunities in the field of Autonomous Vehicle [AV] or computer vision in general.**
 
+
+<img src="https://media.giphy.com/media/iDBaIpm3LcShDrSjwD/giphy.gif" width="600px" align="right">
+
 I’m a fresh graduate from IEM, Kolkata w/ an Electrical Engineering Major, while I always had my heart set on ML.
 
 I'm interested in the research aspect of Machine Learning and Deep Learning, mainly in the field of computer vision. I'm very passionate about the AV [Autonomous Vehicle] industry and currently working on the very field. The current advancements in the field of Computer Vision or Deep Learning in general keep me captivated. How the field is moving and the amount of interesting things out there I dont know, keeps me motivated to keep learning and moving forwar.
