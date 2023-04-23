@@ -37,4 +37,4 @@ Blogs:
 <br>
 
 > For More information check out below links, 
-> ### [`Resume`]([https://drive.google.com/file/d/1eRBboyIS5cMiPVHDv4FBc0coQzCGNghu/view?usp=sharing](https://www.linkedin.com/in/soumyadip-sarkar/overlay/1635524313641/single-media-viewer/?profileId=ACoAACth46cBAU8TacDiZzI33vkrAehTUoHLQgU)) |  [`Kaggle`](https://www.kaggle.com/soumya9977)  |  [`LinkedIn`](https://www.linkedin.com/in/soumyadip-sarkar/)  |  [`Twitter`](https://twitter.com/somuSan_)  | [`Gmail`](mailto:soumya997.sarkar@gmail.com)
+> ### [`Resume`](https://www.linkedin.com/in/soumyadip-sarkar/overlay/1635524313641/single-media-viewer/?profileId=ACoAACth46cBAU8TacDiZzI33vkrAehTUoHLQgU) |  [`Kaggle`](https://www.kaggle.com/soumya9977)  |  [`LinkedIn`](https://www.linkedin.com/in/soumyadip-sarkar/)  |  [`Twitter`](https://twitter.com/somuSan_)  | [`Gmail`](mailto:soumya997.sarkar@gmail.com)
