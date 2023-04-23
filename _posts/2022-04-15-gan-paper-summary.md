@@ -49,7 +49,7 @@ $E_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being
 - Early in learning, when $G$ is poor, $D$ can reject samples with high confidence because they are clearly different from the training data, 
     - by that i mean $\log{(1 - D(G(z)))}$ this term saturates.
     - (D can reject generated samples with high confidence)
-    - $D(G(x)) \approx 0  and  1 - D(G(x)) \approx 1  and  log(1 - D(G(x))) \approx 0$ 
+    - $D(G(x)) \approx 0$ and $1 - D(G(x)) \approx 1$ and  $log(1 - D(G(x))) \approx 0$ 
     - And the solution is, instade of minimizing the $1 - D(G(x))$ [probab of the fake classified as fake] we maximize the $D(G(x))$ [probab of fake classified as real]
     - 
 
