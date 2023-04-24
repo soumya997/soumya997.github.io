@@ -59,6 +59,14 @@ $E_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being
 
 - $D(x)$ is probability of x being classified as real/true and $1-D(X)$ is probability of x being classified as fake/false.
 
+- $D(x)$ = probability of real being classified as real
+- $D(G(x))$ = probability of fake being classified as real
+- $1 - D(G(x))$ = probability of fake being classified as fake
+
+The descriminator tries to increase D(x) and 1 - D(G(x)), which means the descriminator tries to detect real as real and fake as fake.
+
+On the other hand the generator tries to minimize $1-D(G(x))$, which means it tries to maximize D(G(x)), that means tries to fool the descriminator by increasing the probability of detecting fake/generated images as real. 
+
 ### proofe of optimal D is Max of Eqn 1:
 They give a proposition in the paper, which is,
 - For fixed G, the optimal discriminator $D^*$ is
