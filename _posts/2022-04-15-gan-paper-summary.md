@@ -50,7 +50,7 @@ $E_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being
     - by that i mean $\log{(1 - D(G(z)))}$ this term saturates.
     - (D can reject generated samples with high confidence)
     - $D(G(x)) \approx 0$ and $1 - D(G(x)) \approx 1$ and  $log(1 - D(G(x))) \approx 0$ 
-    - And the solution is, instade of minimizing the $1 - D(G(x))$ [probab of the fake classified as fake] we maximize the $D(G(x))$ [probab of fake classified as real]
+    - And the solution is, instade of minimizing the $1 - D(G(x))$ wrt generator [probab of the fake classified as fake] we maximize the $D(G(x))$ wrt generator [probab of fake classified as real]
     - 
 
     <p align="center">
@@ -71,12 +71,14 @@ We know the training criterion for the descriminator $D$, given any generator $G
       - And please note,
             - $E_{p(x)}[x] = \int\limits_{x} x p_x(x) dx$ , $E_{p(x)}[x]$ is Expectation of a random variable $x$, having probability density function $p(x)$.
 
- Now, 
- $argmax_{D}  V(D,G) = argmax_{D}  \left[  E_{x \sim P_{data}(x)}  [\log{D(x)}] + E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}])  \right]$
- But in the paper, it is given as,
-     - <p align="center">
-    <img src="https://i.imgur.com/Xao2Yqr.jpg">
-    </p>
+Now, 
+$argmax_{D}  V(D,G) = argmax_{D}  \left[  E_{x \sim P_{data}(x)}  [\log{D(x)}] + E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}])  \right]$
+But in the paper, it is given as,
+ 
+<p align="center">
+<img src="https://i.imgur.com/Xao2Yqr.jpg">
+</p>
+
 please note the changes, in the 1st line it is $p_z(z)$ and the integration is happening wrt $z$. But in 2nd line, $P_z(z)$ is being replaced with $P_g(z)$ and the integration happening wrt $x$. 
 
 Actually we can replace those two terms according to the rule of probability density function, which is
