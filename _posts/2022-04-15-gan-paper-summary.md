@@ -53,9 +53,9 @@ $E_x \sim P_{Z}(x)  [\log{(1 - D(G(z)))}]$ is the probability of fake data being
     - And the solution is, instade of minimizing the $1 - D(G(x))$ wrt generator [probab of the fake classified as fake] we maximize the $D(G(x))$ wrt generator [probab of fake classified as real]
     - 
 
-    <p align="center">
-      <img src="https://i.imgur.com/KT1v6lG.png">
-    </p>
+<p align="center">
+  <img src="https://i.imgur.com/KT1v6lG.png">
+</p>
 
 - $D(x)$ is probability of x being classified as real/true and $1-D(X)$ is probability of x being classified as fake/false.
 
