@@ -74,7 +74,7 @@ here you can see, that varying c1 in info-GAN will generate a consistent numbers
 
    > Assuming we have already trained an InfoGAN on the MNIST dataset, let's say we want to generate a digit with a rotation angle of 45 degrees. We can do this by setting the c vector to [0, 0, 0.707, 0.707, 0], which corresponds to a rotation angle of 45 degrees in radians. We can also set the random noise vector z to a fixed value, such as [0.5, 0.5, 0.5, 0.5, 0.5].
 
-   > 	Now, we can pass this generated image to the Q network to estimate the value of c that was used to generate it. The Q network will output a vector c', which is an estimation of the true latent variable vector c.
+   > Now, we can pass this generated image to the Q network to estimate the value of c that was used to generate it. The Q network will output a vector c', which is an estimation of the true latent variable vector c.
 
    > In this case, the Q network might estimate a value of c' = [0.01, -0.02, 0.71, 0.70, 0.02]. The third and fourth components of this vector (0.71 and 0.70) correspond to the sine and cosine of the rotation angle of 45 degrees, respectively.
 
@@ -140,8 +140,8 @@ $L_I(G, Q) \rightarrow \text { Variational Lower Bound }$
 
 We minimize wrt G, 
 	
-> minimize $G$, $\min_{G} V_{I}(D, G, Q)$ = $\min_{G} E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}] -\lambda L_I(G, Q)$ 
-> 	[coz these two terms includes generator part]
+minimize $G$, $\min_{G} V_{I}(D, G, Q)$ = $\min_{G} E_{z \sim P_{Z}(z)}  [\log{(1 - D(G(z)))}] -\lambda L_I(G, Q)$ 
+[coz these two terms includes generator part]
 
 We minimize wrt Q,
 
