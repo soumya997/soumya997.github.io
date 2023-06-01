@@ -27,10 +27,11 @@ Blogs:
 
 > **Work Experiences**
 
-- Im currently working as a *Research Associate at IIIT Delhi* on project named ALIVE(Autonomous Last mIle VEhicle) under *Dr. Saket Anand and Dr. Sanjit K. Kaul*. As a part of the project we are building *Autonomus Vehicle for last mile connectivity*. Checkout our work at [Autonomous Last mIle VEhicle (ALIVE)](https://sites.google.com/iiitd.ac.in/iiitd-alive/home). I am a part of the perception team, mostly responsible for *ADAS features* of the car. For more about my work please check my resume below.
+- 
+Im currently working as a *Research Associate at IIIT Delhi* on the Autonomous Vehicle project *ALIVE(Autonomous Last mIle VEhicle)* under _Dr. Saket Anand and Dr. Sanjit K. Kaul_. Checkout our work at [Autonomous Last mIle VEhicle (ALIVE)](https://sites.google.com/iiitd.ac.in/iiitd-alive/home). Within the project, I contribute to the perception team, assuming key responsibilities in the development of **ADAS features**, **testing**, **map building**. For more about my work please check my resume below.
 
 
-- During my *internship at IIT, KGP* I managed to publish a paper on unsupervised segmentation at [ICORT](https://www.drdo.gov.in/icort-21), 2021, IEEE. Also worked on landscape segmentation from satellite data.
+- During my *internship at IIT, KGP*, I worked on PolSAR satelite data for landscape segmentation. I also managed to publish a paper on unsupervised segmentation at [ICORT](https://www.drdo.gov.in/icort-21), 2021, IEEE. 
 
 - I also have worked under [Dr. Tanmoy Dam](https://www.linkedin.com/in/tanmoy-dam-190ba534/), a Ph.D. student from UNSW, Sydney on *prior learning* for GAN, generative clustering, and generative classification. 
 
