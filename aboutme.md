@@ -27,7 +27,7 @@ Blogs:
 
 > **Work Experiences**
 
-- Im currently working as a *Research Associate at IIIT Delhi* on the Autonomous Vehicle project *ALIVE(Autonomous Last mIle VEhicle)* under _Dr. Saket Anand and Dr. Sanjit K. Kaul_. Checkout our work at [Autonomous Last mIle VEhicle (ALIVE)](https://sites.google.com/iiitd.ac.in/iiitd-alive/home). Within the project, I contribute to the perception team, assuming key responsibilities in the development of **ADAS features**, **testing**, **map building**. For more about my work please check my resume below.
+- Im currently working as a *Research Associate at IIIT Delhi* on the Autonomous Vehicle project *ALIVE(Autonomous Last mIle VEhicle)* under _Dr. Saket Anand and Dr. Sanjit K. Kaul_. Checkout our work at [Autonomous Last mIle VEhicle (ALIVE)](https://sites.google.com/iiitd.ac.in/iiitd-alive/home). Within the project, I contribute to the perception team, assuming key responsibilities in the development of **ADAS features**, **testing**, **HD map building**. For more about my work please check my resume below.
 
 
 - During my *internship at IIT, KGP*, I worked on PolSAR satelite data for landscape segmentation. I also managed to publish a paper on unsupervised segmentation at [ICORT](https://www.drdo.gov.in/icort-21), 2021, IEEE. 
