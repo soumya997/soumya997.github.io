@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Brief on what I do except sleeping and eating 🤖
+subtitle: 
 ---
 
 ## **💡 I am actively looking for an opportunities in the field of Computer Vision, Deep Learning.**
