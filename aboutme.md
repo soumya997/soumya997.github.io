@@ -11,23 +11,26 @@ subtitle:
  
 I have experience in Deep Learning, Computer Vision. I also actively participate in kaggle competitions. I have prior research and development experience in Autonomous Vehicle [ROS, CARLA, Opencv etc.], Satellite Imagery[PolSAR], GANs, Object Detection, Segmentation[Pytorch, MMdetection, timm] etc.  
 
-Kaggle Competitions: 
+> **Kaggle Competitions:**
 -   [*Sartorius - Cell Instance Segmentation [TOP 15%, No medal]*](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-Sartorius-Experimentations)
 -   [*TensorFlow - Great Barrier Reef [57th - TOP 3%, Silver medal]*](https://www.kaggle.com/c/tensorflow-great-barrier-reef/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-GBR-Experimentations)
 -   [*HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]*](https://www.kaggle.com/competitions/hubmap-organ-segmentation/leaderboard) [`GITHUB`](https://github.com/soumya997/HPA-HuBMAP-kaggle-solution)
 
-Publications:
--   https://ieeexplore.ieee.org/document/9581380
--   https://link.springer.com/chapter/10.1007/978-981-19-1657-1_5
+> **Publications:**
+-   [A Novel Approach for Urban Unsupervised Segmentation Classification in SAR Polarimetry](https://ieeexplore.ieee.org/document/9581380)
+-   [COVID-DeepNet: Deep Convolutional Neural Network Architecture Designed for Early Prognosis of COVID-19 Using Post-anterior View of Chest X-Rays](https://link.springer.com/chapter/10.1007/978-981-19-1657-1_5)
+- [Analysis of Depth Sensing and Lane Detection Algorithms for Advanced Driver Assistance Systems](https://link.springer.com/chapter/10.1007/978-3-031-25194-8_4)
 
-Blogs:
+> **Blogs:**
 -   https://soumya997.github.io/
 -  https://www.kaggle.com/soumya9977/notebooks
+-  https://learnopencv.com/author/soumyadip/
 
 
 > **Work Experiences**
 
-- Im currently working as a *Research Associate at IIIT Delhi* on the Autonomous Vehicle project *ALIVE(Autonomous Last mIle VEhicle)* under _Dr. Saket Anand and Dr. Sanjit K. Kaul_. Checkout our work at [Autonomous Last mIle VEhicle (ALIVE)](https://sites.google.com/iiitd.ac.in/iiitd-alive/home). Within the project, I contribute to the perception team, assuming key responsibilities in the development of **ADAS features**, **testing**, **HD map building**. For more about my work please check my resume below.
+- Im currently working as a Senior Computer Vision Engineer at Deep Vidya AI(Opencv Universiyt).
+- Former *Research Associate at IIIT Delhi* on the Autonomous Vehicle project *ALIVE(Autonomous Last mIle VEhicle)* under _Dr. Saket Anand and Dr. Sanjit K. Kaul_. Checkout our work at [Autonomous Last mIle VEhicle (ALIVE)](https://sites.google.com/iiitd.ac.in/iiitd-alive/home). Within the project, I contribute to the perception team, assuming key responsibilities in the development of **ADAS features**, **testing**, **HD map building**. For more about my work please check my resume below.
 
 
 - During my *internship at IIT, KGP*, I worked on PolSAR satelite data for landscape segmentation. I also managed to publish a paper on unsupervised segmentation at [ICORT](https://www.drdo.gov.in/icort-21), 2021, IEEE. 
