@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About me
-subtitle: 
+title: Soumyadip Sarkar
+subtitle: soumya997.sarkar@gmail.com  |  soumyadips@iiitd.ac.in
 ---
 
 ## **💡 I am actively looking for an opportunities in the field of Computer Vision, Deep Learning.**
