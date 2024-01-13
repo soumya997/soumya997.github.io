@@ -15,7 +15,7 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
 
 
 <h6 style="text-align:center; background-color:#C8FF33;padding:40px;border-radius: 30px;">
-Open to opportunities [research or dev] in field of Robotics - Perception and Localization, Deep Learning
+💡 Open to opportunities [research or dev] in field of Robotics - Perception and Localization, Deep Learning
 </h6>
 
 
