@@ -14,9 +14,6 @@ Previously, I worked as a Research Engineer at IIIT Delhi, focusing on Perceptio
 I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the field of Electrical Engineering from IEM, Kolkata. During my graduation I worked as a research intern at IIT KGP under Dr. Debashish Chakravarty for landscape segmentation on **satelite data** and at Uni. of New South Wales under Dr. Tanmoy Dam worked on **prior learning for GAN**, generative clustering. I’m also a **Kaggle Competition Expert**, I predominantly participated in Object Detection and Segmentation competitions. 
 
 
-<h6 style="text-align:center; background-color:#C8FF33;padding:40px;border-radius: 30px;">
-💡 Open to opportunities [research or dev] in field of Robotics - Perception and Localization, Deep Learning
-</h6>
 
 <h6 style="text-align:center; background-color:#C8FF33; padding:40px; border-radius: 30px; font-family: 'Courier New', Courier, monospace;">
 💡 Open to opportunities [research or dev] in field of Robotics - Perception and Localization, Deep Learning
