@@ -15,6 +15,12 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
 
 - Open to opportunities in field of Robotics -- Perception and Localization
 
+<h3 style="text-align:center; background-color:#C8FF33;padding:40px;border-radius: 30px;">
+See also this notebook: <b><a href="https://www.kaggle.com/julian3833/sartorius-classifier-mask-r-cnn-lb-0-28">🦠 Sartorius - Classifier + Mask R-CNN [LB=0.28]</a></b> using this model along with a simple Resnet Classifier to achieve 0.28
+</h3>
+
+
+
 > **Kaggle Competitions:**
 -   [*Sartorius - Cell Instance Segmentation [TOP 15%, No medal]*](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-Sartorius-Experimentations)
 -   [*TensorFlow - Great Barrier Reef [57th - TOP 3%, Silver medal]*](https://www.kaggle.com/c/tensorflow-great-barrier-reef/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-GBR-Experimentations)
