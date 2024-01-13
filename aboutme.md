@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Soumyadip
-subtitle: Senior Computer Vision Engineer
+subtitle: Sr. Computer Vision Engineer at Opencv University [Deep Vidya AI] 
 ---
 
 ## **💡 I am actively looking for an opportunities in the field of Computer Vision, Deep Learning.**
