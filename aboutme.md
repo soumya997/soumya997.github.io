@@ -7,11 +7,11 @@ subtitle: Sr. Computer Vision Engineer at Opencv University
 
 <img src="https://user-images.githubusercontent.com/54326088/224429766-55d5edd0-8a23-431f-b66e-d0084ff15dfa.jpg" width="300px" align="right">
 
-Hello I'm Soumyadip, I am presently working as a Sr. Computer Vision Engineer at @Opencv University, mostly contributing to their blog, courses and projects(hopefully).
+Hello I'm Soumyadip, I am presently working as a _Sr. Computer Vision Engineer_ at _Opencv University_, mostly contributing to their blog, courses and projects(hopefully).
 
-Previously, I worked as a Research Engineer at IIIT Delhi, focusing on Perception for the [Autonomous Vehicle project ALIVE](https://sites.google.com/iiitd.ac.in/iiitd-alive/home), under the guidance of [Dr. Saket Anand](https://www.iiitd.edu.in/~anands/index.html) and [Dr. Sanjit Kaul](https://sites.google.com/view/sanjitkkaul/). My main contributions were to the **ADAS** stack, **HD-Map** generation pipeline, **Traffic Light Following** (Planning), and the development of a **Virtual Testbed** for AV testing. Throughout my tenure at IIITD, I gained extensive experience in Python, C++, Carla, ROS, and PyTorch.
+Previously, I worked as a _Research Engineer_ at _Infosys CAI, IIIT Delhi_, focusing on Perception for the [Autonomous Vehicle project ALIVE](https://sites.google.com/iiitd.ac.in/iiitd-alive/home), under the guidance of [Dr. Saket Anand](https://www.iiitd.edu.in/~anands/index.html) and [Dr. Sanjit Kaul](https://sites.google.com/view/sanjitkkaul/). My main contributions were to the **ADAS** stack, **HD-Map** generation pipeline, **Traffic Light Following** (Planning), and the development of a **Virtual Testbed** for AV testing. Throughout my tenure at IIITD, I gained extensive experience in Python, C++, Carla, ROS, and PyTorch.
 
-I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the field of Electrical Engineering from IEM, Kolkata. During my graduation I worked as a research intern at IIT KGP under Dr. Debashish Chakravarty for landscape segmentation on **satelite data** and at Uni. of New South Wales under Dr. Tanmoy Dam worked on **prior learning for GAN**, generative clustering. I’m also a **Kaggle Competition Expert**, I predominantly participated in Object Detection and Segmentation competitions. 
+I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the field of Electrical Engineering from IEM, Kolkata. During my graduation I worked as a research intern at _IIT KGP_ under Dr. Debashish Chakravarty for landscape segmentation on **satelite data** and at _Uni. of New South Wales(UNSW)_ under Dr. Tanmoy Dam worked on **prior learning for GAN**, generative clustering. I’m also a **Kaggle Competition Expert**, I predominantly participated in Object Detection and Segmentation competitions. 
 
 
 
