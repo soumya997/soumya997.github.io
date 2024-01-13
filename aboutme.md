@@ -13,10 +13,9 @@ Previously, I worked as a Research Engineer at IIIT Delhi, focusing on Perceptio
 
 I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the field of Electrical Engineering from IEM, Kolkata. During my graduation I worked as a research intern at IIT KGP under Dr. Debashish Chakravarty for landscape segmentation on **satelite data** and at Uni. of New South Wales under Dr. Tanmoy Dam worked on **prior learning for GAN**, generative clustering. I’m also a **Kaggle Competition Expert**, I predominantly participated in Object Detection and Segmentation competitions. 
 
-- Open to opportunities in field of Robotics -- Perception and Localization
 
 <h3 style="text-align:center; background-color:#C8FF33;padding:40px;border-radius: 30px;">
-See also this notebook: <b><a href="https://www.kaggle.com/julian3833/sartorius-classifier-mask-r-cnn-lb-0-28">🦠 Sartorius - Classifier + Mask R-CNN [LB=0.28]</a></b> using this model along with a simple Resnet Classifier to achieve 0.28
+Open to opportunities in field of Robotics -- Perception and Localization, Deep Learning
 </h3>
 
 
