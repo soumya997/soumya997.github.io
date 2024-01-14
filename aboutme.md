@@ -18,20 +18,21 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
 <h6 style="text-align:center; background-color:#C8FF33; padding:40px; border-radius: 30px; font-family: 'Courier New', Courier, monospace;">
 💡 Open to opportunities [research or dev] in field of Robotics - Perception and Localization, Deep Learning
 </h6>
-<br>
+
 
 <div class="row">
   <div class="col-md-6">
     <h2>Traffic Light Following</h2>
-    <p>Implemented Traffic Light Following using C++ ROS package for Planning stack Behavior Tree. Trained YOLOP model for traffic light detections and 
-     Ported the model to Nvidia Orin. Integrated the model with the traffic light following stack. Conducted comprehensive 
-     testing of the P&C stack with Traffic Light Following in both the Carla and E2O platforms. </p>
+    <p>
+      Implemented Traffic Light Following using C++ ROS package for Planning stack Behavior Tree. Trained YOLOP model for traffic light detections and 
+      Ported the model to Nvidia Orin. Integrated the model with the traffic light following stack. Conducted comprehensive 
+      testing of the P&C stack with Traffic Light Following in both the Carla and E2O platforms. 
+    </p>
   </div>
   <div class="col-md-6">
-<!--     <img src="/assets/img/somuSan.png" alt="HappyFace" width="300"> -->
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Yhju9OP4RS8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  </div>
+  
 </div>
 
 
