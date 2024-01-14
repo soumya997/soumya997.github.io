@@ -20,6 +20,18 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
 </h6>
 
 
+<div class="row">
+  <div class="col-md-6">
+    <h2>Harvester Bot</h2>
+    <p>This project was developed as a part of e-Yantra 2017, a national Robotics Competition held at IIT Bombay.</p>
+  </div>
+  <div class="col-md-6">
+    <img src="/assets/img/somuSan.png" alt="HappyFace" width="500" height="600">
+  </div>
+</div>
+
+
+
 > **Kaggle Competitions:**
 -   [*Sartorius - Cell Instance Segmentation [TOP 15%, No medal]*](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-Sartorius-Experimentations)
 -   [*TensorFlow - Great Barrier Reef [57th - TOP 3%, Silver medal]*](https://www.kaggle.com/c/tensorflow-great-barrier-reef/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-GBR-Experimentations)
