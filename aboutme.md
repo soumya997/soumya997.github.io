@@ -5,7 +5,7 @@ subtitle: Sr. Computer Vision Engineer at Opencv University
 ---
 
 
-<img src="https://user-images.githubusercontent.com/54326088/224429766-55d5edd0-8a23-431f-b66e-d0084ff15dfa.jpg" width="300px" align="right">
+<img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/5ba7169e-c87d-4f07-a92b-8c24a0c131e2" width="300px" align="right">
 
 Hello I'm Soumyadip, I am presently working as a _Sr. Computer Vision Engineer_ at _Opencv University_, mostly contributing to their blog, courses and projects(hopefully).
 
@@ -13,7 +13,7 @@ Previously, I worked as a _Research Engineer_ at _Infosys CAI, IIIT Delhi_, focu
 
 I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the field of Electrical Engineering from IEM, Kolkata. During my graduation I worked as a research intern at _IIT KGP_ under Dr. Debashish Chakravarty for landscape segmentation on **satelite data** and at _Uni. of New South Wales(UNSW)_ under Dr. Tanmoy Dam worked on **prior learning for GAN**, generative clustering. I’m also a **Kaggle Competition Expert**, I predominantly participated in Object Detection and Segmentation competitions. 
 
-**Skills:** Python, C++, Carla, ROS, PyTorch, inux, Git and W&B 
+**Skills:** Python, C++, Carla, ROS, PyTorch, Linux, Git and W&B 
 
 <h6 style="text-align:center; background-color:#C8FF33; padding:40px; border-radius: 30px; font-family: 'Courier New', Courier, monospace;">
 💡 Open to opportunities [research or dev] in field of Robotics - Perception and Localization, Deep Learning
