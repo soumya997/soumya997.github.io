@@ -26,7 +26,18 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
     <p>This project was developed as a part of e-Yantra 2017, a national Robotics Competition held at IIT Bombay.</p>
   </div>
   <div class="col-md-6">
-    <img src="/assets/img/somuSan.png" alt="HappyFace" width="500" height="600">
+    <img src="/assets/img/somuSan.png" alt="HappyFace" width="300">
+  </div>
+</div>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <img src="/assets/img/somuSan.png" alt="HappyFace" width="300">
+  </div>
+  <div class="col-md-6">
+    <h2>Harvester Bot</h2>
+    <p>This project was developed as a part of e-Yantra 2017, a national Robotics Competition held at IIT Bombay.</p>
   </div>
 </div>
 
