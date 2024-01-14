@@ -5,7 +5,7 @@ subtitle: Sr. Computer Vision Engineer at Opencv University
 ---
 
 
-<img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/5ba7169e-c87d-4f07-a92b-8c24a0c131e2" width="500px" align="right">
+<img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/5ba7169e-c87d-4f07-a92b-8c24a0c131e2" width="350px" align="right">
 
 Hello I'm Soumyadip, I am presently working as a _Sr. Computer Vision Engineer_ at _Opencv University_, mostly contributing to their blog, courses and projects(hopefully).
 
@@ -32,17 +32,22 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
   <div class="col-md-6">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/Yhju9OP4RS8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
-  
 </div>
 
+<br>
+<hr>
+<br>
 
 <div class="row">
   <div class="col-md-6">
-    <img src="/assets/img/somuSan.png" alt="HappyFace" width="300">
+    <h2>ADAS: Forward Collision Warning (FCW)</h2>
+    <p>
+      Designed and developed ADAS system, Forward Collision Warning (FCW) with Integrated Advanced Emergency Braking Systems (AEBS) maintaining the AIS standards. The project involved YOLOv5 object detection, tracking, GMM Classifier(96%), and applying kinematic laws. The pipeline
+was tested in Carla and later deployed in Nvidia Orin.
+    </p>
   </div>
   <div class="col-md-6">
-    <h2>Harvester Bot</h2>
-    <p>This project was developed as a part of e-Yantra 2017, a national Robotics Competition held at IIT Bombay.</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pPFXufZ1EIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
