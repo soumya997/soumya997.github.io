@@ -18,7 +18,7 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
 <h6 style="text-align:center; background-color:#C8FF33; padding:40px; border-radius: 30px; font-family: 'Courier New', Courier, monospace;">
 💡 Open to opportunities [research or dev] in field of Robotics - Perception and Localization, Deep Learning
 </h6>
-
+<br>
 
 <div class="row">
   <div class="col-md-6">
@@ -34,24 +34,37 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
   </div>
 </div>
 
-<br>
+
 <hr>
-<br>
+
 
 <div class="row">
   <div class="col-md-6">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pPFXufZ1EIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  <div class="col-md-6">
     <h2>ADAS: Forward Collision Warning (FCW)</h2>
     <p>
-      Designed and developed ADAS system, Forward Collision Warning (FCW) with Integrated Advanced Emergency Braking Systems (AEBS) maintaining the AIS standards. The project involved YOLOv5 object detection, tracking, GMM Classifier(96%), and applying kinematic laws. The pipeline
+      Designed and developed ADAS system, Forward Collision Warning (FCW) with Integrated Advanced Emergency Braking Systems (AEBS) maintaining the AIS standards. The project involved YOLOP object detection, tracking, and applying kinematic laws. The pipeline
 was tested in Carla and later deployed in Nvidia Orin.
     </p>
   </div>
-  <div class="col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pPFXufZ1EIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
 </div>
 
+<hr>
 
+
+<div class="row">
+  <div class="col-md-6">
+    <h2>ADAS & DSM: Traffic Light Warning on Carla with DSM </h2>
+    <p>
+      Designed and developed ADAS system, Traffic Light Warning (TLW). The project involved YOLOP object detection, tracking, GMM Classifier, and applying kinematic laws. The following video is a showcase of the TLW and DSM on Carla. Mediapipe Facial Landmark detection was used for Drowsiness prediction and driver attention prediction.
+    </p>
+  </div>
+  <div class="col-md-6">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vbPzpBaICsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
 
 > **Kaggle Competitions:**
 -   [*Sartorius - Cell Instance Segmentation [TOP 15%, No medal]*](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-Sartorius-Experimentations)
