@@ -5,11 +5,11 @@ subtitle: Sr. Computer Vision Engineer at Opencv University
 ---
 
 
-<img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/5ba7169e-c87d-4f07-a92b-8c24a0c131e2" width="300px" align="right">
+<img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/5ba7169e-c87d-4f07-a92b-8c24a0c131e2" width="500px" align="right">
 
 Hello I'm Soumyadip, I am presently working as a _Sr. Computer Vision Engineer_ at _Opencv University_, mostly contributing to their blog, courses and projects(hopefully).
 
-Previously, I worked as a _Research Engineer_ at _Infosys CAI, IIIT Delhi_, focusing on Perception for the [Autonomous Vehicle project ALIVE](https://sites.google.com/iiitd.ac.in/iiitd-alive/home), under the guidance of [Dr. Saket Anand](https://www.iiitd.edu.in/~anands/index.html) and [Dr. Sanjit Kaul](https://sites.google.com/view/sanjitkkaul/). My main contributions were to the **ADAS** stack, **HD-Map** generation pipeline, **Traffic Light Following** (Planning), and the development of a **Virtual Testbed** for AV testing. 
+Previously, I worked as a _Research Engineer_ at _Infosys CAI, IIIT Delhi_, focusing on Perception for the [Autonomous Vehicle project ALIVE](https://sites.google.com/iiitd.ac.in/iiitd-alive/home), under the guidance of [Dr. Saket Anand](https://www.iiitd.edu.in/~anands/index.html) and [Dr. Sanjit Kaul](https://sites.google.com/view/sanjitkkaul/). My main contributions were to the **ADAS** stack, **HD-Map** generation pipeline, **Traffic Light Following** (DL & Planning), and the development of a **Virtual Testbed** for AV testing. 
 
 I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the field of Electrical Engineering from IEM, Kolkata. During my graduation I worked as a research intern at _IIT KGP_ under Dr. Debashish Chakravarty for landscape segmentation on **satelite data** and at _Uni. of New South Wales(UNSW)_ under Dr. Tanmoy Dam worked on **prior learning for GAN**, generative clustering. I’m also a **Kaggle Competition Expert**, I predominantly participated in Object Detection and Segmentation competitions. 
 
@@ -18,15 +18,19 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
 <h6 style="text-align:center; background-color:#C8FF33; padding:40px; border-radius: 30px; font-family: 'Courier New', Courier, monospace;">
 💡 Open to opportunities [research or dev] in field of Robotics - Perception and Localization, Deep Learning
 </h6>
-
+<br>
 
 <div class="row">
   <div class="col-md-6">
-    <h2>Harvester Bot</h2>
-    <p>This project was developed as a part of e-Yantra 2017, a national Robotics Competition held at IIT Bombay.</p>
+    <h2>Traffic Light Following</h2>
+    <p>Implemented Traffic Light Following using C++ ROS package for Planning stack Behavior Tree. Trained YOLOP model for traffic light detections and 
+     Ported the model to Nvidia Orin. Integrated the model with the traffic light following stack. Conducted comprehensive 
+     testing of the P&C stack with Traffic Light Following in both the Carla and E2O platforms. </p>
   </div>
   <div class="col-md-6">
-    <img src="/assets/img/somuSan.png" alt="HappyFace" width="300">
+<!--     <img src="/assets/img/somuSan.png" alt="HappyFace" width="300"> -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yhju9OP4RS8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   </div>
 </div>
 
