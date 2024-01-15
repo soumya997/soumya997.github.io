@@ -14,6 +14,7 @@ Previously, I worked as a _Research Engineer_ at _Infosys CAI, IIIT Delhi_, focu
 I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the field of Electrical Engineering from IEM, Kolkata. During my graduation I worked as a research intern at _IIT KGP_ under Dr. Debashish Chakravarty for landscape segmentation on **satelite data** and at _Uni. of New South Wales(UNSW)_ under Dr. Tanmoy Dam worked on **prior learning for GAN**, generative clustering. I’m also a **Kaggle Competition Expert**, I predominantly participated in Object Detection and Segmentation competitions. 
 
 **Skills:** Python, C++, Carla, ROS, PyTorch, Linux, Git and W&B 
+
 **Gmail:** [soumya997.sarkar@gmail.com](mailto:soumya997.sarkar@gmail.com)  |  [soumyadips@iiitd.ac.in](mailto:soumyadips@iiitd.ac.in)
 
 <h6 style="text-align:center; background-color:#C8FF33; padding:40px; border-radius: 30px; font-family: 'Courier New', Courier, monospace;">
