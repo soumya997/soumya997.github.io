@@ -15,7 +15,7 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
 
 **Skills:** Python, C++, Carla, ROS, PyTorch, Linux, Git and W&B 
 
-**Gmail:** [soumya997.sarkar@gmail.com](mailto:soumya997.sarkar@gmail.com)  ;  [soumyadips@iiitd.ac.in](mailto:soumyadips@iiitd.ac.in)
+**Email ID:** [soumya997.sarkar@gmail.com](mailto:soumya997.sarkar@gmail.com)  ;  [soumyadips@iiitd.ac.in](mailto:soumyadips@iiitd.ac.in)
 
 <h6 style="text-align:center; background-color:#C8FF33; padding:40px; border-radius: 30px; font-family: 'Courier New', Courier, monospace;">
 💡 Open to opportunities [research or dev] in field of Robotics - Perception and Localization, Deep Learning
