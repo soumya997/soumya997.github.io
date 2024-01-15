@@ -20,6 +20,7 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
 </h6>
 <br>
 
+> **Projects:**
 <div class="row">
   <div class="col-md-6">
     <h2>Traffic Light Following</h2>
@@ -65,6 +66,27 @@ was tested in Carla and later deployed in Nvidia Orin.
     <iframe width="560" height="315" src="https://www.youtube.com/embed/vbPzpBaICsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
+
+
+<hr>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <h2>Kaggle: HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]</h2>
+    <p>
+      Semantic segmentation of 5 imbalanced medical tissue types using only 351 high-resolution images from 2 different train-test sources. Trained Swin Transformer Tiny with Uppernet decoder, CoaT. Used SWA based ensembling for same model of different folds and then using TTA on
+different models. Competition Solution [Github.](https://github.com/soumya997/HPA-HuBMAP-kaggle-solution) 
+    </p>
+  </div>
+  <div class="col-md-6">
+    <img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/91b84754-b51e-42c2-b93c-c0419d76485a" alt="hubmap_kaggle" height="300">
+  </div>
+</div>
+
+
+
+
 
 > **Kaggle Competitions:**
 -   [*Sartorius - Cell Instance Segmentation [TOP 15%, No medal]*](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-Sartorius-Experimentations)
