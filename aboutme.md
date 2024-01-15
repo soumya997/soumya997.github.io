@@ -76,11 +76,11 @@ was tested in Carla and later deployed in Nvidia Orin.
     <h2>Kaggle: HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]</h2>
     <p>
       Semantic segmentation of 5 imbalanced medical tissue types using only 351 high-resolution images from 2 different train-test sources. Trained Swin Transformer Tiny with Uppernet decoder, CoaT. Used SWA based ensembling for same model of different folds and then using TTA on
-different models. Competition Solution [Github.](https://github.com/soumya997/HPA-HuBMAP-kaggle-solution) 
+different models.<p><a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution">Github</a> </p> 
     </p>
   </div>
   <div class="col-md-6">
-    <img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/91b84754-b51e-42c2-b93c-c0419d76485a" alt="hubmap_kaggle" height="300">
+    <img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/e07e3d08-be60-41b3-87c4-7a22e775ae53" alt="hubmap_kaggle" height="300">
   </div>
 </div>
 
