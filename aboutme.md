@@ -75,7 +75,7 @@ was tested in Carla and later deployed in Nvidia Orin.
   <div class="col-md-6">
     <h2>Kaggle: HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]</h2>
     <p>
-      Semantic segmentation of 5 imbalanced medical tissue types using only 351 high-resolution images from 2 different train-test sources. Trained Swin Transformer Tiny with Uppernet decoder, CoaT. Used SWA based ensembling for same model of different folds and then using TTA on
+      Problem statement was, Semantic segmentation of 5 imbalanced medical tissue types using only 351 high-resolution images from 2 different train-test sources. Trained Swin Transformer Tiny with Uppernet decoder, CoaT. Used SWA based ensembling for same model of different folds and then using TTA on
 different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution">Github</a> 
     </p>
   </div>
@@ -84,7 +84,20 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
   </div>
 </div>
 
+<hr>
 
+
+<div class="row">
+  <div class="col-md-6">
+    <h2>Kaggle: TensorFlow - Great Barrier Reef [TOP 3%, Silver medal]</h2>
+    <p>
+      Problem statement was to accurately identify starfish by building an object detector trained on underwater videos of coral reefs. Trained FasterRCNN, YOLOv5. Introduced CLAHE based underwater image enhancemen. TTA and WBF was used for ensemble. <a href="https://github.com/soumya997/kaggle-GBR-Experimentations">Github</a> 
+    </p>
+  </div>
+  <div class="col-md-6">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hiPq2ZAHkTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
 
 
 
