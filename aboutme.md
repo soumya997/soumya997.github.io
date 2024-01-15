@@ -139,12 +139,12 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
 
 <hr>
 
-> **Publications:**
+## **Publications:**
 -   [A Novel Approach for Urban Unsupervised Segmentation Classification in SAR Polarimetry](https://ieeexplore.ieee.org/document/9581380)
 -   [COVID-DeepNet: Deep Convolutional Neural Network Architecture Designed for Early Prognosis of COVID-19 Using Post-anterior View of Chest X-Rays](https://link.springer.com/chapter/10.1007/978-981-19-1657-1_5)
 - [Analysis of Depth Sensing and Lane Detection Algorithms for Advanced Driver Assistance Systems](https://link.springer.com/chapter/10.1007/978-3-031-25194-8_4)
 
-> **Blogs:**
+## **Blogs:**
 -   [https://soumya997.github.io/](https://soumya997.github.io/)
 -  [https://www.kaggle.com/soumya9977/notebooks](https://www.kaggle.com/soumya9977/notebooks)
 -  [https://learnopencv.com/author/soumyadip/](https://learnopencv.com/author/soumyadip/)
