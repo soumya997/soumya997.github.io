@@ -76,7 +76,7 @@ was tested in Carla and later deployed in Nvidia Orin.
     <h2>Kaggle: HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]</h2>
     <p>
       Semantic segmentation of 5 imbalanced medical tissue types using only 351 high-resolution images from 2 different train-test sources. Trained Swin Transformer Tiny with Uppernet decoder, CoaT. Used SWA based ensembling for same model of different folds and then using TTA on
-different models.<p><a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution">Github</a> </p> 
+different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution">Github</a> 
     </p>
   </div>
   <div class="col-md-6">
