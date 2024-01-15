@@ -60,14 +60,14 @@ was tested in Carla and later deployed in Nvidia Orin.
 
 <div class="row">
   <div class="col-md-6">
-    <h4>ADAS: Forward Collision Warning (FCW)</h4>
+    <h4>XR-Testbed: Virtual AV testing</h4>
     <p>
-      Designed and developed ADAS system, Forward Collision Warning (FCW) with Integrated Advanced Emergency Braking Systems (AEBS) maintaining the AIS standards. The project involved YOLOP object detection, tracking, and applying kinematic laws. The pipeline
-was tested in Carla and later deployed in Nvidia Orin.
+      Worked on XR test-bed for autonomous vehicle testing. This involved RViz-based interface for efficient spawning and
+visualization of static and dynamic obstacles. 
     </p>
   </div>
   <div class="col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pPFXufZ1EIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Di3NJoGd9E0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
