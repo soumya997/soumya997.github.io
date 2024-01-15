@@ -99,6 +99,21 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
   </div>
 </div>
 
+<hr>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <h2>Kaggle: HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]</h2>
+    <p>
+      Scratch implemented DDPM using Pytorch. Two variants of Unet are implemented for DDPM, simple CNN based Unet and ViT based Unet. Experimented with Classifier Free Guidance(CFG). <a href="https://github.com/soumya997/Diffusion-Model-Implementation">Github</a> 
+    </p>
+  </div>
+  <div class="col-md-6">
+    <img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/66a153c6-0971-4ae5-8820-7b770708ae29" alt="hubmap_kaggle" height="300" width="500">
+  </div>
+</div>
+
 
 
 > **Kaggle Competitions:**
