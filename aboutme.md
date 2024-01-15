@@ -80,7 +80,7 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
     </p>
   </div>
   <div class="col-md-6">
-    <img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/e07e3d08-be60-41b3-87c4-7a22e775ae53" alt="hubmap_kaggle" height="300">
+    <img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/e07e3d08-be60-41b3-87c4-7a22e775ae53" alt="hubmap_kaggle" height="300" width="500">
   </div>
 </div>
 
