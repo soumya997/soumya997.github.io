@@ -115,11 +115,7 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
 </div>
 
 
-
-> **Kaggle Competitions:**
--   [*Sartorius - Cell Instance Segmentation [TOP 15%, No medal]*](https://www.kaggle.com/c/sartorius-cell-instance-segmentation/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-Sartorius-Experimentations)
--   [*TensorFlow - Great Barrier Reef [57th - TOP 3%, Silver medal]*](https://www.kaggle.com/c/tensorflow-great-barrier-reef/leaderboard) [`GITHUB`](https://github.com/soumya997/kaggle-GBR-Experimentations)
--   [*HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]*](https://www.kaggle.com/competitions/hubmap-organ-segmentation/leaderboard) [`GITHUB`](https://github.com/soumya997/HPA-HuBMAP-kaggle-solution)
+<hr>
 
 > **Publications:**
 -   [A Novel Approach for Urban Unsupervised Segmentation Classification in SAR Polarimetry](https://ieeexplore.ieee.org/document/9581380)
@@ -131,16 +127,6 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
 -  [https://www.kaggle.com/soumya9977/notebooks](https://www.kaggle.com/soumya9977/notebooks)
 -  [https://learnopencv.com/author/soumyadip/](https://learnopencv.com/author/soumyadip/)
 
-
-> **Work Experiences**
-
-- Im currently working as a Senior Computer Vision Engineer at Deep Vidya AI(OpenCV University).
-- Former *Research Associate at IIIT Delhi* on the Autonomous Vehicle project *ALIVE(Autonomous Last mIle VEhicle)* under _Dr. Saket Anand and Dr. Sanjit K. Kaul_. Checkout our work at [Autonomous Last mIle VEhicle (ALIVE)](https://sites.google.com/iiitd.ac.in/iiitd-alive/home). Within the project, I contribute to the perception team, assuming key responsibilities in the development of **ADAS features**, **testing**, **HD map building**. For more about my work please check my resume below.
-
-
-- During my *internship at IIT, KGP*, I worked on PolSAR satelite data for landscape segmentation. I also managed to publish a paper on unsupervised segmentation at [ICORT](https://www.drdo.gov.in/icort-21), 2021, IEEE. 
-
-- I also have worked under [Dr. Tanmoy Dam](https://www.linkedin.com/in/tanmoy-dam-190ba534/), a Ph.D. student from UNSW, Sydney on *prior learning* for GAN, generative clustering, and generative classification. 
 
 <br>
 
