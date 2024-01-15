@@ -20,10 +20,10 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
 </h6>
 <br>
 
-> **Projects:**
+## **Projects:**
 <div class="row">
   <div class="col-md-6">
-    <h2>Traffic Light Following</h2>
+    <h4>Traffic Light Following</h4>
     <p>
       Implemented Traffic Light Following using C++ ROS package for Planning stack Behavior Tree. Trained YOLOP model for traffic light detections and 
       Ported the model to Nvidia Orin. Integrated the model with the traffic light following stack. Conducted comprehensive 
@@ -41,7 +41,7 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
 
 <div class="row">
   <div class="col-md-6">
-    <h2>ADAS: Forward Collision Warning (FCW)</h2>
+    <h4>ADAS: Forward Collision Warning (FCW)</h4>
     <p>
       Designed and developed ADAS system, Forward Collision Warning (FCW) with Integrated Advanced Emergency Braking Systems (AEBS) maintaining the AIS standards. The project involved YOLOP object detection, tracking, and applying kinematic laws. The pipeline
 was tested in Carla and later deployed in Nvidia Orin.
@@ -57,7 +57,7 @@ was tested in Carla and later deployed in Nvidia Orin.
 
 <div class="row">
   <div class="col-md-6">
-    <h2>ADAS & DSM: Traffic Light Warning on Carla with DSM </h2>
+    <h4>ADAS & DSM: Traffic Light Warning on Carla with DSM </h4>
     <p>
       Designed and developed ADAS system, Traffic Light Warning (TLW). The project involved YOLOP object detection, tracking, GMM Classifier, and applying kinematic laws. The following video is a showcase of the TLW and DSM on Carla. Mediapipe Facial Landmark detection was used for Drowsiness prediction and driver attention prediction.
     </p>
@@ -73,7 +73,7 @@ was tested in Carla and later deployed in Nvidia Orin.
 
 <div class="row">
   <div class="col-md-6">
-    <h2>Kaggle: HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]</h2>
+    <h4>Kaggle: HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]</h4>
     <p>
       Problem statement was, Semantic segmentation of 5 imbalanced medical tissue types using only 351 high-resolution images from 2 different train-test sources. Trained Swin Transformer Tiny with Uppernet decoder, CoaT. Used SWA based ensembling for same model of different folds and then using TTA on
 different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution">Github</a> 
@@ -89,7 +89,7 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
 
 <div class="row">
   <div class="col-md-6">
-    <h2>Kaggle: TensorFlow - Great Barrier Reef [TOP 3%, Silver medal]</h2>
+    <h4>Kaggle: TensorFlow - Great Barrier Reef [TOP 3%, Silver medal]</h4>
     <p>
       Problem statement was to accurately identify starfish by building an object detector trained on underwater videos of coral reefs. Trained FasterRCNN, YOLOv5. Introduced CLAHE based underwater image enhancemen. TTA and WBF was used for ensemble. <a href="https://github.com/soumya997/kaggle-GBR-Experimentations">Github</a> 
     </p>
@@ -104,7 +104,7 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
 
 <div class="row">
   <div class="col-md-6">
-    <h2>DDPM: Landscape Generation Using Diffusion Model</h2>
+    <h4>DDPM: Landscape Generation Using Diffusion Model</h4>
     <p>
       Scratch implemented DDPM using Pytorch. Two variants of Unet are implemented for DDPM, simple CNN based Unet and ViT based Unet. Experimented with Classifier Free Guidance(CFG). <a href="https://github.com/soumya997/Diffusion-Model-Implementation">Github</a> 
     </p>
