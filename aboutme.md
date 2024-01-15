@@ -87,6 +87,20 @@ visualization of static and dynamic obstacles.
   </div>
 </div>
 
+<hr>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <h4>Kaggle: TensorFlow - Great Barrier Reef [TOP 3%, Silver medal]</h4>
+    <p>
+      Problem statement was to accurately identify starfish by building an object detector trained on underwater videos of coral reefs. Trained FasterRCNN, YOLOv5. Introduced CLAHE based underwater image enhancemen. TTA and WBF was used for ensemble. <a href="https://github.com/soumya997/kaggle-GBR-Experimentations">Github</a> 
+    </p>
+  </div>
+  <div class="col-md-6">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/hiPq2ZAHkTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
 
 <hr>
 
@@ -120,20 +134,7 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
   </div>
 </div>
 
-<hr>
 
-
-<div class="row">
-  <div class="col-md-6">
-    <h4>Kaggle: TensorFlow - Great Barrier Reef [TOP 3%, Silver medal]</h4>
-    <p>
-      Problem statement was to accurately identify starfish by building an object detector trained on underwater videos of coral reefs. Trained FasterRCNN, YOLOv5. Introduced CLAHE based underwater image enhancemen. TTA and WBF was used for ensemble. <a href="https://github.com/soumya997/kaggle-GBR-Experimentations">Github</a> 
-    </p>
-  </div>
-  <div class="col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hiPq2ZAHkTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
-</div>
 
 
 <hr>
