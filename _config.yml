@@ -14,9 +14,9 @@ author: Soumyadip Sarkar
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Blog: "/"
-  Hire me: "https://drive.google.com/file/d/1eRBboyIS5cMiPVHDv4FBc0coQzCGNghu/view?usp=sharing"
+  About Me: "/"
+  Blog: "blog"
+  Hire me: "https://drive.google.com/file/d/129G7N4sNXvG3BAr5jiIK8Kz2QG1xREh0/view?usp=sharing"
 #   Art Gallery: "https://soumya997.notion.site/My-Art-Gallery-4dbd6f5e4dd34de3b4203421dce07014"
   #Resources:
     #- Beautiful Jekyll: "https://beautifuljekyll.com"
@@ -47,7 +47,7 @@ social-network-links:
   github: soumya997
   twitter: somuSan_
   # patreon: DeanAttali
-  youtube: "channel/UCej1NaGtqV5vBFYtMgZAGdg"
+  youtube: "https://www.youtube.com/@soumyadrip"
 #  medium: yourname
 #  reddit: yourname
   linkedin: soumyadip-sarkar-173901183
