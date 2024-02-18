@@ -14,8 +14,8 @@ author: Soumyadip Sarkar
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "/"
-  Blog: "blog"
+  About Me: "aboutme"
+  Blog: "/"
   Hire me: "https://drive.google.com/file/d/129G7N4sNXvG3BAr5jiIK8Kz2QG1xREh0/view?usp=sharing"
 #   Art Gallery: "https://soumya997.notion.site/My-Art-Gallery-4dbd6f5e4dd34de3b4203421dce07014"
   #Resources:
