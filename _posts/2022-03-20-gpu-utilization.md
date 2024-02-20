@@ -116,6 +116,7 @@ Source: [How To Use GPU with PyTorch](https://wandb.ai/wandb/common-ml-errors/re
 > - `Shuffle = False` [sometime making shuffle helps speed up]
 > - `pin_memory = True` [helps to increase GPU utilization]
 > - `num_workers = 2 * num of gpu` [mention that in the dataloader to increase GPU utilization]
+> - `num_workers` sets the number of CPU workers in the data loader only. This has nothing to do with GPU utilization - although faster batch preprocessing will lead to batches being loaded faster and thus more streamlined GPU usage. [Source](https://discuss.pytorch.org/t/errors-when-using-num-workers-0-in-dataloader/97564/2) Here, Worker means thread.
 
 ```
 > it's utilising GPU as some memory of GPU seems to be filled up Try increasing batch size, as much as you can fit in memory
