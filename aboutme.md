@@ -136,6 +136,47 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
 </div>
 
 
+<hr>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <h4>
+      <a href="https://github.com/soumya997/carla-e2e-av-stack" target="_blank">
+        Carla E2E Autonomous Vehicle Stack
+      </a>
+    </h4>
+    <p>
+      This repository offers a ready-to-use perception and control stack for autonomous vehicles, designed to streamline development and testing in CARLA. <a href="https://github.com/soumya997/carla-e2e-av-stack">Github</a> 
+    </p>
+  </div>
+  <div class="col-md-6">
+    <img src="https://github.com/user-attachments/assets/47128bc8-2fa3-4367-9d6a-0e8039f9592b" alt="carla AV" height="300" width="500">
+  </div>
+</div>
+
+
+
+<hr>
+
+
+<div class="row">
+  <div class="col-md-6">
+    <h4>
+      <a href="https://github.com/soumya997/Object-Insertion-in-Gaussian-Splatting" target="_blank">
+        Object Insertion in Gaussian Splatting
+      </a>
+    </h4>
+    <p>
+      Applied mask-guided 3DGS training for background-extracted models. Utilized Floater-Free MCMC with Bilateral Grid training for large scenes. Performing scalling and positioning for gaussian models. <a href="https://github.com/soumya997/Object-Insertion-in-Gaussian-Splatting">Github</a> 
+    </p>
+  </div>
+  <div class="col-md-6">
+    <img src="https://github.com/user-attachments/assets/e9ee1e35-8e2e-4b62-b1a6-de2261f6d0a7" alt="3dgs" height="300" width="500">
+  </div>
+</div>
+
+
 
 
 <hr>
