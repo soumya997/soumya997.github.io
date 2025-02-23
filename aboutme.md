@@ -7,7 +7,7 @@ subtitle: Sr. Computer Vision Engineer at Opencv University
 
 <img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/5ba7169e-c87d-4f07-a92b-8c24a0c131e2" width="350px" align="right">
 
-Hello I'm Soumyadip, I am presently working as a _Sr. Computer Vision Engineer_ at _OpenCV University_.
+Hello I'm Soumyadip, I am presently working as a _Sr. Computer Vision Engineer_ at [OpenCV University](https://opencv.org/university/).
 
 Previously, I worked as a _Research Engineer_ at _Infosys CAI, IIIT Delhi_, focusing on Perception for the [Autonomous Vehicle project ALIVE](https://sites.google.com/iiitd.ac.in/iiitd-alive/home), under the guidance of [Dr. Saket Anand](https://www.iiitd.edu.in/~anands/index.html) and [Dr. Sanjit Kaul](https://sites.google.com/view/sanjitkkaul/). My main contributions were to the **ADAS** stack, **HD-Map** generation pipeline, **Traffic Light Following** (Detection, Planning & Deployment), and the development of a **Virtual Testbed** for AV testing. 
 
