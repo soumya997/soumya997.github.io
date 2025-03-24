@@ -6,7 +6,7 @@ subtitle: Major robotics project and personal projects
 
 
 
-# Best Project I have worked on!
+Best Project I have worked on!
 
 One of the best projects I worked on was developing and deploying an end-to-end **Traffic Light Following** ADAS feature on an autonomous vehicle at IIIT Delhi. Here is a demo,
 
