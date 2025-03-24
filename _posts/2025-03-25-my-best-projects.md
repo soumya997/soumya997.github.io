@@ -2,10 +2,6 @@
 layout: post
 title: My Best Work!
 subtitle: Major robotics project and personal projects
-cover-img: /assets/img/linkedin_banner.jpeg
-thumbnail-img: /assets/img/linkedin_banner.jpeg
-share-img: /assets/img/linkedin_banner.jpeg
-tags: [Portfolio]
 ---
 
 
