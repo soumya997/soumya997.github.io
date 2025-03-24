@@ -1,10 +1,3 @@
----
-layout: post
-title: My Best Work!
-subtitle: Major robotics project and personal projects
----
-
-
 
 Best Project I have worked on!
 
