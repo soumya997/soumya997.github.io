@@ -178,6 +178,24 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
 
 
 
+<div class="row">
+  <div class="col-md-6">
+    <h4>
+      <a href="https://github.com/soumya997/SfM-Ceres" target="_blank">
+        3D Structure from Motion (SfM) with Bundle Adjustment
+      </a>
+    </h4>
+    <p>
+      Built a SfM pipeline: SIFT matching, essential matrix–validated pair selection, incremental view addition (PnP/triangulation), bundle adjustment (PyCeres), Numba acceleration, and Open3D visualization. <a href="https://github.com/soumya997/SfM-Ceres">Github</a> 
+    </p>
+  </div>
+  <div class="col-md-6">
+    <img src="https://github.com/soumya997/SfM-Ceres/blob/main/media/templeRing.png" alt="3dgs" height="300" width="230">
+  </div>
+</div>
+
+
+
 
 <hr>
 
