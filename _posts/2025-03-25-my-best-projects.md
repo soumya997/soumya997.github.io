@@ -66,4 +66,4 @@ The project was divided into several components:
 - Developed an XR test-bed with an RViz-based interface for efficient spawning and visualization of static and dynamic virtual obstacles.
 - Created a C++ ROS package to publish obstacle positions to the obstacle mapper and overlay them on the camera image stream.
 
-Apart from this project, I have worked on other ADAS features such as Forward Collision Warning and Rear Collision Warning. For more details, please check my resume and portfolio.
+Apart from this project, I have worked on other ADAS features such as Forward Collision Warning and Rear Collision Warning. For more details, please check my resume and [portfolio](https://soumya997.github.io/aboutme/).
