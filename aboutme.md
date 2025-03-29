@@ -90,42 +90,53 @@ visualization of static and dynamic obstacles.
 
 <hr>
 
-
 <div class="row">
   <div class="col-md-6">
     <h4>
-    <a href="https://github.com/soumya997/kaggle-GBR-Experimentations" target="_blank">
+      <a href="https://github.com/soumya997/kaggle-GBR-Experimentations" target="_blank">
         Kaggle: TensorFlow - Great Barrier Reef [TOP 3%, Silver medal]
       </a>
-    <p>
     </h4>
     <p>
-      Problem statement was to accurately identify starfish by building an object detector trained on underwater videos of coral reefs. Trained FasterRCNN, YOLOv5. Introduced CLAHE based underwater image enhancemen. TTA and WBF was used for ensemble. <a href="https://github.com/soumya997/kaggle-GBR-Experimentations" target="_blank">Github</a> 
+      Problem statement was to accurately identify starfish by building an object detector trained on underwater videos of coral reefs.
+      Trained FasterRCNN, YOLOv5. Introduced CLAHE-based underwater image enhancement. TTA and WBF were used for ensembling.
+      <a href="https://github.com/soumya997/kaggle-GBR-Experimentations" target="_blank">Github</a>
     </p>
   </div>
   <div class="col-md-6">
-    <iframe width="400" height="230" src="https://www.youtube.com/embed/hiPq2ZAHkTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe
+      width="400"
+      height="230"
+      src="https://www.youtube.com/embed/hiPq2ZAHkTU"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+    </iframe>
   </div>
 </div>
 
 <hr>
 
-
 <div class="row">
   <div class="col-md-6">
     <h4>
-    <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution" target="_blank">
+      <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution" target="_blank">
         Kaggle: HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]
       </a>
-    <p>
     </h4>
     <p>
-      Problem statement was, Semantic segmentation of 5 imbalanced medical tissue types using only 351 high-resolution images from 2 different train-test sources. Trained Swin Transformer Tiny with Uppernet decoder, CoaT. Used SWA based ensembling for same model of different folds and then using TTA on
-different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution" target="_blank">Github</a> 
+      Problem statement: semantic segmentation of five imbalanced medical tissue types using only 351 high-resolution images
+      from two different train-test sources. Trained Swin Transformer Tiny with an UpperNet decoder, plus CoaT. 
+      Used SWA-based ensembling for multiple folds and then TTA across different models.
+      <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution" target="_blank">Github</a>
     </p>
   </div>
   <div class="col-md-6">
-    <img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/e07e3d08-be60-41b3-87c4-7a22e775ae53" alt="hubmap_kaggle" height="300" width="500">
+    <img
+      src="https://github.com/soumya997/soumya997.github.io/assets/54326088/e07e3d08-be60-41b3-87c4-7a22e775ae53"
+      alt="hubmap_kaggle"
+      height="300"
+      width="500">
   </div>
 </div>
 
