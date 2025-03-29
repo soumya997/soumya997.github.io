@@ -24,26 +24,29 @@ The project was divided into several components:
 1. **Perception - Traffic Light Detection:**
 
 <div class="col-md-6">
+    <iframe width="560" height="315" src="https://youtu.be/Xk02kCv9rg4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+- **Fine‑tuned a YOLOP model** with a SORT tracker using a combination of Indian (IDD), BDD (foreign), and our own testbed datasets.
+- Applied **extensive data augmentation** and trained on both cropped traffic‑light patches and full‑scene images to capture local and global context.
+- Achieved a +0.2 mAP improvement in traffic‑light detection accuracy.
+- Optimized model using **TensorRT** and ported to **NVIDIA Orin**, yielding a 20% reduction in inference latency.
+
+2. **HD Map Creation:**
+<div class="col-md-6">
     <iframe width="560" height="315" src="https://youtu.be/KkV2-nVDkjs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
-	- **Fine‑tuned a YOLOP model** with a SORT tracker using a combination of Indian (IDD), BDD (foreign), and our own testbed datasets.
-	- Applied **extensive data augmentation** and trained on both cropped traffic‑light patches and full‑scene images to capture local and global context.
-	- Achieved a +0.2 mAP improvement in traffic‑light detection accuracy.
-	- Optimized model using **TensorRT** and ported to **NVIDIA Orin**, yielding a 20% reduction in inference latency.
-
-2. **HD Map Creation:**  
-	- Developed a fully **automated pipeline for HD‑map creation** in arbitrary environments.
-	- Automatically **embeds key map attributes**: stop‑line locations, traffic‑light positions, and road slope information.
-	- Converts raw **LiDAR maps into Lanelet‑formatted HD maps.**
-	- Selects relevant ground points from the LiDAR map using **YOLOPv2 road segmentation** combined with plane estimation.
+- Developed a fully **automated pipeline for HD‑map creation** in arbitrary environments.
+- Automatically **embeds key map attributes**: stop‑line locations, traffic‑light positions, and road slope information.
+- Converts raw **LiDAR maps into Lanelet‑formatted HD maps.**
+- Selects relevant ground points from the LiDAR map using **YOLOPv2 road segmentation** combined with plane estimation.
 
 4. **Planning:**  
-	- Utilized a **Behavior Tree** framework to implement traffic‑light‑following logic.
-	- Implemented a **C++ stopping profile** in the Behavior Tree to reliably stop the vehicle before the stop line at a red light.
+- Utilized a **Behavior Tree** framework to implement traffic‑light‑following logic.
+- Implemented a **C++ stopping profile** in the Behavior Tree to reliably stop the vehicle before the stop line at a red light.
 
 5. **Simulation:**
-	- Created a **CARLA simulation environments** for traffic‑light‑following.
-	- Developed a diverse set of test scenarios (varying intersection layouts, signal timings, and traffic densities).
-	- Executed repeated simulation runs to validate and refine the traffic‑light‑following (TLF) stack. 		
+- Created a **CARLA simulation environments** for traffic‑light‑following.
+- Developed a diverse set of test scenarios (varying intersection layouts, signal timings, and traffic densities).
+- Executed repeated simulation runs to validate and refine the traffic‑light‑following (TLF) stack. 		
 
 Apart from this project I have worked few more ADAS features such as Forward Collison Warning, Rear Collision Warning. For more details please check my resume and portfolio.
