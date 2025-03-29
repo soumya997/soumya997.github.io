@@ -146,17 +146,20 @@ visualization of static and dynamic obstacles.
 
 <div class="row">
   <div class="col-md-6">
-    <h4>
-    <a href="https://github.com/soumya997/Diffusion-Model-Implementation" target="_blank">
-        DDPM: Landscape Generation Using Diffusion Model
-      </a>
+    <h4>DDPM: Landscape Generation Using Diffusion Model</h4>
     <p>
-    </h4>
-      Scratch implemented DDPM using Pytorch. Two variants of Unet are implemented for DDPM, simple CNN based Unet and ViT based Unet. Experimented with Classifier Free Guidance(CFG). <a href="https://github.com/soumya997/Diffusion-Model-Implementation" target="_blank">Github</a> 
+      Scratch-implemented DDPM using PyTorch. Two variants of U-Net were implemented:
+      a simple CNN-based U-Net and a ViT-based U-Net. Experimented with Classifier-Free Guidance (CFG).
+      <a href="https://github.com/soumya997/Diffusion-Model-Implementation" target="_blank">Github</a>
     </p>
   </div>
   <div class="col-md-6">
-    <img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/66a153c6-0971-4ae5-8820-7b770708ae29" alt="hubmap_kaggle" height="300" width="500">
+    <img
+      src="https://github.com/soumya997/soumya997.github.io/assets/54326088/66a153c6-0971-4ae5-8820-7b770708ae29"
+      alt="hubmap_kaggle"
+      height="300"
+      width="500"
+    />
   </div>
 </div>
 
