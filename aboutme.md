@@ -34,7 +34,7 @@ I graduated on 2022, with a Bachelor of Technology (B. Tech) degree in the fiel
     </p>
   </div>
   <div class="col-md-6">
-    <iframe width="450" height="230" src="https://www.youtube.com/embed/Yhju9OP4RS8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="400" height="230" src="https://www.youtube.com/embed/Yhju9OP4RS8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -51,7 +51,7 @@ was tested in Carla and later deployed in Nvidia Orin.
     </p>
   </div>
   <div class="col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/pPFXufZ1EIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="400" height="230" src="https://www.youtube.com/embed/pPFXufZ1EIY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -68,7 +68,7 @@ visualization of static and dynamic obstacles.
     </p>
   </div>
   <div class="col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/Di3NJoGd9E0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="400" height="230" src="https://www.youtube.com/embed/Di3NJoGd9E0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -84,7 +84,7 @@ visualization of static and dynamic obstacles.
     </p>
   </div>
   <div class="col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/vbPzpBaICsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="400" height="230" src="https://www.youtube.com/embed/vbPzpBaICsM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -99,7 +99,7 @@ visualization of static and dynamic obstacles.
     </p>
   </div>
   <div class="col-md-6">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/hiPq2ZAHkTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="400" height="230" src="https://www.youtube.com/embed/hiPq2ZAHkTU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
