@@ -2,12 +2,11 @@
 layout: post
 title: Best Project I've Worked on!
 subtitle: My work on Autonomous vehicle at IIIT Delhi
-thumbnail-img: /assets/img/kaggle_banner.png
-share-img: /assets/img/kaggle_banner.png
+thumbnail-img: /assets/img/linkedin_banner.jpeg
+share-img: /assets/img/linkedin_banner.jpeg
 tags: [Portfolio]
 ---
 
-# Best Project I've Worked on!
 
 One of the best projects I worked on was developing and deploying an end-to-end **Traffic Light Following** ADAS feature on an autonomous vehicle at IIIT Delhi. Here is a demo:
 
@@ -21,7 +20,9 @@ The project was divided into several components:
 
 1. **Perception - Traffic Light Detection:**
 
+<div style="text-align: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Xk02kCv9rg4?si=R9IiWfNY6XajW9CX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>>
+</div>
 
 - **Fine‑tuned a YOLOP model** with a SORT tracker using a combination of Indian (IDD), BDD (foreign), and our own testbed datasets.
 - Applied **extensive data augmentation** and trained on both cropped traffic‑light patches and full‑scene images to capture local and global context.
@@ -57,8 +58,10 @@ The project was divided into several components:
 - Executed repeated simulation runs to validate and refine the traffic‑light‑following (TLF) stack.
 
 5. **Testing:**
-
+6. 
+<div style="text-align: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Di3NJoGd9E0?si=QR66OrS7gf-aodUt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 - Developed an XR test-bed with an RViz-based interface for efficient spawning and visualization of static and dynamic virtual obstacles.
 - Created a C++ ROS package to publish obstacle positions to the obstacle mapper and overlay them on the camera image stream.
