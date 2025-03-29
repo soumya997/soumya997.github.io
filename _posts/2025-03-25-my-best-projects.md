@@ -58,7 +58,7 @@ The project was divided into several components:
 - Executed repeated simulation runs to validate and refine the traffic‑light‑following (TLF) stack.
 
 5. **Testing:**
-6. 
+
 <div style="text-align: center;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Di3NJoGd9E0?si=QR66OrS7gf-aodUt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
