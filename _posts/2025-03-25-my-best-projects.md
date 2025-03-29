@@ -1,5 +1,15 @@
+---
+layout: post
+title: Best Project I have Worked on!
+subtitle: My work on Autonomous vehicle at IIIT Delhi
+cover-img: /assets/img/kaggle_banner.png
+thumbnail-img: /assets/img/kaggle_banner.png
+share-img: /assets/img/kaggle_banner.png
+tags: [Portfolio]
+---
 
-Best Project I have worked on!
+
+# Best Project I have Worked on!
 
 One of the best projects I worked on was developing and deploying an end-to-end **Traffic Light Following** ADAS feature on an autonomous vehicle at IIIT Delhi. Here is a demo,
 
@@ -11,16 +21,28 @@ Typically, an autonomous vehicle is given a start and goal pose, and it must pla
 
 The project was divided into several components:
 
-1. **Perception - Traffic Light Detection:**  
-   Initially, we used a YOLOv5 detector paired with a GMM classifier for color classification. However, this approach struggled to detect traffic lights early enough for the vehicle to react. To overcome this, we fine-tuned a YOLOP model with a SORT tracker using both Indian (IDD) and foreign (BDD) datasets, as well as our testbed dataset, applying various augmentation techniques. One effective strategy was training the model with both cropped images of the traffic lights and the full scene, enabling it to learn both local and global features, resulted into 0.2 mAP hike for TL detection. Ported model to Nvidia Orin using TensorRT, reducing the latency down by 20%.
+1. **Perception - Traffic Light Detection:**
+	<div class="col-md-6">
+	    <iframe width="560" height="315" src="https://youtu.be/KkV2-nVDkjs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	  </div>
+	- **Fine‑tuned a YOLOP model** with a SORT tracker using a combination of Indian (IDD), BDD (foreign), and our own testbed datasets.
+	- Applied **extensive data augmentation** and trained on both cropped traffic‑light patches and full‑scene images to capture local and global context.
+	- Achieved a +0.2 mAP improvement in traffic‑light detection accuracy.
+	- Optimized model using **TensorRT** and ported to **NVIDIA Orin**, yielding a 20% reduction in inference latency.
 
 2. **HD Map Creation:**  
-   We developed a pipeline to automate HD map creation for any environment. Made possible to embed, stop lines info, traffic light positions, slope info.  The pipeline utilizes LiDAR Map to create Lanelet Maps. Point selection from LiDAR Map is done via, YOLOPV2 road segmentation and Plane Estimation.
+	- Developed a fully **automated pipeline for HD‑map creation** in arbitrary environments.
+	- Automatically **embeds key map attributes**: stop‑line locations, traffic‑light positions, and road slope information.
+	- Converts raw **LiDAR maps into Lanelet‑formatted HD maps.**
+	- Selects relevant ground points from the LiDAR map using **YOLOPv2 road segmentation** combined with plane estimation.
 
-3. **Planning:**  
-   For planning, we employed a Behavior Tree framework for the traffic light following logic. The planning stack consisted of a spline-based local planner and a global planner that computed the shortest path using lanelet maps and an occupancy grid. I implemented the stopping profile that stops the vehicle in red light before stop line on the Behavior Tree in C++.
+4. **Planning:**  
+	- Utilized a **Behavior Tree** framework to implement traffic‑light‑following logic.
+	- Implemented a **C++ stopping profile** in the Behavior Tree to reliably stop the vehicle before the stop line at a red light.
 
-4. **Simulation:**
-	Created Simulation environment for traffic light following in Carla. Tested the TLF stack multiple time on different scenario on simulation before integration to ego vehicle. 		
+5. **Simulation:**
+	- Created a **CARLA simulation environments** for traffic‑light‑following.
+	- Developed a diverse set of test scenarios (varying intersection layouts, signal timings, and traffic densities).
+	- Executed repeated simulation runs to validate and refine the traffic‑light‑following (TLF) stack. 		
 
 Apart from this project I have worked few more ADAS features such as Forward Collison Warning, Rear Collision Warning. For more details please check my resume and portfolio.
