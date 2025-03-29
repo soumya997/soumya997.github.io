@@ -21,7 +21,17 @@ The project was divided into several components:
 
 2. **HD Map Creation:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KkV2-nVDkjs?si=NwUHQomD-fs62hSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<table>
+  <tr>
+    <td>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/KkV2-nVDkjs?si=NwUHQomD-fs62hSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </td>
+    <td>
+      <img src="https://via.placeholder.com/560x315" alt="Placeholder image" width="560" height="315" />
+    </td>
+  </tr>
+</table>
 
 - Developed a fully **automated pipeline for HD‑map creation** in arbitrary environments.
 - Automatically **embedded key map attributes**: stop‑line locations, traffic‑light positions, and road slope information.
