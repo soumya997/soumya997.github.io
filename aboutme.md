@@ -190,7 +190,7 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
     </p>
   </div>
   <div class="col-md-6">
-    <img src="https://github.com/soumya997/SfM-Ceres/blob/main/media/templeRing.png" alt="" height="300" width="230">
+    <img src="https://github.com/soumya997/SfM-Ceres/blob/main/media/templeRing.png" alt="" height="200" width="130">
   </div>
 </div>
 
