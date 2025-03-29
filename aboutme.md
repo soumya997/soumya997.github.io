@@ -125,9 +125,11 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
 
 <div class="row">
   <div class="col-md-6">
-    <h4>DDPM: Landscape Generation Using Diffusion Model</h4>
+    <a href="https://github.com/soumya997/Diffusion-Model-Implementation" target="_blank">
+        DDPM: Landscape Generation Using Diffusion Model
+      </a>
     <p>
-      Scratch implemented DDPM using Pytorch. Two variants of Unet are implemented for DDPM, simple CNN based Unet and ViT based Unet. Experimented with Classifier Free Guidance(CFG). <a href="https://github.com/soumya997/Diffusion-Model-Implementation">Github</a> 
+      Scratch implemented DDPM using Pytorch. Two variants of Unet are implemented for DDPM, simple CNN based Unet and ViT based Unet. Experimented with Classifier Free Guidance(CFG). <a href="https://github.com/soumya997/Diffusion-Model-Implementation" target="_blank">Github</a> 
     </p>
   </div>
   <div class="col-md-6">
