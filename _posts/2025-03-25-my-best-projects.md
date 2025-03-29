@@ -32,7 +32,7 @@ The project was divided into several components:
 <table>
   <tr>
     <td>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/KkV2-nVDkjs?si=NwUHQomD-fs62hSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <iframe width="400" height="250" src="https://www.youtube.com/embed/KkV2-nVDkjs?si=NwUHQomD-fs62hSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </td>
     <td>
       <img src="/assets/img/lanelet_map_josm.png" alt="Placeholder image" width="560" height="315" />
@@ -49,7 +49,7 @@ The project was divided into several components:
 - Utilized a **Behavior Tree** framework to implement traffic‑light‑following logic.
 - Implemented a **C++ stopping profile** in the Behavior Tree to reliably stop the vehicle before the stop line at a red light.
 
-4. **Simulation:**
+4. **Simulation and Testing:**
 - Created a **CARLA simulation environment** for traffic‑light‑following.
 - Developed a diverse set of test scenarios (varying intersection layouts, signal timings, and traffic densities).
 - Executed repeated simulation runs to validate and refine the traffic‑light‑following (TLF) stack.
