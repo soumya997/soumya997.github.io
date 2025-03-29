@@ -1,12 +1,4 @@
----
-layout: post
-title: Best Project I've Worked on!
-subtitle: My work on Autonomous vehicle at IIIT Delhi
-cover-img: /assets/img/kaggle_banner.png
-thumbnail-img: /assets/img/kaggle_banner.png
-share-img: /assets/img/kaggle_banner.png
-tags: [Portfolio]
----
+
 
 # Best Project I've Worked on!
 
