@@ -1,4 +1,11 @@
-
+---
+layout: post
+title: Best Project I've Worked on!
+subtitle: My work on Autonomous vehicle at IIIT Delhi
+thumbnail-img: /assets/img/kaggle_banner.png
+share-img: /assets/img/kaggle_banner.png
+tags: [Portfolio]
+---
 
 # Best Project I've Worked on!
 
@@ -28,7 +35,7 @@ The project was divided into several components:
       <iframe width="560" height="315" src="https://www.youtube.com/embed/KkV2-nVDkjs?si=NwUHQomD-fs62hSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </td>
     <td>
-      <img src="https://via.placeholder.com/560x315" alt="Placeholder image" width="560" height="315" />
+      <img src="/assets/img/lanelet_map_josm.png" alt="Placeholder image" width="560" height="315" />
     </td>
   </tr>
 </table>
