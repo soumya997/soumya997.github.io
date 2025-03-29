@@ -49,9 +49,16 @@ The project was divided into several components:
 - Utilized a **Behavior Tree** framework to implement traffic‑light‑following logic.
 - Implemented a **C++ stopping profile** in the Behavior Tree to reliably stop the vehicle before the stop line at a red light.
 
-4. **Simulation and Testing:**
+4. **Simulation:**
 - Created a **CARLA simulation environment** for traffic‑light‑following.
 - Developed a diverse set of test scenarios (varying intersection layouts, signal timings, and traffic densities).
 - Executed repeated simulation runs to validate and refine the traffic‑light‑following (TLF) stack.
+
+5. **Testing:**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Di3NJoGd9E0?si=QR66OrS7gf-aodUt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+- Developed an XR test-bed with an RViz-based interface for efficient spawning and visualization of static and dynamic virtual obstacles.
+- Created a C++ ROS package to publish obstacle positions to the obstacle mapper and overlay them on the camera image stream.
 
 Apart from this project, I have worked on other ADAS features such as Forward Collision Warning and Rear Collision Warning. For more details, please check my resume and portfolio.
