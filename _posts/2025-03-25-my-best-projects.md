@@ -26,15 +26,18 @@ The project was divided into several components:
 <div class="col-md-6">
     <iframe width="560" height="315" src="https://youtu.be/Xk02kCv9rg4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
 - **Fine‑tuned a YOLOP model** with a SORT tracker using a combination of Indian (IDD), BDD (foreign), and our own testbed datasets.
 - Applied **extensive data augmentation** and trained on both cropped traffic‑light patches and full‑scene images to capture local and global context.
 - Achieved a +0.2 mAP improvement in traffic‑light detection accuracy.
 - Optimized model using **TensorRT** and ported to **NVIDIA Orin**, yielding a 20% reduction in inference latency.
 
 2. **HD Map Creation:**
+
 <div class="col-md-6">
     <iframe width="560" height="315" src="https://youtu.be/KkV2-nVDkjs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
+
 - Developed a fully **automated pipeline for HD‑map creation** in arbitrary environments.
 - Automatically **embeds key map attributes**: stop‑line locations, traffic‑light positions, and road slope information.
 - Converts raw **LiDAR maps into Lanelet‑formatted HD maps.**
