@@ -93,9 +93,14 @@ visualization of static and dynamic obstacles.
 
 <div class="row">
   <div class="col-md-6">
-    <h4>Kaggle: TensorFlow - Great Barrier Reef [TOP 3%, Silver medal]</h4>
+    <h4>
+    <a href="https://github.com/soumya997/kaggle-GBR-Experimentations" target="_blank">
+        Kaggle: TensorFlow - Great Barrier Reef [TOP 3%, Silver medal]
+      </a>
     <p>
-      Problem statement was to accurately identify starfish by building an object detector trained on underwater videos of coral reefs. Trained FasterRCNN, YOLOv5. Introduced CLAHE based underwater image enhancemen. TTA and WBF was used for ensemble. <a href="https://github.com/soumya997/kaggle-GBR-Experimentations">Github</a> 
+    </h4>
+    <p>
+      Problem statement was to accurately identify starfish by building an object detector trained on underwater videos of coral reefs. Trained FasterRCNN, YOLOv5. Introduced CLAHE based underwater image enhancemen. TTA and WBF was used for ensemble. <a href="https://github.com/soumya997/kaggle-GBR-Experimentations" target="_blank">Github</a> 
     </p>
   </div>
   <div class="col-md-6">
@@ -108,10 +113,15 @@ visualization of static and dynamic obstacles.
 
 <div class="row">
   <div class="col-md-6">
-    <h4>Kaggle: HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]</h4>
+    <h4>
+    <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution" target="_blank">
+        Kaggle: HuBMAP + HPA - Hacking the Human Body [TOP 6%, Bronze Medal]
+      </a>
+    <p>
+    </h4>
     <p>
       Problem statement was, Semantic segmentation of 5 imbalanced medical tissue types using only 351 high-resolution images from 2 different train-test sources. Trained Swin Transformer Tiny with Uppernet decoder, CoaT. Used SWA based ensembling for same model of different folds and then using TTA on
-different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution">Github</a> 
+different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-solution" target="_blank">Github</a> 
     </p>
   </div>
   <div class="col-md-6">
@@ -125,10 +135,12 @@ different models. <a href="https://github.com/soumya997/HPA-HuBMAP-kaggle-soluti
 
 <div class="row">
   <div class="col-md-6">
+    <h4>
     <a href="https://github.com/soumya997/Diffusion-Model-Implementation" target="_blank">
         DDPM: Landscape Generation Using Diffusion Model
       </a>
     <p>
+    </h4>
       Scratch implemented DDPM using Pytorch. Two variants of Unet are implemented for DDPM, simple CNN based Unet and ViT based Unet. Experimented with Classifier Free Guidance(CFG). <a href="https://github.com/soumya997/Diffusion-Model-Implementation" target="_blank">Github</a> 
     </p>
   </div>
