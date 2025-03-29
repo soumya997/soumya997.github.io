@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Best Project I have Worked on!
+title: Best Project I've Worked on!
 subtitle: My work on Autonomous vehicle at IIIT Delhi
 cover-img: /assets/img/kaggle_banner.png
 thumbnail-img: /assets/img/kaggle_banner.png
@@ -9,7 +9,7 @@ tags: [Portfolio]
 ---
 
 
-# Best Project I have Worked on!
+# Best Project I've Worked on!
 
 One of the best projects I worked on was developing and deploying an end-to-end **Traffic Light Following** ADAS feature on an autonomous vehicle at IIIT Delhi. Here is a demo,
 
@@ -22,9 +22,10 @@ Typically, an autonomous vehicle is given a start and goal pose, and it must pla
 The project was divided into several components:
 
 1. **Perception - Traffic Light Detection:**
-	<div class="col-md-6">
-	    <iframe width="560" height="315" src="https://youtu.be/KkV2-nVDkjs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	  </div>
+
+<div class="col-md-6">
+    <iframe width="560" height="315" src="https://youtu.be/KkV2-nVDkjs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 	- **Fine‑tuned a YOLOP model** with a SORT tracker using a combination of Indian (IDD), BDD (foreign), and our own testbed datasets.
 	- Applied **extensive data augmentation** and trained on both cropped traffic‑light patches and full‑scene images to capture local and global context.
 	- Achieved a +0.2 mAP improvement in traffic‑light detection accuracy.
