@@ -10,9 +10,9 @@ tags: [Portfolio]
 # Best Project I've Worked on!
 
 One of the best projects I worked on was developing and deploying an end-to-end **Traffic Light Following** ADAS feature on an autonomous vehicle at IIIT Delhi. Here is a demo:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Yhju9OP4RS8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Yhju9OP4RS8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 Typically, an autonomous vehicle is given a start and goal pose, and it must plan an optimal path, avoid obstacles, and maintain a desired velocity while reaching the destination. For the traffic light following feature, the challenge was slightly different: given a start and end position, the vehicle needed to find an optimal path, stop before the stop line if a red light was detected, and resume movement when the light turned green.
 
 The project was divided into several components:
