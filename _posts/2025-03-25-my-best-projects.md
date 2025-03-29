@@ -35,7 +35,7 @@ The project was divided into several components:
       <iframe width="400" height="250" src="https://www.youtube.com/embed/KkV2-nVDkjs?si=NwUHQomD-fs62hSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </td>
     <td>
-      <img src="/assets/img/lanelet_map_josm.png" alt="Placeholder image" width="560" height="315" />
+      <img src="/assets/img/lanelet_map_josm.png" alt="Placeholder image" width="450" height="230" />
     </td>
   </tr>
 </table>
