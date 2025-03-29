@@ -12,7 +12,7 @@ The project was divided into several components:
 
 1. **Perception - Traffic Light Detection:**
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/KkV2-nVDkjs?si=NwUHQomD-fs62hSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Xk02kCv9rg4?si=R9IiWfNY6XajW9CX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>>
 
 - **Fine‑tuned a YOLOP model** with a SORT tracker using a combination of Indian (IDD), BDD (foreign), and our own testbed datasets.
 - Applied **extensive data augmentation** and trained on both cropped traffic‑light patches and full‑scene images to capture local and global context.
@@ -21,7 +21,7 @@ The project was divided into several components:
 
 2. **HD Map Creation:**
 
-<iframe width="560" height="315" src="https://youtu.be/KkV2-nVDkjs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KkV2-nVDkjs?si=NwUHQomD-fs62hSY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - Developed a fully **automated pipeline for HD‑map creation** in arbitrary environments.
 - Automatically **embedded key map attributes**: stop‑line locations, traffic‑light positions, and road slope information.
