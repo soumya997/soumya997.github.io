@@ -11,7 +11,7 @@ Hello I'm Soumyadip, I am presently working as a _Robotics Software Engineer_ at
 
 Previously, I was at OpenCV University, as Sr. Computer Vision Engineer, Working mostly on Robotics Perception and 3D Computer Vision / Graphics. Before that, I worked as a _Research Engineer_ at _Infosys CAI, IIIT Delhi_, focusing on Perception for the [Autonomous Vehicle project ALIVE](https://sites.google.com/iiitd.ac.in/iiitd-alive/home), under the guidance of [Dr. Saket Anand](https://www.iiitd.edu.in/~anands/index.html) and [Dr. Sanjit Kaul](https://sites.google.com/view/sanjitkkaul/). My main contributions were to the **ADAS** stack, **HD-Map** generation pipeline, **Traffic Light Following** (DL & Planning), and the development of a **Virtual Testbed** for AV testing.
 
-2022 B.Tech Electrical Engineering graduate from IEM, Kolkata. Research experience includes landscape segmentation on satellite data at IIT KGP (Dr. Debashish Chakravarty) and prior learning for GANs at UNSW (Dr. Tanmoy Dam). Kaggle Competition Expert specializing in Object Detection and Segmentation.
+2022 B.Tech Electrical Engineering graduate from IEM, Kolkata. Research experience includes landscape segmentation on satellite data at **IIT KGP** (Dr. Debashish Chakravarty) and prior learning for GANs at **UNSW** (Dr. Tanmoy Dam). **Kaggle Competition Expert** specializing in Object Detection and Segmentation.
 
 **🤹 Skills:** VLA, VLM, IsaacSim, Python, C++, Carla, ROS1/2, PyTorch, NeRF Studio, COLMAP, Eigen, <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ceres-Solver, LiDAR, RGBD Camera etc.
