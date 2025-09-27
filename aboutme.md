@@ -13,8 +13,7 @@ Previously, I was at OpenCV University, as Sr. Computer Vision Engineer, Working
 
 2022 B.Tech Electrical Engineering graduate from IEM, Kolkata. Research experience includes landscape segmentation on satellite data at **IIT KGP** (Dr. Debashish Chakravarty) and prior learning for GANs at **UNSW** (Dr. Tanmoy Dam). **Kaggle Competition Expert** specializing in Object Detection and Segmentation.
 
-**🤹 Skills:** VLA, VLM, IsaacSim, Python, C++, Carla, ROS1/2, PyTorch, NeRF Studio, COLMAP, Eigen, <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ceres-Solver, LiDAR, RGBD Camera etc.
+**🤹 Skills:** VLA, VLM, IsaacSim, Python, C++, Carla, ROS1/2, PyTorch, NeRF Studio, COLMAP, Eigen, Ceres-Solver, LiDAR, RGBD Camera etc.
 
 **📬️ Email ID:** [soumya997.sarkar@gmail.com](mailto:soumya997.sarkar@gmail.com)
 
