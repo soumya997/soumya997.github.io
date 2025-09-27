@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Soumyadip
-subtitle: Sr. Computer Vision Engineer at Opencv University 
+subtitle: Robotics Software Engineer, Perception at Jio Reality Labs 
 ---
 
 
 <img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/5ba7169e-c87d-4f07-a92b-8c24a0c131e2" width="350px" align="right">
 
-Hello I'm Soumyadip, I am presently working as a **Robotics Software Engineer, Computer Vision** at _Jio Reality Labs_ <img src='https://i.postimg.cc/bNd2fx2c/Reliance-Jio-Logo.png' width=30>.
+Hello I'm Soumyadip, I am presently working as a **Robotics Software Engineer, Perception** at _Jio Reality Labs_ <img src='https://i.postimg.cc/bNd2fx2c/Reliance-Jio-Logo.png' width=30>.
 
 Previously, I was at **OpenCV University**, as _Sr. Computer Vision Engineer_, Working mostly on Robotics Perception and 3D Computer Vision / Graphics. Before that, I worked as a _Research Engineer_ at **Infosys CAI, IIIT Delhi**, focusing on Perception for the [Autonomous Vehicle project ALIVE](https://sites.google.com/iiitd.ac.in/iiitd-alive/home), under the guidance of [Dr. Saket Anand](https://www.iiitd.edu.in/~anands/index.html) and [Dr. Sanjit Kaul](https://sites.google.com/view/sanjitkkaul/). My main contributions were to the **ADAS** stack, **HD-Map** generation pipeline, **Traffic Light Following** (DL & Planning), and the development of a **Virtual Testbed** for AV testing.
 
