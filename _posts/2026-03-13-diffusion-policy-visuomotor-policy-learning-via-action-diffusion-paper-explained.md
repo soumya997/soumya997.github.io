@@ -118,7 +118,7 @@ $$
 
 ## Imitation Learning Basics Explained
 
-General though behind Imitation Learning is, given an image $o$ we predict the label $a$, using a model $\pi_{\theta}$, and its modelled as $\pi_{\theta}(a|o)$, where $\theta$ represents the model parameters. Imitation learning is almost supervised learning, with a caveat.
+General though behind Imitation Learning is, given an image $o$ we predict the label $a$, using a model $\pi_{\theta}$, and its modelled as $\pi_{\theta}(a \mid o)$ , where $\theta$ represents the model parameters. Imitation learning is almost supervised learning, with a caveat.
 
 In a image classification task the $a$ is the predicted class, and in control problem $a$ is the predicted action. But note that, 
 
@@ -174,7 +174,7 @@ Diffusion Policy solves both the problems by,
 DDPM is adapted for Diffusion Policy in an imitation learning style. Just as image generation conditions on text to produce an image, here the **action is conditioned on observation** $o$ (image) to produce $a_t$ in a **non-iid** sequential setup. This is the only fundamental change from vanilla DDPM, the denoising process is conditioned on $o$ instead of text.
 
 <div style="text-align: center;">
-    <img src="../assets/img/diffusion_policy_blog-Page-2.drawio.png" width=600>
+    <img src="../assets/img/diffusion_policy_blog-Page-2.drawio.png" width=800>
 </div>
 
 Following this, the Forward process is described as,
@@ -222,7 +222,7 @@ Given the observation $o$ and action $a$ first we try to learn the Energy functi
 
 Action predicted using $E_{\theta}(o,a)$ is not a one-to-one mapping, its one-to-many mapping, because the observation vs action landscape is multi-modal (below image see the black c curve), means given a single observation $o$ there can be multiple optimal actions to take. Thats why we need to perform some optimization e.g. gradient descent etc. Left part of the image shows that. 
 
-An implicit policy represents the “action distribution $p(a|o)$” defined as Energy-Based Model (EBM):
+An implicit policy represents the “action distribution $p(a \mid o )$” defined as Energy-Based Model (EBM):
 
 $$
 p_{\theta}(a \mid o) = \frac{e^{-E_{\theta}(o,a)}}{Z(o,\theta)}
@@ -230,8 +230,8 @@ $$
 
 Difference between EBM ( $p_{\theta}$  ) and $E_{\theta}$ is that $E_{\theta}$   gives a scaler value (energy of the action), but $p_{\theta}$ is the probability density of the action that can occur for a given observation $o$. 
 
-- If actions are discrete (K possible actions), p_θ is K-dimensional a vector of probabilities.
-- If actions are continuous → p_θ is a probability density over a d-dimensional space.
+- If actions are discrete (K possible actions), $p_θ$ is K-dimensional a vector of probabilities.
+- If actions are continuous → $p_{\theta}$ is a probability density over a d-dimensional space.
 
 ## Transition: Energy Score Based Model → Score Based Model
 
@@ -300,7 +300,7 @@ I think rather than predicting single action command individually, this predicts
     > *"A good trajectory is a coherent sequence, model it as a whole"*
     > 
 
-This is the general diagram given in the DP paper. Here, $\epsilon_{\theta}(o,a)$ is the noise prediction network. The predicted noise is actually the score ($-∇_a \log {p(a|o)} \approx ∇ E (a)$ ). And this is directly used in equation 1, in place of $ε_θ(x^k, k)$ to calculate the $k-1$ denoising step’s action sequence. 
+This is the general diagram given in the DP paper. Here, $\epsilon_{\theta}(o,a)$ is the noise prediction network. The predicted noise is actually the score ($-∇_a \log {p(a \mid o)} \approx ∇ E (a)$ ). And this is directly used in equation 1, in place of $ε_θ(x^k, k)$ to calculate the $k-1$ denoising step’s action sequence. 
 
 <div style="text-align: center;">
     <img src="../assets/img/image 8.png" width=300>
@@ -323,3 +323,9 @@ Note: the model is not auto-regressive, the predicted noise gets converted to ac
 The diffusion policy action prediction rate is around 2Hz, and it takes quite some episodes to train this model properly. At the time of publishing, there were already better methods in visuomotor policy learning, such as $\pi_0$, GR00T N1, ACT, etc., many of which use Flow Matching objectives that are significantly faster. However, as it is a fundamental work on the path toward VLAs, I thought it was worth reading.
 
 I have only read the paper and referenced blogs/videos I could find online to understand the concepts — due to time constraints, I was not able to go through the Diffusion Policy codebase. Therefore, if you find any mistakes, please let me know and I will try to fix them.
+
+
+## Resources
+- https://medium.com/@sm.sat/diffusion-policy-visuomotor-policy-learning-via-action-diffusion-paper-code-review-7b21486ccd99
+- https://lilianweng.github.io/posts/2021-07-11-diffusion-models/
+- https://yang-song.net/blog/2021/score/
