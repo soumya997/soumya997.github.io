@@ -235,7 +235,7 @@ Difference between EBM ( $p_{\theta}$  ) and $E_{\theta}$ is that $E_{\theta}$  
 
 ## Transition: Energy Score Based Model → Score Based Model
 
-Here, $p_{\theta}$ describes the action distribution given the observation, and some Energy function $E_{\theta}$ . This eqn is similar to the pdf of gaussian distribution, but the coefficient Z_{\theta} and the power of e is unknown. In 2D gaussian distribution pdf,
+Here, $p_{\theta}$ describes the action distribution given the observation, and some Energy function $E_{\theta}$ . This eqn is similar to the pdf of gaussian distribution, but the coefficient $Z_{\theta}$ and the power of e is unknown. In 2D gaussian distribution pdf,
 
 $$
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp\!\left( -\frac{1}{2} \left( \frac{x - \mu}{\sigma} \right)^2 \right)
