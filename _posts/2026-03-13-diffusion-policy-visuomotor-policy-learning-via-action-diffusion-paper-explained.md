@@ -308,9 +308,9 @@ This is the general diagram given in the DP paper. Here, $\epsilon_{\theta}(o,a)
 
 Here,
 
-$\mathbf{a} = [a_1, a_2, a_3, …, a_{T_a} , a_{T_p}]$ ( $T_p$ steps of actions, at time $t$)
+1. $\mathbf{a} = [a_1, a_2, a_3, …, a_{T_a} , a_{T_p}]$ ( $T_p$ steps of actions, at time $t$)
 
-$O_t = [o_t, o_{t-1}, ..., o_{t-T_o+1}]$ ($T_o$ most recent observations, diagram $O = O_t$)
+2. $O_t = [o_t, o_{t-1}, ..., o_{t-T_o+1}]$ ($T_o$ most recent observations, diagram $O = O_t$)
 
 Only $T_a$ steps are being executed, $[a_1, a_2, a_3, …, a_{T_a}]$
 
