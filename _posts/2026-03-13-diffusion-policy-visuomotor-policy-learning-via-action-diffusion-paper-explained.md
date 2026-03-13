@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Diffusion Policy Visuomotor Policy Learning Via Action Diffusion — Paper Explained"
-subtitle: The problem statement Diffusion Policy solves is Visuomotor manipulation, means a imitation learning policy that uses Diffusion Process that performs...
+subtitle: The problem statement Diffusion Policy solves is Visuomotor manipulation...
 cover-img: /assets/img/kaggle_banner.png
-thumbnail-img: ../assets/img/Diffusion_Policy_Visuomotor_Policy_Learning_Via_Action_Diffusion_Paper_Explained.png
+thumbnail-img: ../assets/img/diffusion_policy.png
 share-img: ../assets/img/Diffusion_Policy_Visuomotor_Policy_Learning_Via_Action_Diffusion_Paper_Explained.png
 tags: [VLA, Vision Action Model, Diffusion Policy]
 ---
