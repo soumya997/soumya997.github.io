@@ -1,4 +1,15 @@
-# Diffusion Policy Blog Final
+---
+layout: post
+title: "Diffusion Policy Visuomotor Policy Learning Via Action Diffusion — Paper Explained"
+subtitle: The problem statement Diffusion Policy solves is Visuomotor manipulation, means a imitation learning policy that uses Diffusion Process that performs...
+cover-img: /assets/img/kaggle_banner.png
+thumbnail-img: ../assets/img/Diffusion_Policy_Visuomotor_Policy_Learning_Via_Action_Diffusion_Paper_Explained.png
+share-img: ../assets/img/Diffusion_Policy_Visuomotor_Policy_Learning_Via_Action_Diffusion_Paper_Explained.png
+tags: [VLA, Vision Action Model, Diffusion Policy]
+---
+
+
+
 
 The problem statement Diffusion Policy solves is Visuomotor manipulation, means a imitation learning policy that uses Diffusion Process that performs manipulation tasks given only the camera frames and its current joint state as input, and predicts a set of action chunks as output. Here “an action chunk” means 7 DoF EEF pose ($\text{[x, y, z, roll, pitch, yaw, gripper]}$). The model predicts a set of $n$ (say $n$=16) actions, meaning that if there are 16 future time steps, the end-effector of the manipulator needs to follow a sequence of poses/action chunks to reach the goal position.
 
@@ -174,7 +185,7 @@ Diffusion Policy solves both the problems by,
 DDPM is adapted for Diffusion Policy in an imitation learning style. Just as image generation conditions on text to produce an image, here the **action is conditioned on observation** $o$ (image) to produce $a_t$ in a **non-iid** sequential setup. This is the only fundamental change from vanilla DDPM, the denoising process is conditioned on $o$ instead of text.
 
 <div style="text-align: center;">
-    <img src="../assets/img/diffusion_policy_blog-Page-2.drawio.png" width=800>
+    <img src="../assets/img/Diffusion_Policy_Visuomotor_Policy_Learning_Via_Action_Diffusion_Paper_Explained.png" width=800>
 </div>
 
 Following this, the Forward process is described as,
