@@ -326,6 +326,8 @@ I have only read the paper and referenced blogs/videos I could find online to un
 
 
 ## Resources
-- https://medium.com/@sm.sat/diffusion-policy-visuomotor-policy-learning-via-action-diffusion-paper-code-review-7b21486ccd99
-- https://lilianweng.github.io/posts/2021-07-11-diffusion-models/
-- https://yang-song.net/blog/2021/score/
+- [Diffusion Policy: Visuomotor Policy Learning via Action Diffusion — Part I: Foundations](https://medium.com/@sm.sat/diffusion-policy-visuomotor-policy-learning-via-action-diffusion-paper-code-review-7b21486ccd99)
+- [What are Diffusion Models? by Lilian Wang](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
+
+- [Generative Modeling by Estimating Gradients of the Data Distribution
+](https://yang-song.net/blog/2021/score/)
