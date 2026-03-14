@@ -20,6 +20,9 @@ site_title_font: "Cookie"
 # Name font for the Projects page title (fetched from Google Fonts)
 projects_title_font: "Cookie"
 
+# Name font for the Blog page title (fetched from Google Fonts)
+blog_title_font: "Cookie"
+
 # File path to the downloadable resume PDF
 resume_path: "/resumes/Soumyadip_s_resume_large_v1.pdf"
 

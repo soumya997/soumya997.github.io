@@ -73,6 +73,11 @@
     <style>@import url('https://fonts.googleapis.com/css2?family={{ proj_font_url }}&display=swap');</style>
   {% endif %}
 
+  {% if site.blog_title_font %}
+    {% assign blog_font_url = site.blog_title_font | replace: ' ', '+' %}
+    <style>@import url('https://fonts.googleapis.com/css2?family={{ blog_font_url }}&display=swap');</style>
+  {% endif %}
+
   <style>
     {% if site.site_title_font %}
     .navbar-brand {
@@ -91,6 +96,13 @@
     {% if page.title == "Projects" and site.projects_title_font %}
     .page-heading h1 {
       font-family: '{{ site.projects_title_font }}', cursive !important;
+      font-size: 5.5rem !important;
+    }
+    {% endif %}
+
+    {% if page.title == site.title and site.blog_title_font %}
+    .page-heading h1 {
+      font-family: '{{ site.blog_title_font }}', cursive !important;
       font-size: 5.5rem !important;
     }
     {% endif %}
