@@ -1,28 +1,9 @@
 ---
 layout: page
-title: Soumyadip
-subtitle: Robotics Software Engineer, Perception at Jio Reality Labs 
+title: Projects
+subtitle: My Recent Work
 ---
 
-
-<img src="https://github.com/soumya997/soumya997.github.io/assets/54326088/5ba7169e-c87d-4f07-a92b-8c24a0c131e2" width="350px" align="right">
-
-Hello I'm Soumyadip, I am presently working as a **Robotics Software Engineer, Perception** at _Jio Reality Labs_ <img src='https://i.postimg.cc/bNd2fx2c/Reliance-Jio-Logo.png' width=30>.
-
-Previously, I was at **OpenCV University**, as _Sr. Computer Vision Engineer_, Working mostly on Robotics Perception and 3D Computer Vision / Graphics. Before that, I worked as a _Research Engineer_ at **Infosys CAI, IIIT Delhi**, focusing on Perception for the [Autonomous Vehicle project ALIVE](https://sites.google.com/iiitd.ac.in/iiitd-alive/home), under the guidance of [Dr. Saket Anand](https://www.iiitd.edu.in/~anands/index.html) and [Dr. Sanjit Kaul](https://sites.google.com/view/sanjitkkaul/). My main contributions were to the **ADAS** stack, **HD-Map** generation pipeline, **Traffic Light Following** (DL & Planning), and the development of a **Virtual Testbed** for AV testing.
-
-2022 B.Tech Electrical Engineering graduate from IEM, Kolkata. Research experience includes landscape segmentation on satellite data at **IIT KGP** (Dr. Debashish Chakravarty) and prior learning for GANs at **UNSW** (Dr. Tanmoy Dam). **Kaggle Competition Expert** specializing in Object Detection and Segmentation.
-
-**🤹 Skills:** VLA, VLM, IsaacSim, Python, C++, Carla, ROS1/2, PyTorch, NeRF Studio, COLMAP, Eigen, Ceres-Solver, LiDAR, RGBD Camera etc.
-
-**📬️ Email ID:** [soumya997.sarkar@gmail.com](mailto:soumya997.sarkar@gmail.com)
-
-<h6 style="text-align:center; background-color:#C8FF33; padding:40px; border-radius: 30px; font-family: 'Courier New', Courier, monospace;">
-💡 Open to opportunities [research or Eng] in field of: <br> Computer Vision, Robotics - Perception and SLAM, 3D Vision and Graphics, Deep Learning
-</h6>
-<br>
-
-## **Projects:**
 <div class="row">
   <div class="col-md-6">
     <h4>Traffic Light Following</h4>
@@ -223,24 +204,3 @@ visualization of static and dynamic obstacles.
     <img src="https://github.com/soumya997/SfM-Ceres/blob/main/media/templeRing.png?raw=true" alt="" height="300" width="230">
   </div>
 </div>
-
-
-
-
-<hr>
-
-## **Publications:**
--   [A Novel Approach for Urban Unsupervised Segmentation Classification in SAR Polarimetry](https://ieeexplore.ieee.org/document/9581380)
--   [COVID-DeepNet: Deep Convolutional Neural Network Architecture Designed for Early Prognosis of COVID-19 Using Post-anterior View of Chest X-Rays](https://link.springer.com/chapter/10.1007/978-981-19-1657-1_5)
-- [Analysis of Depth Sensing and Lane Detection Algorithms for Advanced Driver Assistance Systems](https://link.springer.com/chapter/10.1007/978-3-031-25194-8_4)
-
-## **Blogs:**
--   [https://soumya997.github.io/](https://soumya997.github.io/)
--  [https://www.kaggle.com/soumya9977/notebooks](https://www.kaggle.com/soumya9977/notebooks)
--  [https://learnopencv.com/author/soumyadip/](https://learnopencv.com/author/soumyadip/)
-
-
-<br>
-
-> For More information check out below links, 
-> ### [`Resume`](https://drive.google.com/file/d/1KwIJePm4SJ8pRTDsCvUPbSjVrGYklTbW/view?usp=share_link) |  [`Kaggle`](https://www.kaggle.com/soumya9977)  |  [`LinkedIn`](https://www.linkedin.com/in/soumyadip-sarkar/)  |  [`Twitter`](https://twitter.com/somuSan_)  | [`Gmail`](mailto:soumya997.sarkar@gmail.com)

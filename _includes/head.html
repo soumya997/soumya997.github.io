@@ -58,6 +58,44 @@
   {% include google_analytics.html %}
   {% include cloudflare_analytics.html %}
 
+  {% if site.aboutme_title_font %}
+    {% assign about_font_url = site.aboutme_title_font | replace: ' ', '+' %}
+    <style>@import url('https://fonts.googleapis.com/css2?family={{ about_font_url }}&display=swap');</style>
+  {% endif %}
+  
+  {% if site.site_title_font %}
+    {% assign site_font_url = site.site_title_font | replace: ' ', '+' %}
+    <style>@import url('https://fonts.googleapis.com/css2?family={{ site_font_url }}&display=swap');</style>
+  {% endif %}
+  
+  {% if site.projects_title_font %}
+    {% assign proj_font_url = site.projects_title_font | replace: ' ', '+' %}
+    <style>@import url('https://fonts.googleapis.com/css2?family={{ proj_font_url }}&display=swap');</style>
+  {% endif %}
+
+  <style>
+    {% if site.site_title_font %}
+    .navbar-brand {
+      font-family: '{{ site.site_title_font }}', cursive !important;
+      font-size: 2.2rem !important;
+    }
+    {% endif %}
+
+    {% if page.title == "Soumyadip" and site.aboutme_title_font %}
+    .page-heading h1 {
+      font-family: '{{ site.aboutme_title_font }}', cursive !important;
+      font-size: 5.5rem !important;
+    }
+    {% endif %}
+
+    {% if page.title == "Projects" and site.projects_title_font %}
+    .page-heading h1 {
+      font-family: '{{ site.projects_title_font }}', cursive !important;
+      font-size: 5.5rem !important;
+    }
+    {% endif %}
+  </style>
+
   {% if layout.common-ext-css %}
     {% for css in layout.common-ext-css %}
       {% include ext-css.html css=css %}

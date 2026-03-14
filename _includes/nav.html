@@ -26,7 +26,13 @@
           </li>
         {% else %}
           <li class="nav-item">
-            <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+            {% if link[0] == 'Hire me' and site.resume_path %}
+              <a class="nav-link" href="{{ site.resume_path | relative_url }}" target="_blank">{{ link[0] }}</a>
+            {% elsif link[0] == 'Hire me' %}
+              <a class="nav-link" href="{{ link[1] | relative_url }}" target="_blank">{{ link[0] }}</a>
+            {% else %}
+              <a class="nav-link" href="{{ link[1] | relative_url }}">{{ link[0] }}</a>
+            {% endif %}
           </li>
         {%- endif -%}
       {%- endfor -%}

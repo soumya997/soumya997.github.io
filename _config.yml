@@ -6,17 +6,30 @@
 # --- Required options --- #
 
 # Name of website
-title: Overcount
+title: somusan's ckpt
 
 # Your name to show in the footer
 author: Soumyadip Sarkar
 
+# Name font for the About Me page (fetched from Google Fonts)
+aboutme_title_font: "Cookie"
+
+# Name font for the Site Title in the Navigation Bar (fetched from Google Fonts)
+site_title_font: "Cookie"
+
+# Name font for the Projects page title (fetched from Google Fonts)
+projects_title_font: "Cookie"
+
+# File path to the downloadable resume PDF
+resume_path: "/resumes/Soumyadip_s_resume_large_v1.pdf"
+
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
-  Blog: "/"
-  Hire me: "https://drive.google.com/file/d/129G7N4sNXvG3BAr5jiIK8Kz2QG1xREh0/view?usp=sharing"
+  About Me: ""
+  Projects: "projects"
+  Blog: "blog"
+  Hire me: ""
 #   Art Gallery: "https://soumya997.notion.site/My-Art-Gallery-4dbd6f5e4dd34de3b4203421dce07014"
   #Resources:
     #- Beautiful Jekyll: "https://beautifuljekyll.com"
@@ -201,6 +214,7 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
 paginate: 5
+paginate_path: "/blog/page:num/"
 
 kramdown:
   input: GFM
