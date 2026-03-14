@@ -29,7 +29,7 @@ resume_path: "/resumes/Soumyadip_s_resume_large_v1.pdf"
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: ""
+  About Me: "/"
   Projects: "projects"
   Blog: "blog"
   Hire me: ""
