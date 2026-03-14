@@ -8,7 +8,8 @@ layout: base
 
 <div class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   <div class="row">
-    <div class="{% if page.full-width %} col {% else %} col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 {% endif %}">
+    <!-- Main Content Column -->
+    <div class="{% if page.full-width %} col {% else %} col-lg-8 offset-lg-1 {% endif %} mt-4">
 
       {% if page.gh-repo %}
         {% assign gh_split =  page.gh-repo | split:'/'  %}
@@ -80,5 +81,38 @@ layout: base
       </ul>
       {% include comments.html %}
     </div>
+
+    <!-- Table of Contents Column -->
+    {% unless page.full-width %}
+    <div class="col-lg-3 d-none d-lg-block mt-4">
+      <div class="toc-container" style="position: sticky; top: 100px; height: calc(100vh - 120px); overflow-y: auto;">
+        <h4 class="text-muted mb-3" style="font-size: 1.1rem; text-transform: uppercase;">On this page</h4>
+        <div class="toc"></div>
+      </div>
+    </div>
+    {% endunless %}
   </div>
 </div>
+
+<!-- tocbot css & js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.21.0/tocbot.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.21.0/tocbot.min.js"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    tocbot.init({
+      // Where to render the table of contents.
+      tocSelector: '.toc',
+      // Where to grab the headings to build the table of contents.
+      contentSelector: '.blog-post',
+      // Which headings to grab inside of the contentSelector element.
+      headingSelector: 'h2, h3, h4',
+      // For headings inside relative or absolute positioned containers within content.
+      hasInnerContainers: true,
+      // Smooth scroll
+      scrollSmooth: true,
+      // Offset for sticky nav
+      headingsOffset: 100,
+      scrollSmoothOffset: -100
+    });
+  });
+</script>
