@@ -9,9 +9,10 @@ tags: [VLA, Vision Action Model, Diffusion Policy]
 ---
 
 
+We all know diffusion models like DALL-E and Stable Diffusion for their ability to generate stunning images by iteratively removing noise. But what if we applied that exact same principle to robotic control?
+Diffusion Policy is a groundbreaking approach to **visuomotor manipulation** that adapts the DDPM architecture to solve imitation learning. Instead of converting a latent vector into an image, it learns to denoise a random sequence into a highly accurate "action chunk"—a trajectory of 7-DoF end-effector poses. By conditioning this denoising process on camera observations rather than text prompts, Diffusion Policy gracefully handles the multi-modal, non-Markovian nature of real-world physics. In this post, we’ll take a step back to review the fundamentals of DDPMs and Imitation Learning, and then connect the dots to see how Score-Based modeling gives Diffusion Policy its edge.
 
-
-The problem statement Diffusion Policy solves is Visuomotor manipulation, means a imitation learning policy that uses Diffusion Process that performs manipulation tasks given only the camera frames and its current joint state as input, and predicts a set of action chunks as output. Here “an action chunk” means 7 DoF EEF pose ($\text{[x, y, z, roll, pitch, yaw, gripper]}$). The model predicts a set of $n$ (say $n$=16) actions, meaning that if there are 16 future time steps, the end-effector of the manipulator needs to follow a sequence of poses/action chunks to reach the goal position.
+The problem statement Diffusion Policy solves is **Visuomotor Manipulation**, means a imitation learning policy that uses Diffusion Process that performs manipulation tasks given only the **camera frames** and its **current joint state** as input, and predicts a set of action chunks as output. Here “an action chunk” means 7 DoF EEF pose ($\text{[x, y, z, roll, pitch, yaw, gripper]}$). The model predicts a set of $n$ (say $n$=16) actions, meaning that if there are 16 future time steps, the end-effector of the manipulator needs to follow a sequence of poses/action chunks to reach the goal position.
 
 <div style="text-align: center;">
     <img src="../assets/img/diffusion_policy_blog-Page-1.drawio.png">
@@ -19,7 +20,7 @@ The problem statement Diffusion Policy solves is Visuomotor manipulation, means 
 
 The action can be anything like, pick and place objects, stacking objects, Opening a can etc. The paper shows there 11 tasks across 4 simulation environments (see more about this in the paper). These actions data are being collected from expert demonstrations, to train a imitation learning model.
 
-Diffusion Policy(DP), essentially solves a imitation learning problem by taking inspiration directly from DDPM paper. Which means to understand DP, we need to first have a basic understanding of Imitation Learning and DDPM. 
+Diffusion Policy(DP), essentially _solves a imitation learning problem by taking inspiration directly from DDPM paper_. Which means to understand DP, we need to first have a basic understanding of Imitation Learning and DDPM. 
 
 <div style="text-align: center;">
     <img src="../assets/img/image.png" width=550>
@@ -29,24 +30,24 @@ Here is a short refresher, on both.
 
 ## DDPM Explained
 
-Original purpose of DDPM was to image generation, similar to GAN, VAE or Normalizing Flow. But, unlike others its much stable to train, and generate high quality images, without the fear of mode collapse. Almost all image generation models learns how to convert a latent vector (gaussian noise) to an image in one step, but in DDPM, the model fundamentally tries to learn how to remove noise from the latent vector over k iterations. Let’s understand how.
+Original purpose of DDPM was to image generation, similar to GAN, VAE or Normalizing Flow. But, unlike others its much stable to train, and generate high quality images, **without the fear of mode collapse**. Almost all image generation models learns how to _convert a latent vector (gaussian noise) to an image in one step_, but in DDPM, the model fundamentally tries to learn how to remove noise from the latent vector over k iterations. Let’s understand how.
 
 <div style="text-align: center;">
     <img src="../assets/img/image 1.png">
 </div>
 
-DDPM has two process forward process and reverse process, in the forward process we gradually add noise to an sampled image for k steps, and in reverse we try to predict given a noisier version of the image, how much noise we need to remove to get to a less noisy image. 
+DDPM has two process **forward process** and **reverse process**, in the forward process we gradually add noise to an sampled image($x_0$) for $k$ steps, and in the reverse process, the model does the exact opposite, it learns to look at a noisy image and figure out how much noise to strip away to restore it.
 
 ### **Forward Diffusion Process:**
 
 We gradually add gaussian noise to original image $x_0$ for $T$ steps, and by the time it reaches to $T$, the original image turns into a pure Gaussian noise $x_t \sim N (0, I)$
-. This forward diffusion process is described as a transition probability of getting to a more noisy version of the image ($x_{t-1}$) given the less noisy version ($x_t$),
+. This forward diffusion process is described as a _transition probability of getting to a more noisy version of the image ($x_{t-1}$) given the less noisy version ($x_t$)_,
 
 $$
 q(x_t \mid x_{t-1}) = \mathcal{N}(x_t; \sqrt{1 - \beta_t} \, x_{t-1}, \beta_t I)
 $$
 
-here $\beta_t$ is the noise schedule, means it decides how much noise to add at time step $t$. 
+Here, $\beta_t$ is the noise schedule, means it decides how much noise to add at time step $t$. 
 
 Using re-prametrizaiton trick we can, estimate $x_t$ given any arbitrary time step $t$ and $x_0$. 
 
@@ -80,7 +81,7 @@ $$
 
 ### **Reverse Diffusion Process:**
 
-Similarly there is Reverse Diffusion Process, in which we try to retrieve the less noisy version of the image ($x_{t-1}$) given the more noisy version of the image ($x_t$). As you can see this is the reverse of the forward process, where we try to predict the amount of noise added, to get back the the previous step($x_{t-1}$). The transition probability of getting to a less noisy version of the image $x_{t-1}$ from more noisy image ($x_t$) is, 
+Similarly there is Reverse Diffusion Process, in which we try to _retrieve the less noisy version of the image ($x_{t-1}$) given the more noisy version of the image ($x_t$)_. As you can see this is the reverse of the forward process, where we try to predict the amount of noise added, to get back the the previous step($x_{t-1}$). The transition probability of getting to a less noisy version of the image $x_{t-1}$ from more noisy image ($x_t$) is, 
 
 $$
 p_\theta(x_{t-1} \mid x_t) = \mathcal{N}\!\left(x_{t-1}; \mu_\theta(x_t, t), \Sigma_\theta(x_t, t)\right)
@@ -94,7 +95,7 @@ $$
 
 Well, predicting the mean is good and all, but at the beginning, we understood that at its core reverse diffusion model, is all about predicting the noise that’s been use to transition from $x_{t-1}$ to $x_t$, but here we are predicting the mean, how that make sense. 
 
-*In my opinion this is the most interesting part of all the derivations,* the mean of the gaussian $p_\theta(x_{t-1} \mid x_t)$ is derived from the predicted noise $\epsilon_\theta(x_t, t)$, using a closed-form relation between forward and reverse process, which is very similar to the re-parameterization equation from before.
+**In my opinion this is the most interesting part of all the derivations,** the mean of the gaussian $p_\theta(x_{t-1} \mid x_t)$ is derived from the predicted noise $\epsilon_\theta(x_t, t)$, using a closed-form relation between forward and reverse process, which is very similar to the re-parameterization equation from before.
 
 $$
 \begin{align}
@@ -103,11 +104,11 @@ x_{t-1} &= \frac{1}{\sqrt{\alpha_t}} \left( x_t - \frac{1-\alpha_t}{\sqrt{1-\bar
 \end{align}
 $$
 
-It is c**onceptually similar** to Langevin dynamics, as it has a deterministic "drift toward data" term plus a noise term. Note that the above equation expresses $\mu_\theta$ in a closed form using $\epsilon_\theta$. This means you need the predicted noise value first to calculate the mean, which is then added to $x_t$ to retrieve $x_{t-1}$ using equation 4.
+It is c**onceptually similar** to **Langevin dynamics**, as it has a deterministic "drift toward data" term plus a noise term. Note that the above equation expresses $\mu_\theta$ in a closed form using $\epsilon_\theta$. This means you need the predicted noise value first to calculate the mean, which is then added to $x_t$ to retrieve $x_{t-1}$ using equation 4.
 
 For further understanding of the derivation [follow this](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/#:~:text=Recall%20that%20we,%3A).
 
-Stochastic gradient Langevin dynamics is used in the reverse process for sampling/generation. Think about SGLD as a technique that enhances stochastic gradient descent by injecting noise, enabling efficient sampling from complex distributions during the reverse process while aiding convergence to the target posterior. 
+**Stochastic gradient Langevin dynamics (SGLD)** is used in the reverse process for sampling/generation. Think about SGLD as a technique that enhances stochastic gradient descent by injecting noise, enabling efficient sampling from complex distributions during the reverse process while aiding convergence to the target posterior. 
 
 $$
 x_t = x_{t-1} + \frac{\delta}{2} \nabla_x \log p(x_{t-1}) + \sqrt{\delta} \epsilon_t, \quad \text{where} \ \epsilon_t \sim \mathcal{N}(0,I)
@@ -200,7 +201,7 @@ $$
 A^{k-1} = \alpha \left( A^k - \gamma \epsilon_\theta (O_t, A^k, k) \right) + \mathcal{N}(0, \sigma^2 I)
 $$
 
-Only change is, $\epsilon_\theta (O_t, A^k, k)$ is being used in place of $\epsilon_\theta(x_t,t)$ ($A^k$ and $x_t$ are same). Here, the noise not only the function of action $A^k$ and iteration $k$ but it also takes $O_t$  into consideration (obviously as its a control problem). Here, action is defined as “A chunk of actions”, which is nothing but sequential end-effector (EEF) pose, that are passed to a mid-level controller that solves differential kinematics (IK) to compute the necessary joint positions to reach that pose.
+**Only change is**, $\epsilon_\theta (O_t, A^k, k)$ is being used in place of $\epsilon_\theta(x_t,t)$ ($A^k$ and $x_t$ are same). Here, the noise is **not only** a function of action $A^k$ and iteration $k$ **but also takes $O_t$**  into consideration (obviously as its a control problem). Here, action is defined as “A chunk of actions”, which is nothing but **sequential end-effector (EEF) pose**, that are passed to a **mid-level controller** that solves **differential kinematics (IK)** to compute the necessary joint positions to reach that pose.
 
 $$
 \begin{align*}
@@ -223,7 +224,7 @@ Energy based models represents implicit policy, where the model learn a energy f
 
 **1st - Learning the Energy Function:** 
 
-Given the observation $o$ and action $a$ first we try to learn the Energy function $E_{\theta}(o,a)$, to output scalar badness score. The blue and white graph you are seeing at the right, is the energy function, learned through contrastive learning. The model gives high score for bad actions, and low for good ones. 
+Given the observation $o$ and action $a$ we first try to learn the **Energy function** $E_{\theta}(o,a)$, to output a **scalar badness score**. The blue and white graph on the right is the energy function, learned through **contrastive learning**. The model gives **high score for bad actions**, and **low for good ones**. 
 
 <div style="text-align: center;">
     <img src="../assets/img/image 7.png" width=300>
@@ -231,7 +232,7 @@ Given the observation $o$ and action $a$ first we try to learn the Energy functi
 
 **2nd - Inference Through Optimization:**
 
-Action predicted using $E_{\theta}(o,a)$ is not a one-to-one mapping, its one-to-many mapping, because the observation vs action landscape is multi-modal (below image see the black c curve), means given a single observation $o$ there can be multiple optimal actions to take. Thats why we need to perform some optimization e.g. gradient descent etc. Left part of the image shows that. 
+Action predicted using $E_{\theta}(o,a)$ is **not a one-to-one mapping**—it's **one-to-many**, because the observation vs action landscape is **multi-modal** (see the black c curve in the image below): given a single observation $o$ there can be **multiple optimal actions** to take. That's why we need to perform **optimization** (e.g. gradient descent). The left part of the image shows that. 
 
 An implicit policy represents the “action distribution $p(a \mid o )$” defined as Energy-Based Model (EBM):
 
@@ -239,14 +240,14 @@ $$
 p_{\theta}(a \mid o) = \frac{e^{-E_{\theta}(o,a)}}{Z(o,\theta)}
 $$
 
-Difference between EBM ( $p_{\theta}$  ) and $E_{\theta}$ is that $E_{\theta}$   gives a scaler value (energy of the action), but $p_{\theta}$ is the probability density of the action that can occur for a given observation $o$. 
+**Difference between EBM** ($p_{\theta}$) **and** $E_{\theta}$: $E_{\theta}$ gives a **scalar value** (energy of the action), but $p_{\theta}$ is the **probability density** of the action given observation $o$. 
 
-- If actions are discrete (K possible actions), $p_θ$ is K-dimensional a vector of probabilities.
-- If actions are continuous → $p_{\theta}$ is a probability density over a d-dimensional space.
+- If actions are **discrete** (K possible actions), $p_\theta$ is a **K-dimensional vector of probabilities**.
+- If actions are **continuous** → $p_{\theta}$ is a **probability density over a d-dimensional space**.
 
 ## Transition: Energy Score Based Model → Score Based Model
 
-Here, $p_{\theta}$ describes the action distribution given the observation, and some Energy function $E_{\theta}$ . This eqn is similar to the pdf of gaussian distribution, but the coefficient $Z_{\theta}$ and the power of e is unknown. In 2D gaussian distribution pdf,
+Here, $p_{\theta}$ describes the **action distribution** given the observation and the Energy function $E_{\theta}$. This equation is similar to the pdf of a Gaussian distribution, but the **coefficient $Z_{\theta}$** and the **exponent of $e$** are unknown. In the 2D Gaussian pdf,
 
 $$
 f(x) = \frac{1}{\sigma \sqrt{2\pi}} \exp\!\left( -\frac{1}{2} \left( \frac{x - \mu}{\sigma} \right)^2 \right)
@@ -266,9 +267,9 @@ $$
 
 $$
 
-In IBC you use certain tricks like InfoNCE-style loss function, which uses negative log-likelihood with negative samples, contributing to estimating the intractable normalization constant $Z$. And this is exactly why the IBC training is unstable.
+In IBC you use certain tricks like **InfoNCE-style loss**, which uses negative log-likelihood with **negative samples** to estimate the **intractable normalization constant $Z$**. That is exactly why **IBC training is unstable**.
 
-But, PD follows DDPM, which is a score based model. score-based model optimizes for score function, and its defined as $s_{\theta}$,
+**Diffusion Policy**, in contrast, follows DDPM—a **score-based model**. Score-based models optimize the **score function** $s_{\theta}$,
 
 $$
 s_{\theta}(a) \approx \nabla_a \log p(a|o)
@@ -298,20 +299,20 @@ And since $Z$ depends on $o$ and $\theta$ but **not on $a$,** the $\nabla_{\math
 
 ## Diffusion Policy
 
-Diffusion policy is described as “Closed-loop action-sequence predictor", because you take observation (images) as inputs/feedback. The diffusion model produces receding horizon control, which means, that at time step $t$, the model takes, $T_o$ steps of input data $O_t$ and predicts $T_p$ steps of actions from which $T_a$ steps of actions are being executed without re-planning. By receding horizon control, it implies to the behaviour of not executing the entire predicted action sequence.
+**Diffusion Policy** is described as **“closed-loop action-sequence predictor"**, because you take **observation (images) as input/feedback**. The diffusion model produces **receding horizon control**: at time step $t$, the model takes $T_o$ steps of input $O_t$ and predicts $T_p$ steps of actions, of which **$T_a$ steps are executed without re-planning**. By receding horizon control, it implies to the behaviour of not executing the entire predicted action sequence.
 
-I think rather than predicting single action command individually, this predicts a sequence of actions altogether, which i think makes it temporally consistent, also Diffusion Policy, denoises the entire action sequence, which helps with temporal consistency.
+I think rather than predicting single action command individually, this **predicts a sequence of actions altogether**, which makes it **temporally consistent**; Diffusion Policy **denoises the entire action sequence**, which also helps with temporal consistency.
 
-1. If you see general implicit policy models, it takes, “previous action + current observation” to predict the future action. Its more like saying,
+1. **General implicit policy models** take **“previous action + current observation”** to predict the future action. Its more like saying,
     
     > *"If I make good decisions at each timestep independently, the trajectory will be fine"*
     > 
-2. In contrary, Diffusion Policy, denoises the entire action sequence in one go, Which is more like saying,
+2. **Diffusion Policy**, in contrast, **denoises the entire action sequence in one go**—more like saying,
     
     > *"A good trajectory is a coherent sequence, model it as a whole"*
     > 
 
-This is the general diagram given in the DP paper. Here, $\epsilon_{\theta}(o,a)$ is the noise prediction network. The predicted noise is actually the score ($-∇_a \log {p(a \mid o)} \approx ∇ E (a)$ ). And this is directly used in equation 1, in place of $ε_θ(x^k, k)$ to calculate the $k-1$ denoising step’s action sequence. 
+This is the general diagram given in the DP paper. Here **$\epsilon_{\theta}(o,a)$ is the noise prediction network**. The predicted "noise" is actually the **score** ($-∇_a \log {p(a \mid o)} \approx ∇ E (a)$ ). This is used directly in **equation 1**, in place of $ε_θ(x^k, k)$ to calculate the $k-1$ denoising step’s action sequence. 
 
 <div style="text-align: center;">
     <img src="../assets/img/image 8.png" width=300>
@@ -331,9 +332,9 @@ Note: the model is not auto-regressive, the predicted noise gets converted to ac
 
 
 ## Discussions
-The diffusion policy action prediction rate is around 2Hz, and it takes quite some episodes to train this model properly. At the time of publishing, there were already better methods in visuomotor policy learning, such as $\pi_0$, GR00T N1, ACT, etc., many of which use Flow Matching objectives that are significantly faster. However, as it is a fundamental work on the path toward VLAs, I thought it was worth reading.
+The diffusion policy action prediction rate is around 2Hz, and it takes quite a few episodes to train the model properly. At the time of publishing, there were already better methods in visuomotor policy learning, such as $\pi_0$, GR00T N1.x, ACT, etc., many of which use Flow Matching objectives that are significantly faster. However, as it is a fundamental work on the path toward VLAs, I thought it was worth reading.
 
-I have only read the paper and referenced blogs/videos I could find online to understand the concepts — due to time constraints, I was not able to go through the Diffusion Policy codebase. Therefore, if you find any mistakes, please let me know and I will try to fix them.
+I have only read the paper and referenced blogs/videos I could find online, and taking with grok and claude to understand the concepts — due to time constraints, I was not able to go through the Diffusion Policy codebase. Therefore, if you find any mistakes, please let me know and I will try to fix them.
 
 
 ## Resources
