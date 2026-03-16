@@ -8,9 +8,12 @@ share-img: ../assets/img/Diffusion_Policy_Visuomotor_Policy_Learning_Via_Action_
 tags: [VLA, Vision Action Model, Diffusion Policy]
 ---
 
-
+## Introduction
 We all know diffusion models like DALL-E and Stable Diffusion for their ability to generate stunning images by iteratively removing noise. But what if we applied that exact same principle to robotic control?
-Diffusion Policy is a groundbreaking approach to **visuomotor manipulation** that adapts the DDPM architecture to solve imitation learning. Instead of converting a latent vector into an image, it learns to denoise a random sequence into a highly accurate "action chunk"—a trajectory of 7-DoF end-effector poses. By conditioning this denoising process on camera observations rather than text prompts, Diffusion Policy gracefully handles the multi-modal, non-Markovian nature of real-world physics. In this post, we’ll take a step back to review the fundamentals of DDPMs and Imitation Learning, and then connect the dots to see how Score-Based modeling gives Diffusion Policy its edge.
+<br>
+Diffusion Policy is a groundbreaking approach to **visuomotor manipulation** that adapts the DDPM architecture to solve imitation learning. Instead of converting a latent vector into an image, it learns to denoise a random sequence into a highly accurate "action chunk"—a trajectory of 7-DoF end-effector poses. By conditioning this denoising process on camera observations rather than text prompts, Diffusion Policy gracefully handles the multi-modal, non-Markovian nature of real-world physics. 
+<br>
+In this post, we’ll take a step back to review the fundamentals of DDPMs and Imitation Learning, and then connect the dots to see how Score-Based modeling gives Diffusion Policy its edge.
 
 The problem statement Diffusion Policy solves is **Visuomotor Manipulation**, means a imitation learning policy that uses Diffusion Process that performs manipulation tasks given only the **camera frames** and its **current joint state** as input, and predicts a set of action chunks as output. Here “an action chunk” means 7 DoF EEF pose ($\text{[x, y, z, roll, pitch, yaw, gripper]}$). The model predicts a set of $n$ (say $n$=16) actions, meaning that if there are 16 future time steps, the end-effector of the manipulator needs to follow a sequence of poses/action chunks to reach the goal position.
 
