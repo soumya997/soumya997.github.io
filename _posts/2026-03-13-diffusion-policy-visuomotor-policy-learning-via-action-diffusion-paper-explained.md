@@ -347,3 +347,5 @@ I have only read the paper and referenced blogs/videos I could find online, and 
 - [What are Diffusion Models? by Lilian Wang](https://lilianweng.github.io/posts/2021-07-11-diffusion-models/)
 - [Generative Modeling by Estimating Gradients of the Data Distribution
 ](https://yang-song.net/blog/2021/score/)
+- [Diffusion Policy: LeRobot Research Presentation #2 by Cheng Chi
+](https://youtu.be/M03sZFfW-qU?si=R0Cz5EUnw0yRtF__)
