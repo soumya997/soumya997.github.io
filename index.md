@@ -80,6 +80,10 @@ subtitle: Robotics Software Engineer, at Jio Reality Labs
   <span class="skill-badge">TensorFlow</span>
   <span class="skill-badge">LeRobot</span>
   <span class="skill-badge">TensorRT</span>
+  <span class="skill-badge">NVIDIA GR00T N1.6</span>
+  <span class="skill-badge">Imitation Learning</span>
+  <span class="skill-badge">DAgger</span>
+
 
   <span class="skill-category">Robotics</span>
   <span class="skill-badge">ROS2</span>
@@ -88,31 +92,16 @@ subtitle: Robotics Software Engineer, at Jio Reality Labs
   <span class="skill-badge">Ceres-Solver</span>
   <span class="skill-badge">Behaviour Trees</span>
   <span class="skill-badge">Lanelet2</span>
-
-  <span class="skill-category">Robot Learning</span>
-  <span class="skill-badge">NVIDIA GR00T N1.6</span>
-  <span class="skill-badge">Imitation Learning</span>
-  <span class="skill-badge">DAgger</span>
-
-  <span class="skill-category">SLAM</span>
-  <span class="skill-badge">NVIDIA VSLAM</span>
-  <span class="skill-badge">RTAB-Map</span>
-  <span class="skill-badge">HDL-Localization</span>
-  <span class="skill-badge">GLIM</span>
-  <span class="skill-badge">FAST-LIO2</span>
-  <span class="skill-badge">evo</span>
-
+  <span class="skill-badge">Isaac Sim</span>
+  <span class="skill-badge">Carla</span>
+  <span class="skill-badge">Rerun</span>
+  
   <span class="skill-category">3D Vision</span>
   <span class="skill-badge">NeRF Studio</span>
   <span class="skill-badge">gsplat</span>
   <span class="skill-badge">COLMAP</span>
   <span class="skill-badge">hloc</span>
-  <span class="skill-badge">OpenCV</span>
-
-  <span class="skill-category">Simulators</span>
-  <span class="skill-badge">Isaac Sim</span>
-  <span class="skill-badge">Carla</span>
-  <span class="skill-badge">Rerun</span>
+  <span class="skill-badge">OpenCV</span>  
 
   <span class="skill-category">Edge &amp; Cloud</span>
   <span class="skill-badge">Jetson Orin</span>
@@ -120,24 +109,11 @@ subtitle: Robotics Software Engineer, at Jio Reality Labs
   <span class="skill-badge">AWS EC2</span>
   <span class="skill-badge">AWS Rekognition</span>
 
-  <span class="skill-category">Sensors</span>
-  <span class="skill-badge">Intel RealSense D435i</span>
-  <span class="skill-badge">LiDAR</span>
-  <span class="skill-badge">RGBD Camera</span>
-  <span class="skill-badge">IMU</span>
-
-  <span class="skill-category">Dev Tools</span>
-  <span class="skill-badge">Linux</span>
-  <span class="skill-badge">Git</span>
-  <span class="skill-badge">W&amp;B</span>
-  <span class="skill-badge">CMake</span>
-
   <span class="skill-category">Domains</span>
   <span class="skill-badge">Robot Learning</span>
   <span class="skill-badge">Reinforcement Learning</span>
   <span class="skill-badge">Computer Vision (2D/3D)</span>
   <span class="skill-badge">SLAM</span>
-  <span class="skill-badge">Edge Inference</span>
   <span class="skill-badge">Gaussian Splatting</span>
 </div>
 
