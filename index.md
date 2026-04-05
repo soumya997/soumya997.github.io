@@ -75,7 +75,7 @@ subtitle: Robotics Software Engineer, at Jio Reality Labs
   <span class="skill-badge">Bash</span>
   <span class="skill-badge">SQL</span>
   
-  <span class="skill-category">ML / DL</span>
+  <span class="skill-category">ML / DL &amp;  Edge/Cloud</span>
   <span class="skill-badge">PyTorch</span>
   <span class="skill-badge">TensorFlow</span>
   <span class="skill-badge">LeRobot</span>
@@ -83,6 +83,9 @@ subtitle: Robotics Software Engineer, at Jio Reality Labs
   <span class="skill-badge">NVIDIA GR00T N1.6</span>
   <span class="skill-badge">Imitation Learning</span>
   <span class="skill-badge">DAgger</span>
+  <span class="skill-badge">NVIDIA Riva</span>
+  <span class="skill-badge">AWS EC2</span>
+  <span class="skill-badge">AWS Rekognition</span>
 
 
   <span class="skill-category">Robotics</span>
@@ -95,19 +98,12 @@ subtitle: Robotics Software Engineer, at Jio Reality Labs
   <span class="skill-badge">Isaac Sim</span>
   <span class="skill-badge">Carla</span>
   <span class="skill-badge">Rerun</span>
-  
-  <span class="skill-category">3D Vision</span>
   <span class="skill-badge">NeRF Studio</span>
   <span class="skill-badge">gsplat</span>
   <span class="skill-badge">COLMAP</span>
   <span class="skill-badge">hloc</span>
   <span class="skill-badge">OpenCV</span>  
-
-  <span class="skill-category">Edge &amp; Cloud</span>
-  <span class="skill-badge">Jetson Orin</span>
-  <span class="skill-badge">NVIDIA Riva</span>
-  <span class="skill-badge">AWS EC2</span>
-  <span class="skill-badge">AWS Rekognition</span>
+  
 
   <span class="skill-category">Domains</span>
   <span class="skill-badge">Robot Learning</span>
