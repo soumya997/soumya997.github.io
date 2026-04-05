@@ -75,7 +75,7 @@ subtitle: Robotics Software Engineer, at Jio Reality Labs
   <span class="skill-badge">Bash</span>
   <span class="skill-badge">SQL</span>
   
-  <span class="skill-category">ML / DL &amp;  Edge/Cloud</span>
+  <span class="skill-category">ML / DL &amp; Edge/Cloud</span>
   <span class="skill-badge">PyTorch</span>
   <span class="skill-badge">TensorFlow</span>
   <span class="skill-badge">LeRobot</span>
@@ -88,7 +88,7 @@ subtitle: Robotics Software Engineer, at Jio Reality Labs
   <span class="skill-badge">AWS Rekognition</span>
 
 
-  <span class="skill-category">Robotics</span>
+  <span class="skill-category">Robotics &amp; Computer Vision</span>
   <span class="skill-badge">ROS2</span>
   <span class="skill-badge">PCL</span>
   <span class="skill-badge">Eigen</span>
